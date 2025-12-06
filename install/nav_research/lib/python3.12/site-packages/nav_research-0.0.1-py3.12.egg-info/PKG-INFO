@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: nav-research
+Version: 0.0.1
+Summary: Research bringup (Nav2 + SLAM + RViz) for dynamic re-routing
+Maintainer: you
+Maintainer-email: you@example.com
+License: Apache-2.0

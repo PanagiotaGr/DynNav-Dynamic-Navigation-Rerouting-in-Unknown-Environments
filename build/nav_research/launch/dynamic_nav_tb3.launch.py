@@ -1,1 +1,0 @@
-/home/panagiotagrosd/DynNav-Dynamic-Navigation-Rerouting-in-Unknown-Environments_ubuntu/launch/dynamic_nav_tb3.launch.py

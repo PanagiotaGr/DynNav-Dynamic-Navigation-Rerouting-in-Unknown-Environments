@@ -1,0 +1,162 @@
+panagiotagrosd@LAPTOP-OCKDRBR9:~/DynNav-Dynamic-Navigation-Rerouting-in-Unknown-Environments_ubuntu/nav_research/calib_active$import rclpy from 
+rclpy.node import Node
+
+from geometry_msgs.msg import Twist
+from nav_msgs.msg import Odometry
+
+import numpy as np
+
+from .calibration_state import CalibrationState
+from .calibration_ekf import CalibrationEKF
+from .active_calibration_planner import ActiveCalibrationPlanner
+from .sensor_models import vo_scale_residual
+
+
+class ActiveCalibrationNode(Node):
+    def __init__(self):
+        super().__init__('active_calibration_node')
+
+        # --- Calibration core ---
+        self.calib_state = CalibrationState()
+        self.ekf = CalibrationEKF(self.calib_state)
+        self.planner = ActiveCalibrationPlanner()
+
+        # --- Publishers ---
+        self.cmd_pub = self.create_publisher(Twist, '/cmd_vel', 10)
+
+        # --- Subscribers ---
+        # VO odometry (π.χ. topic που δημοσιεύει η VO υλοποίηση σου)
+        # Αν στο σύστημά σου λέγεται αλλιώς, άλλαξέ το εδώ.
+        self.vo_sub = self.create_subscription(
+            Odometry,
+            '/vo_odom',
+            self.vo_callback,
+            10
+        )
+
+        # Ground truth / wheel / fused odom
+        self.odom_sub = self.create_subscription(
+            Odometry,
+            '/odom',
+            self.odom_callback,
+            10
+        )
+
+        # --- Internal state for VO scale measurement ---
+        self.last_vo_pose = None
+        self.last_odom_pose = None
+
+        # Timer για κίνηση (active planner)
+        self.motion_timer = self.create_timer(0.5, self.motion_timer_callback)
+
+        self.get_logger().info("Active calibration node started.")
+
+    # =====================
+    #   MOTION PLANNING
+    # =====================
+    def motion_timer_callback(self):
+        """
+        Προς το παρόν κρατάμε τον ίδιο απλό active planner:
+        - dummy H για κάθε motion primitive
+        - επιλέγει το κίνημα με μέγιστη observability
+        """
+        H_candidates = [
+            np.eye(3),           # primitive 1
+            np.eye(3) * 0.5,     # primitive 2
+            np.eye(3) * 0.2,     # primitive 3
+            np.eye(3) * 2.0,     # primitive 4
+        ]
+
+        motion, score = self.planner.choose_best_motion(H_candidates)
+
+        msg = Twist()
+        msg.linear.x = float(motion[0])
+        msg.linear.y = float(motion[1])
+        msg.angular.z = float(motion[2])
+
+        self.cmd_pub.publish(msg)
+        self.get_logger().info(
+            f"Sent motion {motion}, observability score={score:.3f}"
+        )
+
+    # =====================
+    #   ODOMETRY CALLBACKS
+    # =====================
+    def vo_callback(self, msg: Odometry):
+        """
+        Αποθηκεύουμε την τελευταία VO pose.
+        """
+        self.last_vo_pose = msg.pose.pose
+        self.try_vo_scale_update()
+
+    def odom_callback(self, msg: Odometry):
+        """
+        Αποθηκεύουμε την τελευταία ground-truth / wheel pose.
+        """
+        self.last_odom_pose = msg.pose.pose
+        self.try_vo_scale_update()
+
+    # =====================
+    #   VO SCALE EKF UPDATE
+    # =====================
+    def try_vo_scale_update(self):
+        """
+        Όταν έχουμε ΚΑΙνούργιο VO pose ΚΑΙνούργιο odom pose,
+        υπολογίζουμε την απόσταση μεταξύ τους (increment)
+        και κάνουμε EKF update για τον vo_scale.
+        Εδώ για απλότητα, θεωρούμε μόνο την απόσταση από origin.
+        """
+        if self.last_vo_pose is None or self.last_odom_pose is None:
+            return
+
+        # Απόσταση VO από origin
+        d_vo = np.sqrt(
+            self.last_vo_pose.position.x ** 2 +
+            self.last_vo_pose.position.y ** 2
+        )
+
+        # Απόσταση ground-truth από origin
+        d_odom = np.sqrt(
+            self.last_odom_pose.position.x ** 2 +
+            self.last_odom_pose.position.y ** 2
+        )
+
+        # Αν η VO δεν έχει ουσιαστική κίνηση, δεν ενημερώνουμε
+        if d_vo < 1e-3:
+            return
+
+        # Residual: s * d_vo - d_odom
+        residual = np.array(
+            [vo_scale_residual(d_vo, d_odom, self.calib_state)]
+        )  # shape (1,)
+
+        # Jacobian H: 1x13, μόνο στο index 12 (vo_scale) έχουμε d_vo
+        H = np.zeros((1, 13))
+        H[0, 12] = d_vo
+
+        # Measurement covariance R (θόρυβος)
+        R = np.array([[0.05 ** 2]])
+
+        # EKF update
+        self.ekf.update(residual, H, R)
+
+        vo_scale_est = self.calib_state.x[12]
+        self.get_logger().info(
+            f"VO scale update: d_vo={d_vo:.3f}, d_odom={d_odom:.3f}, "
+            f"s_est={vo_scale_est:.3f}"
+        )
+
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = ActiveCalibrationNode()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    node.destroy_node()
+    rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()

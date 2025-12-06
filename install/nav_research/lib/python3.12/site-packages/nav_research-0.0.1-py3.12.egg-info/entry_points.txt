@@ -1,0 +1,4 @@
+[console_scripts]
+active_calib_node = nav_research.calib_active.calibration_node:main
+cpp_node = cpp_extension.cpp_node:main
+rl_rrt_planner = nav_research.rl_rrt_planner_node:main

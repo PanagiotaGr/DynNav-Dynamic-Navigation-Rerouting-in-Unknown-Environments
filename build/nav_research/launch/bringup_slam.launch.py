@@ -1,1 +1,0 @@
-/home/panagiotagrosd/DynNav-Dynamic-Navigation-Rerouting-in-Unknown-Environments_ubuntu/launch/bringup_slam.launch.py
