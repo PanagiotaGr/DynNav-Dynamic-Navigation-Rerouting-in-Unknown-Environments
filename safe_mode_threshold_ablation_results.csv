@@ -1,0 +1,9 @@
+threshold,policy,num_steps,mean_total_distance,mean_total_risk,mean_max_risk,mean_total_cost
+0.5,NORMAL_POLICY,5,1.1,1.2,0.9,4.9
+0.5,SAFE_MODE_POLICY,5,4.0,0.4,0.2,10.4
+0.6,NORMAL_POLICY,5,1.1,1.2,0.9,4.9
+0.6,SAFE_MODE_POLICY,5,4.0,0.4,0.2,10.4
+0.7,NORMAL_POLICY,5,1.1,1.2,0.9,4.9
+0.7,SAFE_MODE_POLICY,5,4.0,0.4,0.2,10.4
+0.8,NORMAL_POLICY,5,1.1,1.2,0.9,4.9
+0.8,SAFE_MODE_POLICY,5,4.0,0.4,0.2,10.4
