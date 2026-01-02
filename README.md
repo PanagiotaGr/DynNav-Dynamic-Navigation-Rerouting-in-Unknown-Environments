@@ -383,3 +383,13 @@ This repository is intended for **research and educational use only**.
 Trained neural models and experimental datasets are provided for **reproducibility**,  
 and should not be used as-is in safety-critical real-world systems  
 without additional validation, testing and certification.
+
+
+© 2026 Panagiota Grosdouli
+
+This repository is released under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+Use of the code, results, figures or ideas in publications
+requires explicit citation and/or permission.
+
