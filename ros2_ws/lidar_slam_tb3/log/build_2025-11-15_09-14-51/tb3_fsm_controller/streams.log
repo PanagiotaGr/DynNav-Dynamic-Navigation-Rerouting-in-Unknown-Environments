@@ -1,0 +1,19 @@
+[3.553s] Invoking command in '/home/panagiotagrosd/ros2_ws/src/tb3_fsm_controller': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_fsm_controller build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/install.log --single-version-externally-managed install_data
+[4.555s] running egg_info
+[4.650s] writing ../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/PKG-INFO
+[4.655s] writing dependency_links to ../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/dependency_links.txt
+[4.655s] writing requirements to ../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/requires.txt
+[4.655s] writing top-level names to ../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/top_level.txt
+[4.817s] reading manifest file '../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/SOURCES.txt'
+[4.820s] writing manifest file '../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/SOURCES.txt'
+[4.821s] running build
+[4.822s] running build_py
+[4.827s] running install
+[4.845s] running install_lib
+[4.920s] running install_data
+[4.921s] running install_egg_info
+[5.006s] removing '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/python3.12/site-packages/tb3_fsm_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[5.008s] Copying ../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info to /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/python3.12/site-packages/tb3_fsm_controller-0.0.0-py3.12.egg-info
+[5.013s] running install_scripts
+[5.543s] writing list of installed files to '/home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/install.log'
+[5.664s] Invoked command in '/home/panagiotagrosd/ros2_ws/src/tb3_fsm_controller' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_fsm_controller build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/install.log --single-version-externally-managed install_data

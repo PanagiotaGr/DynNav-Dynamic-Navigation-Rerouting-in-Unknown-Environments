@@ -1,0 +1,4 @@
+[console_scripts]
+dummy_joint_pub = robotic_arm_advanced.dummy_joint_pub:main
+fk_node = robotic_arm_advanced.fk_node:main
+ik_dls_node = robotic_arm_advanced.ik_dls_node:main

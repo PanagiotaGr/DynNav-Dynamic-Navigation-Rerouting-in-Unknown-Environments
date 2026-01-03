@@ -1,0 +1,9 @@
+/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description/CMakeFiles/uninstall.dir
+/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description/CMakeFiles/nav2_minimal_tb4_description_uninstall.dir
+/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description/CMakeFiles/test.dir
+/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description/CMakeFiles/edit_cache.dir
+/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description/CMakeFiles/rebuild_cache.dir
+/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description/CMakeFiles/list_install_components.dir
+/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description/CMakeFiles/install.dir
+/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description/CMakeFiles/install/local.dir
+/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description/CMakeFiles/install/strip.dir

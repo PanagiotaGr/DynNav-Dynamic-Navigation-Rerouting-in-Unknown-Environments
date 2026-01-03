@@ -1,0 +1,635 @@
+[0.000000] (-) TimerEvent: {}
+[0.003355] (dynamic_nav) JobQueued: {'identifier': 'dynamic_nav', 'dependencies': OrderedDict()}
+[0.003485] (nav2_minimal_tb3_sim) JobQueued: {'identifier': 'nav2_minimal_tb3_sim', 'dependencies': OrderedDict()}
+[0.003536] (nav2_minimal_tb4_description) JobQueued: {'identifier': 'nav2_minimal_tb4_description', 'dependencies': OrderedDict()}
+[0.003577] (nav_research) JobQueued: {'identifier': 'nav_research', 'dependencies': OrderedDict()}
+[0.003607] (nav2_minimal_tb4_sim) JobQueued: {'identifier': 'nav2_minimal_tb4_sim', 'dependencies': OrderedDict({'nav2_minimal_tb4_description': '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description'})}
+[0.003651] (nav2_minimal_tb4_description) JobStarted: {'identifier': 'nav2_minimal_tb4_description'}
+[0.059987] (dynamic_nav) JobStarted: {'identifier': 'dynamic_nav'}
+[0.100702] (-) TimerEvent: {}
+[0.115587] (nav2_minimal_tb3_sim) JobStarted: {'identifier': 'nav2_minimal_tb3_sim'}
+[0.166062] (nav_research) JobStarted: {'identifier': 'nav_research'}
+[0.203649] (-) TimerEvent: {}
+[0.312410] (nav2_minimal_tb4_description) JobProgress: {'identifier': 'nav2_minimal_tb4_description', 'progress': 'cmake'}
+[0.312523] (-) TimerEvent: {}
+[0.331895] (nav2_minimal_tb4_description) Command: {'cmd': ['/usr/bin/cmake', '/home/panagiotagrosd/ros2_ws/src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description'], 'cwd': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description', 'env': OrderedDict({'DOCKER_BUILDKIT': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'panagiotagrosd', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{bd961f1c-a7fd-50bb-9a1d-15ae201950c4}', 'HOME': '/home/panagiotagrosd', 'OLDPWD': '/home/panagiotagrosd/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install:/home/panagiotagrosd/projects/navigation_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'panagiotagrosd', 'NAME': 'LAPTOP-OCKDRBR9', 'WSL_INTEROP': '/run/WSL/8900_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/ARM/ADSv1_2/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/MATLAB/R2023a/bin:/Docker/host/bin:/mnt/c/Users/pg2a1/AppData/Local/Microsoft/WindowsApps:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/pg2a1/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'b7618a5a-6c40-45bd-8308-d8301bcdc9e0', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.417766] (-) TimerEvent: {}
+[0.518460] (-) TimerEvent: {}
+[0.622567] (-) TimerEvent: {}
+[0.725918] (-) TimerEvent: {}
+[0.832439] (-) TimerEvent: {}
+[0.933191] (-) TimerEvent: {}
+[1.034033] (-) TimerEvent: {}
+[1.134714] (-) TimerEvent: {}
+[1.235841] (-) TimerEvent: {}
+[1.336969] (-) TimerEvent: {}
+[1.439921] (-) TimerEvent: {}
+[1.540599] (-) TimerEvent: {}
+[1.641794] (-) TimerEvent: {}
+[1.760229] (-) TimerEvent: {}
+[1.860823] (-) TimerEvent: {}
+[1.940914] (nav2_minimal_tb3_sim) JobProgress: {'identifier': 'nav2_minimal_tb3_sim', 'progress': 'cmake'}
+[1.963830] (nav2_minimal_tb3_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/panagiotagrosd/ros2_ws/src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb3_sim', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim'], 'cwd': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim', 'env': OrderedDict({'DOCKER_BUILDKIT': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'panagiotagrosd', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{bd961f1c-a7fd-50bb-9a1d-15ae201950c4}', 'HOME': '/home/panagiotagrosd', 'OLDPWD': '/home/panagiotagrosd/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install:/home/panagiotagrosd/projects/navigation_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'panagiotagrosd', 'NAME': 'LAPTOP-OCKDRBR9', 'WSL_INTEROP': '/run/WSL/8900_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/ARM/ADSv1_2/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/MATLAB/R2023a/bin:/Docker/host/bin:/mnt/c/Users/pg2a1/AppData/Local/Microsoft/WindowsApps:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/pg2a1/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'b7618a5a-6c40-45bd-8308-d8301bcdc9e0', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[1.972680] (-) TimerEvent: {}
+[2.076846] (-) TimerEvent: {}
+[2.177739] (-) TimerEvent: {}
+[2.292141] (-) TimerEvent: {}
+[2.394922] (-) TimerEvent: {}
+[2.503152] (-) TimerEvent: {}
+[2.608294] (-) TimerEvent: {}
+[2.711204] (-) TimerEvent: {}
+[2.813726] (-) TimerEvent: {}
+[2.924330] (-) TimerEvent: {}
+[3.028882] (-) TimerEvent: {}
+[3.130799] (-) TimerEvent: {}
+[3.235186] (-) TimerEvent: {}
+[3.335802] (-) TimerEvent: {}
+[3.436410] (-) TimerEvent: {}
+[3.541136] (-) TimerEvent: {}
+[3.657102] (-) TimerEvent: {}
+[3.758009] (-) TimerEvent: {}
+[3.859347] (-) TimerEvent: {}
+[3.965510] (-) TimerEvent: {}
+[4.067951] (-) TimerEvent: {}
+[4.168613] (-) TimerEvent: {}
+[4.269916] (-) TimerEvent: {}
+[4.370783] (-) TimerEvent: {}
+[4.431955] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[4.434606] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[4.471072] (-) TimerEvent: {}
+[4.571555] (-) TimerEvent: {}
+[4.684261] (-) TimerEvent: {}
+[4.785159] (-) TimerEvent: {}
+[4.886103] (-) TimerEvent: {}
+[4.954755] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[4.986257] (-) TimerEvent: {}
+[5.087116] (-) TimerEvent: {}
+[5.113255] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[5.187278] (-) TimerEvent: {}
+[5.292259] (-) TimerEvent: {}
+[5.392766] (-) TimerEvent: {}
+[5.496115] (-) TimerEvent: {}
+[5.597941] (-) TimerEvent: {}
+[5.699563] (-) TimerEvent: {}
+[5.888446] (-) TimerEvent: {}
+[5.989062] (-) TimerEvent: {}
+[6.090818] (-) TimerEvent: {}
+[6.192977] (-) TimerEvent: {}
+[6.293909] (-) TimerEvent: {}
+[6.394937] (-) TimerEvent: {}
+[6.499683] (-) TimerEvent: {}
+[6.604247] (-) TimerEvent: {}
+[6.735325] (-) TimerEvent: {}
+[6.836269] (-) TimerEvent: {}
+[6.888592] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.936635] (-) TimerEvent: {}
+[7.014192] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.037391] (-) TimerEvent: {}
+[7.138977] (-) TimerEvent: {}
+[7.241470] (-) TimerEvent: {}
+[7.346875] (-) TimerEvent: {}
+[7.448347] (-) TimerEvent: {}
+[7.550491] (-) TimerEvent: {}
+[7.652723] (-) TimerEvent: {}
+[7.757051] (-) TimerEvent: {}
+[7.858330] (-) TimerEvent: {}
+[7.959418] (-) TimerEvent: {}
+[8.068250] (-) TimerEvent: {}
+[8.168765] (-) TimerEvent: {}
+[8.271027] (-) TimerEvent: {}
+[8.371577] (-) TimerEvent: {}
+[8.473208] (-) TimerEvent: {}
+[8.576476] (-) TimerEvent: {}
+[8.679133] (-) TimerEvent: {}
+[8.779735] (-) TimerEvent: {}
+[8.880506] (-) TimerEvent: {}
+[8.890934] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.980739] (-) TimerEvent: {}
+[9.015996] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.019039] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.037518] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.080950] (-) TimerEvent: {}
+[9.143783] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.181540] (-) TimerEvent: {}
+[9.210393] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.212699] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.214815] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.219790] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.281666] (-) TimerEvent: {}
+[9.382569] (-) TimerEvent: {}
+[9.483770] (-) TimerEvent: {}
+[9.521713] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.585307] (-) TimerEvent: {}
+[9.686788] (-) TimerEvent: {}
+[9.795826] (-) TimerEvent: {}
+[9.900300] (-) TimerEvent: {}
+[10.005475] (-) TimerEvent: {}
+[10.108056] (-) TimerEvent: {}
+[10.215111] (-) TimerEvent: {}
+[10.319483] (-) TimerEvent: {}
+[10.431666] (-) TimerEvent: {}
+[10.536326] (-) TimerEvent: {}
+[10.637574] (-) TimerEvent: {}
+[10.740359] (-) TimerEvent: {}
+[10.841887] (-) TimerEvent: {}
+[10.944440] (-) TimerEvent: {}
+[11.051468] (-) TimerEvent: {}
+[11.075888] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[11.152176] (-) TimerEvent: {}
+[11.268196] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[11.268859] (-) TimerEvent: {}
+[11.272256] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[11.272697] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[11.374727] (-) TimerEvent: {}
+[11.446404] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[11.474758] (-) TimerEvent: {}
+[11.585745] (-) TimerEvent: {}
+[11.688262] (-) TimerEvent: {}
+[11.788756] (-) TimerEvent: {}
+[11.883288] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[11.888896] (-) TimerEvent: {}
+[11.989619] (-) TimerEvent: {}
+[12.008404] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[12.008787] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[12.009244] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[12.041519] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[12.093383] (-) TimerEvent: {}
+[12.194705] (-) TimerEvent: {}
+[12.295933] (-) TimerEvent: {}
+[12.399632] (-) TimerEvent: {}
+[12.500320] (-) TimerEvent: {}
+[12.601015] (-) TimerEvent: {}
+[12.701669] (-) TimerEvent: {}
+[12.762277] (dynamic_nav) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/panagiotagrosd/ros2_ws/build/dynamic_nav/build', '--no-deps', 'symlink_data'], 'cwd': '/home/panagiotagrosd/ros2_ws/build/dynamic_nav', 'env': {'DOCKER_BUILDKIT': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'panagiotagrosd', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{bd961f1c-a7fd-50bb-9a1d-15ae201950c4}', 'HOME': '/home/panagiotagrosd', 'OLDPWD': '/home/panagiotagrosd/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install:/home/panagiotagrosd/projects/navigation_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'panagiotagrosd', 'NAME': 'LAPTOP-OCKDRBR9', 'WSL_INTEROP': '/run/WSL/8900_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/ARM/ADSv1_2/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/MATLAB/R2023a/bin:/Docker/host/bin:/mnt/c/Users/pg2a1/AppData/Local/Microsoft/WindowsApps:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/pg2a1/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'b7618a5a-6c40-45bd-8308-d8301bcdc9e0', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/panagiotagrosd/ros2_ws/build/dynamic_nav', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/panagiotagrosd/ros2_ws/build/dynamic_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[12.805598] (-) TimerEvent: {}
+[12.906639] (-) TimerEvent: {}
+[13.040998] (-) TimerEvent: {}
+[13.128575] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[13.141176] (-) TimerEvent: {}
+[13.241621] (-) TimerEvent: {}
+[13.347344] (-) TimerEvent: {}
+[13.447958] (-) TimerEvent: {}
+[13.549637] (-) TimerEvent: {}
+[13.657426] (-) TimerEvent: {}
+[13.773228] (-) TimerEvent: {}
+[13.820433] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[13.871667] (nav_research) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/panagiotagrosd/ros2_ws/build/nav_research/build', '--no-deps', 'symlink_data'], 'cwd': '/home/panagiotagrosd/ros2_ws/build/nav_research', 'env': {'DOCKER_BUILDKIT': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'panagiotagrosd', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{bd961f1c-a7fd-50bb-9a1d-15ae201950c4}', 'HOME': '/home/panagiotagrosd', 'OLDPWD': '/home/panagiotagrosd/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install:/home/panagiotagrosd/projects/navigation_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'panagiotagrosd', 'NAME': 'LAPTOP-OCKDRBR9', 'WSL_INTEROP': '/run/WSL/8900_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/ARM/ADSv1_2/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/MATLAB/R2023a/bin:/Docker/host/bin:/mnt/c/Users/pg2a1/AppData/Local/Microsoft/WindowsApps:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/pg2a1/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'b7618a5a-6c40-45bd-8308-d8301bcdc9e0', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/panagiotagrosd/ros2_ws/build/nav_research', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/panagiotagrosd/ros2_ws/build/nav_research/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/nav_research/lib/python3.12/site-packages:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[13.893369] (-) TimerEvent: {}
+[14.048381] (-) TimerEvent: {}
+[14.141004] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[14.148808] (-) TimerEvent: {}
+[14.249972] (-) TimerEvent: {}
+[14.350843] (-) TimerEvent: {}
+[14.456510] (-) TimerEvent: {}
+[14.557075] (-) TimerEvent: {}
+[14.658482] (-) TimerEvent: {}
+[14.770909] (-) TimerEvent: {}
+[14.871406] (-) TimerEvent: {}
+[14.955632] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[14.971679] (-) TimerEvent: {}
+[15.041641] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[15.071858] (-) TimerEvent: {}
+[15.184143] (-) TimerEvent: {}
+[15.284720] (-) TimerEvent: {}
+[15.356030] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)\n'}
+[15.384952] (-) TimerEvent: {}
+[15.485832] (-) TimerEvent: {}
+[15.586591] (-) TimerEvent: {}
+[15.687878] (-) TimerEvent: {}
+[15.791265] (-) TimerEvent: {}
+[15.893901] (-) TimerEvent: {}
+[15.997764] (-) TimerEvent: {}
+[16.100276] (-) TimerEvent: {}
+[16.149210] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[16.160215] (nav2_minimal_tb3_sim) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[16.202649] (-) TimerEvent: {}
+[16.224318] (nav2_minimal_tb3_sim) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[16.224730] (nav2_minimal_tb3_sim) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[16.244609] (nav2_minimal_tb3_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.275067] (nav2_minimal_tb3_sim) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[16.302783] (-) TimerEvent: {}
+[16.322483] (nav2_minimal_tb3_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.363238] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Configuring done (14.3s)\n'}
+[16.402992] (-) TimerEvent: {}
+[16.414278] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)\n'}
+[16.458391] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[16.466193] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[16.481245] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim\n'}
+[16.503141] (-) TimerEvent: {}
+[16.559687] (nav2_minimal_tb3_sim) CommandEnded: {'returncode': 0}
+[16.565657] (nav2_minimal_tb3_sim) JobProgress: {'identifier': 'nav2_minimal_tb3_sim', 'progress': 'build'}
+[16.565778] (nav2_minimal_tb3_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim', '--', '-j4', '-l4'], 'cwd': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim', 'env': OrderedDict({'DOCKER_BUILDKIT': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'panagiotagrosd', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{bd961f1c-a7fd-50bb-9a1d-15ae201950c4}', 'HOME': '/home/panagiotagrosd', 'OLDPWD': '/home/panagiotagrosd/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install:/home/panagiotagrosd/projects/navigation_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'panagiotagrosd', 'NAME': 'LAPTOP-OCKDRBR9', 'WSL_INTEROP': '/run/WSL/8900_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/ARM/ADSv1_2/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/MATLAB/R2023a/bin:/Docker/host/bin:/mnt/c/Users/pg2a1/AppData/Local/Microsoft/WindowsApps:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/pg2a1/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'b7618a5a-6c40-45bd-8308-d8301bcdc9e0', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[16.603334] (-) TimerEvent: {}
+[16.708801] (-) TimerEvent: {}
+[16.732394] (dynamic_nav) StdoutLine: {'line': b'running develop\n'}
+[16.808970] (-) TimerEvent: {}
+[16.917781] (-) TimerEvent: {}
+[17.018550] (-) TimerEvent: {}
+[17.121722] (-) TimerEvent: {}
+[17.227115] (-) TimerEvent: {}
+[17.344889] (-) TimerEvent: {}
+[17.416226] (nav2_minimal_tb3_sim) CommandEnded: {'returncode': 0}
+[17.420476] (nav2_minimal_tb3_sim) JobProgress: {'identifier': 'nav2_minimal_tb3_sim', 'progress': 'install'}
+[17.448194] (-) TimerEvent: {}
+[17.541805] (nav2_minimal_tb3_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim'], 'cwd': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim', 'env': OrderedDict({'DOCKER_BUILDKIT': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'panagiotagrosd', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{bd961f1c-a7fd-50bb-9a1d-15ae201950c4}', 'HOME': '/home/panagiotagrosd', 'OLDPWD': '/home/panagiotagrosd/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install:/home/panagiotagrosd/projects/navigation_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'panagiotagrosd', 'NAME': 'LAPTOP-OCKDRBR9', 'WSL_INTEROP': '/run/WSL/8900_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/ARM/ADSv1_2/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/MATLAB/R2023a/bin:/Docker/host/bin:/mnt/c/Users/pg2a1/AppData/Local/Microsoft/WindowsApps:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/pg2a1/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'b7618a5a-6c40-45bd-8308-d8301bcdc9e0', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[17.548891] (-) TimerEvent: {}
+[17.655350] (-) TimerEvent: {}
+[17.704314] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.715287] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.755477] (-) TimerEvent: {}
+[17.755949] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/configs/turtlebot3_waffle_bridge.yaml\n'}
+[17.777659] (nav_research) StdoutLine: {'line': b'running develop\n'}
+[17.864571] (-) TimerEvent: {}
+[17.945066] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/configs/turtlebot3_waffle_gps_bridge.yaml\n'}
+[17.966661] (-) TimerEvent: {}
+[18.067930] (-) TimerEvent: {}
+[18.079361] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/launch/spawn_tb3.launch.py\n'}
+[18.168205] (-) TimerEvent: {}
+[18.240371] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/launch/spawn_tb3_gps.launch.py\n'}
+[18.268399] (-) TimerEvent: {}
+[18.372418] (-) TimerEvent: {}
+[18.406439] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/worlds/tb3_empty_world.sdf.xacro\n'}
+[18.473340] (-) TimerEvent: {}
+[18.545723] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/worlds/tb3_sandbox.sdf.xacro\n'}
+[18.575472] (-) TimerEvent: {}
+[18.579532] (nav2_minimal_tb4_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[18.654588] (nav2_minimal_tb4_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[18.654963] (nav2_minimal_tb4_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[18.680608] (nav2_minimal_tb4_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[18.681005] (-) TimerEvent: {}
+[18.698369] (nav2_minimal_tb4_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[18.723082] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/urdf/gz_waffle.sdf.xacro\n'}
+[18.728240] (nav2_minimal_tb4_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[18.760829] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Configuring done (17.9s)\n'}
+[18.782113] (-) TimerEvent: {}
+[18.834579] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/urdf/gz_waffle_gps.sdf.xacro\n'}
+[18.841099] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[18.860661] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Build files have been written to: /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description\n'}
+[18.882278] (-) TimerEvent: {}
+[18.916235] (nav2_minimal_tb4_description) CommandEnded: {'returncode': 0}
+[18.916917] (nav2_minimal_tb4_description) JobProgress: {'identifier': 'nav2_minimal_tb4_description', 'progress': 'build'}
+[18.916973] (nav2_minimal_tb4_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description', '--', '-j4', '-l4'], 'cwd': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description', 'env': OrderedDict({'DOCKER_BUILDKIT': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'panagiotagrosd', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{bd961f1c-a7fd-50bb-9a1d-15ae201950c4}', 'HOME': '/home/panagiotagrosd', 'OLDPWD': '/home/panagiotagrosd/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install:/home/panagiotagrosd/projects/navigation_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'panagiotagrosd', 'NAME': 'LAPTOP-OCKDRBR9', 'WSL_INTEROP': '/run/WSL/8900_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/ARM/ADSv1_2/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/MATLAB/R2023a/bin:/Docker/host/bin:/mnt/c/Users/pg2a1/AppData/Local/Microsoft/WindowsApps:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/pg2a1/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'b7618a5a-6c40-45bd-8308-d8301bcdc9e0', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[18.956792] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/urdf/turtlebot3_waffle.urdf\n'}
+[18.982400] (-) TimerEvent: {}
+[19.054486] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/urdf/turtlebot3_waffle_gps.urdf\n'}
+[19.082546] (-) TimerEvent: {}
+[19.121801] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/lds.dae\n'}
+[19.185466] (-) TimerEvent: {}
+[19.200978] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/r200.dae\n'}
+[19.247536] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/tire.dae\n'}
+[19.287078] (-) TimerEvent: {}
+[19.294382] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/waffle_base.dae\n'}
+[19.387249] (-) TimerEvent: {}
+[19.457423] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/model.config\n'}
+[19.487780] (nav2_minimal_tb4_description) CommandEnded: {'returncode': 0}
+[19.488527] (-) TimerEvent: {}
+[19.499404] (nav2_minimal_tb4_description) JobProgress: {'identifier': 'nav2_minimal_tb4_description', 'progress': 'install'}
+[19.499553] (nav2_minimal_tb4_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description'], 'cwd': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description', 'env': OrderedDict({'DOCKER_BUILDKIT': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'panagiotagrosd', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{bd961f1c-a7fd-50bb-9a1d-15ae201950c4}', 'HOME': '/home/panagiotagrosd', 'OLDPWD': '/home/panagiotagrosd/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install:/home/panagiotagrosd/projects/navigation_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'panagiotagrosd', 'NAME': 'LAPTOP-OCKDRBR9', 'WSL_INTEROP': '/run/WSL/8900_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/ARM/ADSv1_2/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/MATLAB/R2023a/bin:/Docker/host/bin:/mnt/c/Users/pg2a1/AppData/Local/Microsoft/WindowsApps:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/pg2a1/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'b7618a5a-6c40-45bd-8308-d8301bcdc9e0', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[19.537713] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.539548] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[19.549382] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/tb4_description.dsv\n'}
+[19.598205] (-) TimerEvent: {}
+[19.611618] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/meshes/hexagon.dae\n'}
+[19.635504] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/launch/robot_description.launch.py\n'}
+[19.691958] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/body_visual.dae\n'}
+[19.700167] (-) TimerEvent: {}
+[19.792106] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/meshes/wall.dae\n'}
+[19.792625] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/bumper_collision.dae\n'}
+[19.800540] (-) TimerEvent: {}
+[19.862398] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/bumper_visual.dae\n'}
+[19.901606] (-) TimerEvent: {}
+[19.952306] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/model-1_4.sdf\n'}
+[20.009746] (-) TimerEvent: {}
+[20.022660] (dynamic_nav) StdoutLine: {'line': b'running egg_info\n'}
+[20.023054] (dynamic_nav) StdoutLine: {'line': b'creating dynamic_nav.egg-info\n'}
+[20.067952] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/camera_bracket.dae\n'}
+[20.109915] (-) TimerEvent: {}
+[20.201842] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/model.config\n'}
+[20.210053] (-) TimerEvent: {}
+[20.249738] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/oakd_pro.dae\n'}
+[20.286221] (dynamic_nav) StdoutLine: {'line': b'writing dynamic_nav.egg-info/PKG-INFO\n'}
+[20.287311] (dynamic_nav) StdoutLine: {'line': b'writing dependency_links to dynamic_nav.egg-info/dependency_links.txt\n'}
+[20.290132] (dynamic_nav) StdoutLine: {'line': b'writing requirements to dynamic_nav.egg-info/requires.txt\n'}
+[20.290343] (dynamic_nav) StdoutLine: {'line': b'writing top-level names to dynamic_nav.egg-info/top_level.txt\n'}
+[20.301967] (dynamic_nav) StdoutLine: {'line': b"writing manifest file 'dynamic_nav.egg-info/SOURCES.txt'\n"}
+[20.317174] (-) TimerEvent: {}
+[20.392251] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/rplidar.dae\n'}
+[20.417533] (-) TimerEvent: {}
+[20.457258] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/model.sdf\n'}
+[20.517676] (-) TimerEvent: {}
+[20.590485] (nav_research) StdoutLine: {'line': b'running egg_info\n'}
+[20.590984] (nav_research) StdoutLine: {'line': b'creating nav_research.egg-info\n'}
+[20.617817] (-) TimerEvent: {}
+[20.642599] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/shell.dae\n'}
+[20.699209] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/ament_index/resource_index/package_run_dependencies/nav2_minimal_tb3_sim\n'}
+[20.724591] (-) TimerEvent: {}
+[20.828255] (-) TimerEvent: {}
+[20.837779] (nav_research) StdoutLine: {'line': b'writing nav_research.egg-info/PKG-INFO\n'}
+[20.844822] (nav_research) StdoutLine: {'line': b'writing dependency_links to nav_research.egg-info/dependency_links.txt\n'}
+[20.845168] (nav_research) StdoutLine: {'line': b'writing requirements to nav_research.egg-info/requires.txt\n'}
+[20.845391] (nav_research) StdoutLine: {'line': b'writing top-level names to nav_research.egg-info/top_level.txt\n'}
+[20.845713] (nav_research) StdoutLine: {'line': b"writing manifest file 'nav_research.egg-info/SOURCES.txt'\n"}
+[20.875334] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/ament_index/resource_index/parent_prefix_path/nav2_minimal_tb3_sim\n'}
+[20.913551] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/shell_collision.dae\n'}
+[20.932879] (-) TimerEvent: {}
+[21.034064] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/tower.dae\n'}
+[21.060562] (-) TimerEvent: {}
+[21.077242] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/environment/ament_prefix_path.sh\n'}
+[21.116257] (dynamic_nav) StdoutLine: {'line': b"reading manifest file 'dynamic_nav.egg-info/SOURCES.txt'\n"}
+[21.127898] (dynamic_nav) StdoutLine: {'line': b"writing manifest file 'dynamic_nav.egg-info/SOURCES.txt'\n"}
+[21.161547] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/environment/ament_prefix_path.dsv\n'}
+[21.162003] (-) TimerEvent: {}
+[21.245808] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/tower_sensor_plate.dae\n'}
+[21.265901] (-) TimerEvent: {}
+[21.300756] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/environment/path.sh\n'}
+[21.366119] (-) TimerEvent: {}
+[21.388898] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/tower_standoff.dae\n'}
+[21.426180] (dynamic_nav) StdoutLine: {'line': b'running build_ext\n'}
+[21.426582] (dynamic_nav) StdoutLine: {'line': b'Creating /home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages/dynamic-nav.egg-link (link to .)\n'}
+[21.437648] (dynamic_nav) StdoutLine: {'line': b'\n'}
+[21.438173] (dynamic_nav) StdoutLine: {'line': b'Installed /home/panagiotagrosd/ros2_ws/build/dynamic_nav\n'}
+[21.438468] (dynamic_nav) StdoutLine: {'line': b'running symlink_data\n'}
+[21.447278] (dynamic_nav) StdoutLine: {'line': b'creating /home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/ament_index\n'}
+[21.447640] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/environment/path.dsv\n'}
+[21.449229] (dynamic_nav) StdoutLine: {'line': b'creating /home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/ament_index/resource_index\n'}
+[21.457933] (dynamic_nav) StdoutLine: {'line': b'creating /home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/ament_index/resource_index/packages\n'}
+[21.459739] (dynamic_nav) StdoutLine: {'line': b'symbolically linking /home/panagiotagrosd/ros2_ws/build/dynamic_nav/resource/dynamic_nav -> /home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/ament_index/resource_index/packages\n'}
+[21.468961] (dynamic_nav) StdoutLine: {'line': b'symbolically linking /home/panagiotagrosd/ros2_ws/build/dynamic_nav/package.xml -> /home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/dynamic_nav\n'}
+[21.469397] (-) TimerEvent: {}
+[21.518243] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/weight_block.dae\n'}
+[21.518671] (nav_research) StdoutLine: {'line': b"reading manifest file 'nav_research.egg-info/SOURCES.txt'\n"}
+[21.518915] (nav_research) StdoutLine: {'line': b"writing manifest file 'nav_research.egg-info/SOURCES.txt'\n"}
+[21.571637] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/local_setup.bash\n'}
+[21.572192] (-) TimerEvent: {}
+[21.673145] (-) TimerEvent: {}
+[21.743943] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/bumper.urdf.xacro\n'}
+[21.776316] (-) TimerEvent: {}
+[21.793297] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/local_setup.sh\n'}
+[21.852973] (dynamic_nav) CommandEnded: {'returncode': 0}
+[21.878849] (-) TimerEvent: {}
+[21.898405] (nav_research) StdoutLine: {'line': b'running build_ext\n'}
+[21.899434] (nav_research) StdoutLine: {'line': b'Creating /home/panagiotagrosd/ros2_ws/install/nav_research/lib/python3.12/site-packages/nav-research.egg-link (link to .)\n'}
+[21.899712] (nav_research) StdoutLine: {'line': b'\n'}
+[21.899863] (nav_research) StdoutLine: {'line': b'Installed /home/panagiotagrosd/ros2_ws/build/nav_research\n'}
+[21.900036] (nav_research) StdoutLine: {'line': b'running symlink_data\n'}
+[21.901370] (nav_research) StdoutLine: {'line': b'creating /home/panagiotagrosd/ros2_ws/install/nav_research/share/ament_index\n'}
+[21.906961] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/caster.urdf.xacro\n'}
+[21.908672] (nav_research) StdoutLine: {'line': b'creating /home/panagiotagrosd/ros2_ws/install/nav_research/share/ament_index/resource_index\n'}
+[21.920463] (nav_research) StdoutLine: {'line': b'creating /home/panagiotagrosd/ros2_ws/install/nav_research/share/ament_index/resource_index/packages\n'}
+[21.921112] (nav_research) StdoutLine: {'line': b'symbolically linking /home/panagiotagrosd/ros2_ws/build/nav_research/resource/nav_research -> /home/panagiotagrosd/ros2_ws/install/nav_research/share/ament_index/resource_index/packages\n'}
+[21.924753] (nav_research) StdoutLine: {'line': b'symbolically linking /home/panagiotagrosd/ros2_ws/build/nav_research/package.xml -> /home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research\n'}
+[21.924934] (nav_research) StdoutLine: {'line': b'creating /home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/launch\n'}
+[21.949849] (nav_research) StdoutLine: {'line': b'symbolically linking /home/panagiotagrosd/ros2_ws/build/nav_research/launch/bringup_slam.launch.py -> /home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/launch\n'}
+[21.967936] (nav_research) StdoutLine: {'line': b'creating /home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/config\n'}
+[22.005084] (-) TimerEvent: {}
+[22.009981] (nav_research) StdoutLine: {'line': b'symbolically linking /home/panagiotagrosd/ros2_ws/build/nav_research/config/nav2_params.yaml -> /home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/config\n'}
+[22.010470] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/local_setup.zsh\n'}
+[22.080329] (dynamic_nav) JobEnded: {'identifier': 'dynamic_nav', 'rc': 0}
+[22.105287] (-) TimerEvent: {}
+[22.124352] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/common_properties.urdf.xacro\n'}
+[22.192051] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/create3.urdf.xacro\n'}
+[22.198795] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/local_setup.dsv\n'}
+[22.206802] (-) TimerEvent: {}
+[22.319710] (-) TimerEvent: {}
+[22.388866] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/package.dsv\n'}
+[22.408690] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/sensors/imu.urdf.xacro\n'}
+[22.421132] (-) TimerEvent: {}
+[22.458488] (nav_research) CommandEnded: {'returncode': 0}
+[22.530164] (-) TimerEvent: {}
+[22.588450] (nav_research) JobEnded: {'identifier': 'nav_research', 'rc': 0}
+[22.604215] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/ament_index/resource_index/packages/nav2_minimal_tb3_sim\n'}
+[22.637370] (-) TimerEvent: {}
+[22.658157] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/wheel.urdf.xacro\n'}
+[22.740329] (-) TimerEvent: {}
+[22.779730] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/cmake/nav2_minimal_tb3_simConfig.cmake\n'}
+[22.791005] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/sensors/camera_bracket.urdf.xacro\n'}
+[22.840847] (-) TimerEvent: {}
+[22.872514] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/cmake/nav2_minimal_tb3_simConfig-version.cmake\n'}
+[22.934438] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/sensors/oakd.urdf.xacro\n'}
+[22.940973] (-) TimerEvent: {}
+[23.006526] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/sensors/rplidar.urdf.xacro\n'}
+[23.044141] (-) TimerEvent: {}
+[23.046035] (nav2_minimal_tb3_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/package.xml\n'}
+[23.122201] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/tower_sensor_plate.urdf.xacro\n'}
+[23.144952] (-) TimerEvent: {}
+[23.202174] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/tower_standoff.urdf.xacro\n'}
+[23.238845] (nav2_minimal_tb3_sim) CommandEnded: {'returncode': 0}
+[23.253033] (-) TimerEvent: {}
+[23.354213] (-) TimerEvent: {}
+[23.356578] (nav2_minimal_tb3_sim) JobEnded: {'identifier': 'nav2_minimal_tb3_sim', 'rc': 0}
+[23.398069] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/turtlebot4.urdf.xacro\n'}
+[23.456291] (-) TimerEvent: {}
+[23.503252] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/weight_block.urdf.xacro\n'}
+[23.556484] (-) TimerEvent: {}
+[23.640695] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/rviz/config.rviz\n'}
+[23.658487] (-) TimerEvent: {}
+[23.759055] (-) TimerEvent: {}
+[23.785201] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/ament_index/resource_index/package_run_dependencies/nav2_minimal_tb4_description\n'}
+[23.863729] (-) TimerEvent: {}
+[23.907317] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/ament_index/resource_index/parent_prefix_path/nav2_minimal_tb4_description\n'}
+[23.976596] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/ament_prefix_path.sh\n'}
+[23.977718] (-) TimerEvent: {}
+[24.060401] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/ament_prefix_path.dsv\n'}
+[24.078287] (-) TimerEvent: {}
+[24.150651] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/path.sh\n'}
+[24.179021] (-) TimerEvent: {}
+[24.214489] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/path.dsv\n'}
+[24.279152] (-) TimerEvent: {}
+[24.288632] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.bash\n'}
+[24.376658] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.sh\n'}
+[24.382407] (-) TimerEvent: {}
+[24.425175] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.zsh\n'}
+[24.485103] (-) TimerEvent: {}
+[24.522169] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.dsv\n'}
+[24.586082] (-) TimerEvent: {}
+[24.681410] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.dsv\n'}
+[24.686305] (-) TimerEvent: {}
+[24.792826] (-) TimerEvent: {}
+[24.871767] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/ament_index/resource_index/packages/nav2_minimal_tb4_description\n'}
+[24.903990] (-) TimerEvent: {}
+[25.006090] (-) TimerEvent: {}
+[25.036843] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/cmake/nav2_minimal_tb4_descriptionConfig.cmake\n'}
+[25.107321] (-) TimerEvent: {}
+[25.212230] (-) TimerEvent: {}
+[25.245876] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/cmake/nav2_minimal_tb4_descriptionConfig-version.cmake\n'}
+[25.312335] (-) TimerEvent: {}
+[25.333269] (nav2_minimal_tb4_description) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.xml\n'}
+[25.412492] (-) TimerEvent: {}
+[25.437353] (nav2_minimal_tb4_description) CommandEnded: {'returncode': 0}
+[25.523421] (-) TimerEvent: {}
+[25.570175] (nav2_minimal_tb4_description) JobEnded: {'identifier': 'nav2_minimal_tb4_description', 'rc': 0}
+[25.597286] (nav2_minimal_tb4_sim) JobStarted: {'identifier': 'nav2_minimal_tb4_sim'}
+[25.623591] (-) TimerEvent: {}
+[25.692261] (nav2_minimal_tb4_sim) JobProgress: {'identifier': 'nav2_minimal_tb4_sim', 'progress': 'cmake'}
+[25.710971] (nav2_minimal_tb4_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/panagiotagrosd/ros2_ws/src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_sim', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim'], 'cwd': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_sim', 'env': OrderedDict({'DOCKER_BUILDKIT': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'panagiotagrosd', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{bd961f1c-a7fd-50bb-9a1d-15ae201950c4}', 'HOME': '/home/panagiotagrosd', 'OLDPWD': '/home/panagiotagrosd/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install:/home/panagiotagrosd/projects/navigation_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'panagiotagrosd', 'NAME': 'LAPTOP-OCKDRBR9', 'WSL_INTEROP': '/run/WSL/8900_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/ARM/ADSv1_2/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/MATLAB/R2023a/bin:/Docker/host/bin:/mnt/c/Users/pg2a1/AppData/Local/Microsoft/WindowsApps:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/pg2a1/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'b7618a5a-6c40-45bd-8308-d8301bcdc9e0', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_sim', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[25.723825] (-) TimerEvent: {}
+[25.824632] (-) TimerEvent: {}
+[25.925634] (-) TimerEvent: {}
+[26.026811] (-) TimerEvent: {}
+[26.130519] (-) TimerEvent: {}
+[26.231008] (-) TimerEvent: {}
+[26.336564] (-) TimerEvent: {}
+[26.338734] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[26.436759] (-) TimerEvent: {}
+[26.537203] (-) TimerEvent: {}
+[26.637735] (-) TimerEvent: {}
+[26.738202] (-) TimerEvent: {}
+[26.846852] (-) TimerEvent: {}
+[26.952790] (-) TimerEvent: {}
+[27.054288] (-) TimerEvent: {}
+[27.157498] (-) TimerEvent: {}
+[27.258952] (-) TimerEvent: {}
+[27.359632] (-) TimerEvent: {}
+[27.370989] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[27.459838] (-) TimerEvent: {}
+[27.561960] (-) TimerEvent: {}
+[27.666604] (-) TimerEvent: {}
+[27.775101] (-) TimerEvent: {}
+[27.877755] (-) TimerEvent: {}
+[27.978472] (-) TimerEvent: {}
+[28.078972] (-) TimerEvent: {}
+[28.179655] (-) TimerEvent: {}
+[28.283175] (-) TimerEvent: {}
+[28.383849] (-) TimerEvent: {}
+[28.425634] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[28.484346] (-) TimerEvent: {}
+[28.591867] (-) TimerEvent: {}
+[28.704232] (-) TimerEvent: {}
+[28.806808] (-) TimerEvent: {}
+[28.912938] (-) TimerEvent: {}
+[29.032376] (-) TimerEvent: {}
+[29.132990] (-) TimerEvent: {}
+[29.235432] (-) TimerEvent: {}
+[29.340441] (-) TimerEvent: {}
+[29.353331] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[29.392304] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[29.399784] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[29.401861] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[29.440641] (-) TimerEvent: {}
+[29.541355] (-) TimerEvent: {}
+[29.584849] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[29.646423] (-) TimerEvent: {}
+[29.772293] (-) TimerEvent: {}
+[29.872929] (-) TimerEvent: {}
+[29.979436] (-) TimerEvent: {}
+[30.079873] (-) TimerEvent: {}
+[30.180342] (-) TimerEvent: {}
+[30.280925] (-) TimerEvent: {}
+[30.381564] (-) TimerEvent: {}
+[30.482683] (-) TimerEvent: {}
+[30.588199] (-) TimerEvent: {}
+[30.636284] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[30.688341] (-) TimerEvent: {}
+[30.706262] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[30.706788] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[30.708446] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[30.738579] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[30.788477] (-) TimerEvent: {}
+[30.891132] (-) TimerEvent: {}
+[30.994416] (-) TimerEvent: {}
+[31.094924] (-) TimerEvent: {}
+[31.200193] (-) TimerEvent: {}
+[31.301703] (-) TimerEvent: {}
+[31.402218] (-) TimerEvent: {}
+[31.502690] (-) TimerEvent: {}
+[31.603417] (-) TimerEvent: {}
+[31.704409] (-) TimerEvent: {}
+[31.809986] (-) TimerEvent: {}
+[31.910946] (-) TimerEvent: {}
+[32.011524] (-) TimerEvent: {}
+[32.112149] (-) TimerEvent: {}
+[32.200702] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[32.212918] (-) TimerEvent: {}
+[32.315493] (-) TimerEvent: {}
+[32.416185] (-) TimerEvent: {}
+[32.521485] (-) TimerEvent: {}
+[32.622834] (-) TimerEvent: {}
+[32.727975] (-) TimerEvent: {}
+[32.834027] (-) TimerEvent: {}
+[32.894727] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[32.934237] (-) TimerEvent: {}
+[33.037757] (-) TimerEvent: {}
+[33.140212] (-) TimerEvent: {}
+[33.244553] (-) TimerEvent: {}
+[33.345676] (-) TimerEvent: {}
+[33.447825] (-) TimerEvent: {}
+[33.560230] (-) TimerEvent: {}
+[33.575602] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[33.660361] (-) TimerEvent: {}
+[33.764373] (-) TimerEvent: {}
+[33.866269] (-) TimerEvent: {}
+[33.967091] (-) TimerEvent: {}
+[34.075870] (-) TimerEvent: {}
+[34.179631] (-) TimerEvent: {}
+[34.282360] (-) TimerEvent: {}
+[34.383224] (-) TimerEvent: {}
+[34.484636] (-) TimerEvent: {}
+[34.543904] (nav2_minimal_tb4_sim) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[34.554204] (nav2_minimal_tb4_sim) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[34.554842] (nav2_minimal_tb4_sim) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[34.561964] (nav2_minimal_tb4_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[34.566803] (nav2_minimal_tb4_sim) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[34.576299] (nav2_minimal_tb4_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[34.585058] (-) TimerEvent: {}
+[34.602928] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Configuring done (8.8s)\n'}
+[34.662593] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[34.679224] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_sim\n'}
+[34.685223] (-) TimerEvent: {}
+[34.745477] (nav2_minimal_tb4_sim) CommandEnded: {'returncode': 0}
+[34.781522] (nav2_minimal_tb4_sim) JobProgress: {'identifier': 'nav2_minimal_tb4_sim', 'progress': 'build'}
+[34.781613] (nav2_minimal_tb4_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_sim', '--', '-j4', '-l4'], 'cwd': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_sim', 'env': OrderedDict({'DOCKER_BUILDKIT': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'panagiotagrosd', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{bd961f1c-a7fd-50bb-9a1d-15ae201950c4}', 'HOME': '/home/panagiotagrosd', 'OLDPWD': '/home/panagiotagrosd/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install:/home/panagiotagrosd/projects/navigation_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'panagiotagrosd', 'NAME': 'LAPTOP-OCKDRBR9', 'WSL_INTEROP': '/run/WSL/8900_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/ARM/ADSv1_2/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/MATLAB/R2023a/bin:/Docker/host/bin:/mnt/c/Users/pg2a1/AppData/Local/Microsoft/WindowsApps:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/pg2a1/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'b7618a5a-6c40-45bd-8308-d8301bcdc9e0', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_sim', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[34.793778] (-) TimerEvent: {}
+[34.895468] (-) TimerEvent: {}
+[35.002910] (-) TimerEvent: {}
+[35.110179] (-) TimerEvent: {}
+[35.214112] (-) TimerEvent: {}
+[35.314706] (-) TimerEvent: {}
+[35.328488] (nav2_minimal_tb4_sim) CommandEnded: {'returncode': 0}
+[35.338788] (nav2_minimal_tb4_sim) JobProgress: {'identifier': 'nav2_minimal_tb4_sim', 'progress': 'install'}
+[35.338892] (nav2_minimal_tb4_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_sim'], 'cwd': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_sim', 'env': OrderedDict({'DOCKER_BUILDKIT': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'panagiotagrosd', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{bd961f1c-a7fd-50bb-9a1d-15ae201950c4}', 'HOME': '/home/panagiotagrosd', 'OLDPWD': '/home/panagiotagrosd/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/panagiotagrosd/dyn_nav_ws/install:/home/panagiotagrosd/projects/navigation_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'panagiotagrosd', 'NAME': 'LAPTOP-OCKDRBR9', 'WSL_INTEROP': '/run/WSL/8900_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/ARM/ADSv1_2/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/MATLAB/R2023a/bin:/Docker/host/bin:/mnt/c/Users/pg2a1/AppData/Local/Microsoft/WindowsApps:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/pg2a1/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'b7618a5a-6c40-45bd-8308-d8301bcdc9e0', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_sim', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[35.429741] (-) TimerEvent: {}
+[35.467468] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.467842] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[35.471226] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/configs/tb4_bridge.yaml\n'}
+[35.529978] (-) TimerEvent: {}
+[35.596634] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/launch/simulation.launch.py\n'}
+[35.630274] (-) TimerEvent: {}
+[35.732038] (-) TimerEvent: {}
+[35.760130] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/launch/spawn_tb4.launch.py\n'}
+[35.832412] (-) TimerEvent: {}
+[35.910781] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/worlds/depot.sdf\n'}
+[35.932597] (-) TimerEvent: {}
+[35.992594] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/worlds/warehouse.sdf\n'}
+[36.034688] (-) TimerEvent: {}
+[36.106493] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/ament_index/resource_index/package_run_dependencies/nav2_minimal_tb4_sim\n'}
+[36.141265] (-) TimerEvent: {}
+[36.203435] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/ament_index/resource_index/parent_prefix_path/nav2_minimal_tb4_sim\n'}
+[36.246370] (-) TimerEvent: {}
+[36.328481] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/environment/ament_prefix_path.sh\n'}
+[36.346891] (-) TimerEvent: {}
+[36.390493] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/environment/ament_prefix_path.dsv\n'}
+[36.447058] (-) TimerEvent: {}
+[36.513524] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/environment/path.sh\n'}
+[36.547227] (-) TimerEvent: {}
+[36.618809] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/environment/path.dsv\n'}
+[36.647686] (-) TimerEvent: {}
+[36.681132] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/local_setup.bash\n'}
+[36.750900] (-) TimerEvent: {}
+[36.769853] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/local_setup.sh\n'}
+[36.849909] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/local_setup.zsh\n'}
+[36.853231] (-) TimerEvent: {}
+[36.933932] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/local_setup.dsv\n'}
+[36.953458] (-) TimerEvent: {}
+[36.997375] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/package.dsv\n'}
+[37.053666] (-) TimerEvent: {}
+[37.109428] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/ament_index/resource_index/packages/nav2_minimal_tb4_sim\n'}
+[37.153812] (-) TimerEvent: {}
+[37.229991] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/cmake/nav2_minimal_tb4_simConfig.cmake\n'}
+[37.254032] (-) TimerEvent: {}
+[37.315214] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/cmake/nav2_minimal_tb4_simConfig-version.cmake\n'}
+[37.354194] (-) TimerEvent: {}
+[37.397736] (nav2_minimal_tb4_sim) StdoutLine: {'line': b'-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/package.xml\n'}
+[37.450797] (nav2_minimal_tb4_sim) CommandEnded: {'returncode': 0}
+[37.454306] (-) TimerEvent: {}
+[37.535300] (nav2_minimal_tb4_sim) JobEnded: {'identifier': 'nav2_minimal_tb4_sim', 'rc': 0}
+[37.538165] (-) EventReactorShutdown: {}

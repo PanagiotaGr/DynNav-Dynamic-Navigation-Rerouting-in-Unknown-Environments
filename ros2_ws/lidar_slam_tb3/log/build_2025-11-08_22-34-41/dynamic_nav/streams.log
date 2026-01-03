@@ -1,0 +1,22 @@
+[12.719s] Invoking command in '/home/panagiotagrosd/ros2_ws/build/dynamic_nav': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/dynamic_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/panagiotagrosd/ros2_ws/build/dynamic_nav/build --no-deps symlink_data
+[16.673s] running develop
+[19.963s] running egg_info
+[19.963s] creating dynamic_nav.egg-info
+[20.226s] writing dynamic_nav.egg-info/PKG-INFO
+[20.230s] writing dependency_links to dynamic_nav.egg-info/dependency_links.txt
+[20.230s] writing requirements to dynamic_nav.egg-info/requires.txt
+[20.230s] writing top-level names to dynamic_nav.egg-info/top_level.txt
+[20.243s] writing manifest file 'dynamic_nav.egg-info/SOURCES.txt'
+[21.056s] reading manifest file 'dynamic_nav.egg-info/SOURCES.txt'
+[21.071s] writing manifest file 'dynamic_nav.egg-info/SOURCES.txt'
+[21.366s] running build_ext
+[21.367s] Creating /home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages/dynamic-nav.egg-link (link to .)
+[21.378s] 
+[21.378s] Installed /home/panagiotagrosd/ros2_ws/build/dynamic_nav
+[21.387s] running symlink_data
+[21.387s] creating /home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/ament_index
+[21.390s] creating /home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/ament_index/resource_index
+[21.398s] creating /home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/ament_index/resource_index/packages
+[21.400s] symbolically linking /home/panagiotagrosd/ros2_ws/build/dynamic_nav/resource/dynamic_nav -> /home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/ament_index/resource_index/packages
+[21.409s] symbolically linking /home/panagiotagrosd/ros2_ws/build/dynamic_nav/package.xml -> /home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/dynamic_nav
+[21.793s] Invoked command in '/home/panagiotagrosd/ros2_ws/build/dynamic_nav' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/dynamic_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/panagiotagrosd/ros2_ws/build/dynamic_nav/build --no-deps symlink_data

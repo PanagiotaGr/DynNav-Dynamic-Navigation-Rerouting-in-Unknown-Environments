@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.002176] (-) JobUnselected: {'identifier': 'dynamic_nav'}
+[0.002318] (-) JobUnselected: {'identifier': 'my_arm_sim'}
+[0.002399] (-) JobUnselected: {'identifier': 'nav2_minimal_tb3_sim'}
+[0.002472] (-) JobUnselected: {'identifier': 'nav2_minimal_tb4_description'}
+[0.002541] (-) JobUnselected: {'identifier': 'nav2_minimal_tb4_sim'}
+[0.002577] (-) JobUnselected: {'identifier': 'nav_research'}
+[0.002676] (-) JobUnselected: {'identifier': 'tb3_benchmark'}
+[0.002749] (-) JobUnselected: {'identifier': 'tb3_fsm_controller'}
+[0.002783] (-) JobUnselected: {'identifier': 'tb3_nav'}
+[0.002849] (-) JobUnselected: {'identifier': 'tb3_slam'}
+[0.002887] (tb3_sim_bringup) JobQueued: {'identifier': 'tb3_sim_bringup', 'dependencies': OrderedDict()}
+[0.002966] (tb3_sim_bringup) JobStarted: {'identifier': 'tb3_sim_bringup'}
+[0.099474] (-) TimerEvent: {}
+[0.199811] (-) TimerEvent: {}
+[0.300171] (-) TimerEvent: {}
+[0.400569] (-) TimerEvent: {}
+[0.500972] (-) TimerEvent: {}
+[0.601356] (-) TimerEvent: {}
+[0.701779] (-) TimerEvent: {}
+[0.802253] (-) TimerEvent: {}
+[0.902620] (-) TimerEvent: {}
+[1.003089] (-) TimerEvent: {}
+[1.103399] (-) TimerEvent: {}
+[1.203759] (-) TimerEvent: {}
+[1.304206] (-) TimerEvent: {}
+[1.404709] (-) TimerEvent: {}
+[1.505173] (-) TimerEvent: {}
+[1.605633] (-) TimerEvent: {}
+[1.705993] (-) TimerEvent: {}
+[1.806357] (-) TimerEvent: {}
+[1.811504] (tb3_sim_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tb3_sim_bringup', 'build', '--build-base', '/home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/build', 'install', '--record', '/home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/panagiotagrosd/ros2_ws/src/tb3_sim_bringup', 'env': {'DOCKER_BUILDKIT': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/:/opt/ros/jazzy/share', 'USER': 'panagiotagrosd', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{bd961f1c-a7fd-50bb-9a1d-15ae201950c4}', 'HOME': '/home/panagiotagrosd', 'OLDPWD': '/home/panagiotagrosd/ros2_ws/src/tb3_sim_bringup', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/panagiotagrosd/ros2_ws/install:/home/panagiotagrosd/dyn_nav_ws/install:/home/panagiotagrosd/projects/navigation_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'panagiotagrosd', 'NAME': 'LAPTOP-OCKDRBR9', 'WSL_INTEROP': '/run/WSL/1341_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/ARM/ADSv1_2/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/pg2a1/AppData/Local/Microsoft/WindowsApps:/mnt/c/intelFPGA/20.1/modelsim_ase/win32aloem:/mnt/c/Users/pg2a1/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '4b092a23-98a8-4d94-8863-a421fa2277f1', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/panagiotagrosd/ros2_ws/install/tb3_slam:/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup:/home/panagiotagrosd/ros2_ws/install/tb3_nav:/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller:/home/panagiotagrosd/ros2_ws/install/tb3_benchmark:/home/panagiotagrosd/ros2_ws/install/nav_research:/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim:/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description:/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim:/home/panagiotagrosd/ros2_ws/install/my_arm_sim:/home/panagiotagrosd/ros2_ws/install/dynamic_nav:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib/python3.12/site-packages:/home/panagiotagrosd/ros2_ws/install/tb3_slam/lib/python3.12/site-packages:/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib/python3.12/site-packages:/home/panagiotagrosd/ros2_ws/install/tb3_nav/lib/python3.12/site-packages:/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/python3.12/site-packages:/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/lib/python3.12/site-packages:/home/panagiotagrosd/ros2_ws/install/nav_research/lib/python3.12/site-packages:/home/panagiotagrosd/ros2_ws/install/my_arm_sim/lib/python3.12/site-packages:/home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim:/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description:/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[1.906536] (-) TimerEvent: {}
+[2.006915] (-) TimerEvent: {}
+[2.107260] (-) TimerEvent: {}
+[2.207651] (-) TimerEvent: {}
+[2.282841] (tb3_sim_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[2.307794] (-) TimerEvent: {}
+[2.313406] (tb3_sim_bringup) StdoutLine: {'line': b'writing ../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/PKG-INFO\n'}
+[2.314544] (tb3_sim_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/dependency_links.txt\n'}
+[2.314735] (tb3_sim_bringup) StdoutLine: {'line': b'writing requirements to ../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/requires.txt\n'}
+[2.314908] (tb3_sim_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/top_level.txt\n'}
+[2.391488] (tb3_sim_bringup) StdoutLine: {'line': b"reading manifest file '../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/SOURCES.txt'\n"}
+[2.392580] (tb3_sim_bringup) StdoutLine: {'line': b"writing manifest file '../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/SOURCES.txt'\n"}
+[2.393017] (tb3_sim_bringup) StdoutLine: {'line': b'running build\n'}
+[2.393211] (tb3_sim_bringup) StdoutLine: {'line': b'running build_py\n'}
+[2.393677] (tb3_sim_bringup) StdoutLine: {'line': b'running install\n'}
+[2.401272] (tb3_sim_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[2.407937] (-) TimerEvent: {}
+[2.438032] (tb3_sim_bringup) StdoutLine: {'line': b'running install_data\n'}
+[2.438393] (tb3_sim_bringup) StdoutLine: {'line': b'creating /home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/tb3_sim_bringup/launch\n'}
+[2.439494] (tb3_sim_bringup) StdoutLine: {'line': b'copying launch/gazebo_tb3.launch.py -> /home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/tb3_sim_bringup/launch\n'}
+[2.439896] (tb3_sim_bringup) StdoutLine: {'line': b'creating /home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/tb3_sim_bringup/worlds\n'}
+[2.440818] (tb3_sim_bringup) StdoutLine: {'line': b'copying worlds/lab_world.sdf -> /home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/tb3_sim_bringup/worlds\n'}
+[2.441344] (tb3_sim_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.479974] (tb3_sim_bringup) StdoutLine: {'line': b"removing '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib/python3.12/site-packages/tb3_sim_bringup-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.481075] (tb3_sim_bringup) StdoutLine: {'line': b'Copying ../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info to /home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib/python3.12/site-packages/tb3_sim_bringup-0.0.0-py3.12.egg-info\n'}
+[2.484519] (tb3_sim_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[2.508083] (-) TimerEvent: {}
+[2.608557] (-) TimerEvent: {}
+[2.708951] (-) TimerEvent: {}
+[2.727959] (tb3_sim_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/install.log'\n"}
+[2.780412] (tb3_sim_bringup) CommandEnded: {'returncode': 0}
+[2.798194] (tb3_sim_bringup) JobEnded: {'identifier': 'tb3_sim_bringup', 'rc': 0}
+[2.800130] (-) EventReactorShutdown: {}

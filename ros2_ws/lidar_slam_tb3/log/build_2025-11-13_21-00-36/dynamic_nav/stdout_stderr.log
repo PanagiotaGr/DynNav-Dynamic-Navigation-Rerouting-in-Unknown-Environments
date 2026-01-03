@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/dynamic_nav/dynamic_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/dynamic_nav/dynamic_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/dynamic_nav/dynamic_nav.egg-info/entry_points.txt
+writing requirements to ../../build/dynamic_nav/dynamic_nav.egg-info/requires.txt
+writing top-level names to ../../build/dynamic_nav/dynamic_nav.egg-info/top_level.txt
+reading manifest file '../../build/dynamic_nav/dynamic_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/dynamic_nav/dynamic_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages/dynamic_nav-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/dynamic_nav/dynamic_nav.egg-info to /home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages/dynamic_nav-0.0.0-py3.12.egg-info
+running install_scripts
+Installing dynamic_nav_node script to /home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/dynamic_nav
+writing list of installed files to '/home/panagiotagrosd/ros2_ws/build/dynamic_nav/install.log'

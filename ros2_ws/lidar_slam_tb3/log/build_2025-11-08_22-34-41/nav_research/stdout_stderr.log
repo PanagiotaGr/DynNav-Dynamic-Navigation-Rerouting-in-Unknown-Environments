@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating nav_research.egg-info
+writing nav_research.egg-info/PKG-INFO
+writing dependency_links to nav_research.egg-info/dependency_links.txt
+writing requirements to nav_research.egg-info/requires.txt
+writing top-level names to nav_research.egg-info/top_level.txt
+writing manifest file 'nav_research.egg-info/SOURCES.txt'
+reading manifest file 'nav_research.egg-info/SOURCES.txt'
+writing manifest file 'nav_research.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/panagiotagrosd/ros2_ws/install/nav_research/lib/python3.12/site-packages/nav-research.egg-link (link to .)
+
+Installed /home/panagiotagrosd/ros2_ws/build/nav_research
+running symlink_data
+creating /home/panagiotagrosd/ros2_ws/install/nav_research/share/ament_index
+creating /home/panagiotagrosd/ros2_ws/install/nav_research/share/ament_index/resource_index
+creating /home/panagiotagrosd/ros2_ws/install/nav_research/share/ament_index/resource_index/packages
+symbolically linking /home/panagiotagrosd/ros2_ws/build/nav_research/resource/nav_research -> /home/panagiotagrosd/ros2_ws/install/nav_research/share/ament_index/resource_index/packages
+symbolically linking /home/panagiotagrosd/ros2_ws/build/nav_research/package.xml -> /home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research
+creating /home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/launch
+symbolically linking /home/panagiotagrosd/ros2_ws/build/nav_research/launch/bringup_slam.launch.py -> /home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/launch
+creating /home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/config
+symbolically linking /home/panagiotagrosd/ros2_ws/build/nav_research/config/nav2_params.yaml -> /home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/config

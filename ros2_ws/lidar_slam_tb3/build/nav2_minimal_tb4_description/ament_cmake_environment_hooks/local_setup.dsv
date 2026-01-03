@@ -1,0 +1,3 @@
+source;share/nav2_minimal_tb4_description/environment/ament_prefix_path.sh
+source;share/nav2_minimal_tb4_description/environment/path.sh
+source;share/nav2_minimal_tb4_description/environment/tb4_description.dsv

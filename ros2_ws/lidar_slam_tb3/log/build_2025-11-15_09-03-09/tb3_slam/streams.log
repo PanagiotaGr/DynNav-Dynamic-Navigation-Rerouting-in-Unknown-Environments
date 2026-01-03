@@ -1,0 +1,19 @@
+[6.001s] Invoking command in '/home/panagiotagrosd/ros2_ws/src/tb3_slam': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_slam build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_slam/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_slam/install.log --single-version-externally-managed install_data
+[7.156s] running egg_info
+[7.224s] writing ../../build/tb3_slam/tb3_slam.egg-info/PKG-INFO
+[7.224s] writing dependency_links to ../../build/tb3_slam/tb3_slam.egg-info/dependency_links.txt
+[7.225s] writing requirements to ../../build/tb3_slam/tb3_slam.egg-info/requires.txt
+[7.226s] writing top-level names to ../../build/tb3_slam/tb3_slam.egg-info/top_level.txt
+[7.357s] reading manifest file '../../build/tb3_slam/tb3_slam.egg-info/SOURCES.txt'
+[7.359s] writing manifest file '../../build/tb3_slam/tb3_slam.egg-info/SOURCES.txt'
+[7.361s] running build
+[7.362s] running build_py
+[7.362s] running install
+[7.373s] running install_lib
+[7.463s] running install_data
+[7.464s] running install_egg_info
+[7.534s] removing '/home/panagiotagrosd/ros2_ws/install/tb3_slam/lib/python3.12/site-packages/tb3_slam-0.0.0-py3.12.egg-info' (and everything under it)
+[7.534s] Copying ../../build/tb3_slam/tb3_slam.egg-info to /home/panagiotagrosd/ros2_ws/install/tb3_slam/lib/python3.12/site-packages/tb3_slam-0.0.0-py3.12.egg-info
+[7.537s] running install_scripts
+[7.999s] writing list of installed files to '/home/panagiotagrosd/ros2_ws/build/tb3_slam/install.log'
+[8.119s] Invoked command in '/home/panagiotagrosd/ros2_ws/src/tb3_slam' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_slam build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_slam/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_slam/install.log --single-version-externally-managed install_data

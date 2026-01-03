@@ -1,0 +1,32 @@
+[2.941s] Invoking command in '/home/panagiotagrosd/ros2_ws/src/my_arm_sim': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/my_arm_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/my_arm_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_arm_sim build --build-base /home/panagiotagrosd/ros2_ws/build/my_arm_sim/build install --record /home/panagiotagrosd/ros2_ws/build/my_arm_sim/install.log --single-version-externally-managed install_data
+[3.739s] running egg_info
+[3.740s] creating ../../build/my_arm_sim/my_arm_sim.egg-info
+[3.957s] writing ../../build/my_arm_sim/my_arm_sim.egg-info/PKG-INFO
+[3.957s] writing dependency_links to ../../build/my_arm_sim/my_arm_sim.egg-info/dependency_links.txt
+[3.958s] writing requirements to ../../build/my_arm_sim/my_arm_sim.egg-info/requires.txt
+[3.958s] writing top-level names to ../../build/my_arm_sim/my_arm_sim.egg-info/top_level.txt
+[3.958s] writing manifest file '../../build/my_arm_sim/my_arm_sim.egg-info/SOURCES.txt'
+[4.160s] reading manifest file '../../build/my_arm_sim/my_arm_sim.egg-info/SOURCES.txt'
+[4.163s] writing manifest file '../../build/my_arm_sim/my_arm_sim.egg-info/SOURCES.txt'
+[4.163s] running build
+[4.163s] running build_py
+[4.163s] creating /home/panagiotagrosd/ros2_ws/build/my_arm_sim/build
+[4.167s] creating /home/panagiotagrosd/ros2_ws/build/my_arm_sim/build/lib
+[4.171s] creating /home/panagiotagrosd/ros2_ws/build/my_arm_sim/build/lib/my_arm_sim
+[4.172s] copying my_arm_sim/__init__.py -> /home/panagiotagrosd/ros2_ws/build/my_arm_sim/build/lib/my_arm_sim
+[4.172s] running install
+[4.188s] running install_lib
+[4.254s] creating /home/panagiotagrosd/ros2_ws/install/my_arm_sim/lib/python3.12/site-packages/my_arm_sim
+[4.256s] copying /home/panagiotagrosd/ros2_ws/build/my_arm_sim/build/lib/my_arm_sim/__init__.py -> /home/panagiotagrosd/ros2_ws/install/my_arm_sim/lib/python3.12/site-packages/my_arm_sim
+[4.257s] byte-compiling /home/panagiotagrosd/ros2_ws/install/my_arm_sim/lib/python3.12/site-packages/my_arm_sim/__init__.py to __init__.cpython-312.pyc
+[4.260s] running install_data
+[4.260s] creating /home/panagiotagrosd/ros2_ws/install/my_arm_sim/share/ament_index
+[4.261s] creating /home/panagiotagrosd/ros2_ws/install/my_arm_sim/share/ament_index/resource_index
+[4.263s] creating /home/panagiotagrosd/ros2_ws/install/my_arm_sim/share/ament_index/resource_index/packages
+[4.264s] copying resource/my_arm_sim -> /home/panagiotagrosd/ros2_ws/install/my_arm_sim/share/ament_index/resource_index/packages
+[4.265s] copying package.xml -> /home/panagiotagrosd/ros2_ws/install/my_arm_sim/share/my_arm_sim
+[4.265s] running install_egg_info
+[4.327s] Copying ../../build/my_arm_sim/my_arm_sim.egg-info to /home/panagiotagrosd/ros2_ws/install/my_arm_sim/lib/python3.12/site-packages/my_arm_sim-0.0.0-py3.12.egg-info
+[4.330s] running install_scripts
+[4.702s] writing list of installed files to '/home/panagiotagrosd/ros2_ws/build/my_arm_sim/install.log'
+[4.790s] Invoked command in '/home/panagiotagrosd/ros2_ws/src/my_arm_sim' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/my_arm_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/my_arm_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_arm_sim build --build-base /home/panagiotagrosd/ros2_ws/build/my_arm_sim/build install --record /home/panagiotagrosd/ros2_ws/build/my_arm_sim/install.log --single-version-externally-managed install_data

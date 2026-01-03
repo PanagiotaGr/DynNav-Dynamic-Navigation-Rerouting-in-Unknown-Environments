@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info
+writing ../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/dependency_links.txt
+writing requirements to ../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/requires.txt
+writing top-level names to ../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/top_level.txt
+writing manifest file '../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/build
+creating /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/build/lib
+creating /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/build/lib/tb3_fsm_controller
+copying tb3_fsm_controller/__init__.py -> /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/build/lib/tb3_fsm_controller
+running install
+running install_lib
+creating /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/python3.12/site-packages/tb3_fsm_controller
+copying /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/build/lib/tb3_fsm_controller/__init__.py -> /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/python3.12/site-packages/tb3_fsm_controller
+byte-compiling /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/python3.12/site-packages/tb3_fsm_controller/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/ament_index
+creating /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/ament_index/resource_index
+creating /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/ament_index/resource_index/packages
+copying resource/tb3_fsm_controller -> /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/tb3_fsm_controller
+running install_egg_info
+Copying ../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info to /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/python3.12/site-packages/tb3_fsm_controller-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/install.log'

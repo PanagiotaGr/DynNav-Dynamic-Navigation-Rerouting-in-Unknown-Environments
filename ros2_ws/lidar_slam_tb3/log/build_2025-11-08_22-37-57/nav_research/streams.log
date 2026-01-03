@@ -1,0 +1,15 @@
+[10.698s] Invoking command in '/home/panagiotagrosd/ros2_ws/build/nav_research': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/nav_research/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/nav_research/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/panagiotagrosd/ros2_ws/build/nav_research/build --no-deps symlink_data
+[14.077s] running develop
+[16.171s] running egg_info
+[16.317s] writing nav_research.egg-info/PKG-INFO
+[16.318s] writing dependency_links to nav_research.egg-info/dependency_links.txt
+[16.319s] writing requirements to nav_research.egg-info/requires.txt
+[16.322s] writing top-level names to nav_research.egg-info/top_level.txt
+[16.766s] reading manifest file 'nav_research.egg-info/SOURCES.txt'
+[16.766s] writing manifest file 'nav_research.egg-info/SOURCES.txt'
+[17.006s] running build_ext
+[17.007s] Creating /home/panagiotagrosd/ros2_ws/install/nav_research/lib/python3.12/site-packages/nav-research.egg-link (link to .)
+[17.013s] 
+[17.013s] Installed /home/panagiotagrosd/ros2_ws/build/nav_research
+[17.015s] running symlink_data
+[17.274s] Invoked command in '/home/panagiotagrosd/ros2_ws/build/nav_research' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/nav_research/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/nav_research/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/panagiotagrosd/ros2_ws/build/nav_research/build --no-deps symlink_data

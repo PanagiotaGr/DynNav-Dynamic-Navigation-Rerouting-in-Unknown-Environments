@@ -1,0 +1,17 @@
+[9.602s] Invoking command in '/home/panagiotagrosd/ros2_ws/build/dynamic_nav': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/dynamic_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/panagiotagrosd/ros2_ws/build/dynamic_nav/build --no-deps symlink_data
+[12.200s] running develop
+[14.740s] running egg_info
+[14.881s] writing dynamic_nav.egg-info/PKG-INFO
+[14.899s] writing dependency_links to dynamic_nav.egg-info/dependency_links.txt
+[14.899s] writing entry points to dynamic_nav.egg-info/entry_points.txt
+[14.899s] writing requirements to dynamic_nav.egg-info/requires.txt
+[14.900s] writing top-level names to dynamic_nav.egg-info/top_level.txt
+[15.181s] reading manifest file 'dynamic_nav.egg-info/SOURCES.txt'
+[15.186s] writing manifest file 'dynamic_nav.egg-info/SOURCES.txt'
+[15.551s] running build_ext
+[15.551s] Creating /home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages/dynamic-nav.egg-link (link to .)
+[15.561s] Installing dynamic_nav_node script to /home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/dynamic_nav
+[15.562s] 
+[15.575s] Installed /home/panagiotagrosd/ros2_ws/build/dynamic_nav
+[15.575s] running symlink_data
+[16.049s] Invoked command in '/home/panagiotagrosd/ros2_ws/build/dynamic_nav' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/dynamic_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/panagiotagrosd/ros2_ws/build/dynamic_nav/build --no-deps symlink_data

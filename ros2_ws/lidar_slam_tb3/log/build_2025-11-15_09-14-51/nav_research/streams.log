@@ -1,0 +1,19 @@
+[3.643s] Invoking command in '/home/panagiotagrosd/ros2_ws/src/nav_research': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/nav_research/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/nav_research/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav_research build --build-base /home/panagiotagrosd/ros2_ws/build/nav_research/build install --record /home/panagiotagrosd/ros2_ws/build/nav_research/install.log --single-version-externally-managed install_data
+[4.612s] running egg_info
+[4.689s] writing ../../build/nav_research/nav_research.egg-info/PKG-INFO
+[4.690s] writing dependency_links to ../../build/nav_research/nav_research.egg-info/dependency_links.txt
+[4.693s] writing requirements to ../../build/nav_research/nav_research.egg-info/requires.txt
+[4.693s] writing top-level names to ../../build/nav_research/nav_research.egg-info/top_level.txt
+[4.826s] reading manifest file '../../build/nav_research/nav_research.egg-info/SOURCES.txt'
+[4.829s] writing manifest file '../../build/nav_research/nav_research.egg-info/SOURCES.txt'
+[4.829s] running build
+[4.830s] running build_py
+[4.831s] running install
+[4.847s] running install_lib
+[4.927s] running install_data
+[4.928s] running install_egg_info
+[5.011s] removing '/home/panagiotagrosd/ros2_ws/install/nav_research/lib/python3.12/site-packages/nav_research-0.0.1-py3.12.egg-info' (and everything under it)
+[5.014s] Copying ../../build/nav_research/nav_research.egg-info to /home/panagiotagrosd/ros2_ws/install/nav_research/lib/python3.12/site-packages/nav_research-0.0.1-py3.12.egg-info
+[5.020s] running install_scripts
+[5.418s] writing list of installed files to '/home/panagiotagrosd/ros2_ws/build/nav_research/install.log'
+[5.961s] Invoked command in '/home/panagiotagrosd/ros2_ws/src/nav_research' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/nav_research/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/nav_research/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav_research build --build-base /home/panagiotagrosd/ros2_ws/build/nav_research/build install --record /home/panagiotagrosd/ros2_ws/build/nav_research/install.log --single-version-externally-managed install_data

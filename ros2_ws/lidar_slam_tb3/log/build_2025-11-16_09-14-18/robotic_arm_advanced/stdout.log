@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info
+writing ../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info/PKG-INFO
+writing dependency_links to ../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info/dependency_links.txt
+writing entry points to ../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info/entry_points.txt
+writing requirements to ../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info/requires.txt
+writing top-level names to ../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info/top_level.txt
+writing manifest file '../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info/SOURCES.txt'
+reading manifest file '../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info/SOURCES.txt'
+writing manifest file '../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build
+creating /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib
+creating /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib/robotic_arm_advanced
+copying robotic_arm_advanced/__init__.py -> /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib/robotic_arm_advanced
+copying robotic_arm_advanced/fk_node.py -> /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib/robotic_arm_advanced
+copying robotic_arm_advanced/dummy_joint_pub.py -> /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib/robotic_arm_advanced
+copying robotic_arm_advanced/ik_dls_node.py -> /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib/robotic_arm_advanced
+running install
+running install_lib
+creating /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced
+copying /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib/robotic_arm_advanced/__init__.py -> /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced
+copying /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib/robotic_arm_advanced/fk_node.py -> /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced
+copying /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib/robotic_arm_advanced/dummy_joint_pub.py -> /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced
+copying /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib/robotic_arm_advanced/ik_dls_node.py -> /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced
+byte-compiling /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced/fk_node.py to fk_node.cpython-312.pyc
+byte-compiling /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced/dummy_joint_pub.py to dummy_joint_pub.cpython-312.pyc
+byte-compiling /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced/ik_dls_node.py to ik_dls_node.cpython-312.pyc
+running install_data
+creating /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/share/ament_index
+creating /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/share/ament_index/resource_index
+creating /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/share/ament_index/resource_index/packages
+copying resource/robotic_arm_advanced -> /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/share/ament_index/resource_index/packages
+copying package.xml -> /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/share/robotic_arm_advanced
+running install_egg_info
+Copying ../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info to /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced-0.0.1-py3.12.egg-info
+running install_scripts
+Installing dummy_joint_pub script to /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/robotic_arm_advanced
+Installing fk_node script to /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/robotic_arm_advanced
+Installing ik_dls_node script to /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/robotic_arm_advanced
+writing list of installed files to '/home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/install.log'

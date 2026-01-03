@@ -1,0 +1,45 @@
+[2.886s] Invoking command in '/home/panagiotagrosd/ros2_ws/src/robotic_arm_advanced': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robotic_arm_advanced build --build-base /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build install --record /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/install.log --single-version-externally-managed install_data
+[3.761s] running egg_info
+[3.762s] creating ../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info
+[3.824s] writing ../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info/PKG-INFO
+[3.826s] writing dependency_links to ../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info/dependency_links.txt
+[3.826s] writing entry points to ../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info/entry_points.txt
+[3.826s] writing requirements to ../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info/requires.txt
+[3.827s] writing top-level names to ../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info/top_level.txt
+[3.827s] writing manifest file '../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info/SOURCES.txt'
+[3.926s] reading manifest file '../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info/SOURCES.txt'
+[3.928s] writing manifest file '../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info/SOURCES.txt'
+[3.928s] running build
+[3.928s] running build_py
+[3.929s] creating /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build
+[3.930s] creating /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib
+[3.931s] creating /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib/robotic_arm_advanced
+[3.932s] copying robotic_arm_advanced/__init__.py -> /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib/robotic_arm_advanced
+[3.933s] copying robotic_arm_advanced/fk_node.py -> /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib/robotic_arm_advanced
+[3.933s] copying robotic_arm_advanced/dummy_joint_pub.py -> /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib/robotic_arm_advanced
+[3.933s] copying robotic_arm_advanced/ik_dls_node.py -> /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib/robotic_arm_advanced
+[3.934s] running install
+[3.947s] running install_lib
+[4.005s] creating /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced
+[4.007s] copying /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib/robotic_arm_advanced/__init__.py -> /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced
+[4.008s] copying /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib/robotic_arm_advanced/fk_node.py -> /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced
+[4.009s] copying /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib/robotic_arm_advanced/dummy_joint_pub.py -> /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced
+[4.010s] copying /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build/lib/robotic_arm_advanced/ik_dls_node.py -> /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced
+[4.012s] byte-compiling /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced/__init__.py to __init__.cpython-312.pyc
+[4.014s] byte-compiling /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced/fk_node.py to fk_node.cpython-312.pyc
+[4.019s] byte-compiling /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced/dummy_joint_pub.py to dummy_joint_pub.cpython-312.pyc
+[4.020s] byte-compiling /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced/ik_dls_node.py to ik_dls_node.cpython-312.pyc
+[4.023s] running install_data
+[4.023s] creating /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/share/ament_index
+[4.025s] creating /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/share/ament_index/resource_index
+[4.028s] creating /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/share/ament_index/resource_index/packages
+[4.029s] copying resource/robotic_arm_advanced -> /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/share/ament_index/resource_index/packages
+[4.029s] copying package.xml -> /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/share/robotic_arm_advanced
+[4.031s] running install_egg_info
+[4.080s] Copying ../../build/robotic_arm_advanced/robotic_arm_advanced.egg-info to /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages/robotic_arm_advanced-0.0.1-py3.12.egg-info
+[4.082s] running install_scripts
+[4.400s] Installing dummy_joint_pub script to /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/robotic_arm_advanced
+[4.402s] Installing fk_node script to /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/robotic_arm_advanced
+[4.402s] Installing ik_dls_node script to /home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/robotic_arm_advanced
+[4.404s] writing list of installed files to '/home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/install.log'
+[4.583s] Invoked command in '/home/panagiotagrosd/ros2_ws/src/robotic_arm_advanced' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/robotic_arm_advanced/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robotic_arm_advanced build --build-base /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/build install --record /home/panagiotagrosd/ros2_ws/build/robotic_arm_advanced/install.log --single-version-externally-managed install_data
