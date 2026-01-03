@@ -1,0 +1,41 @@
+[2.163s] Invoking command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --build /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim -- -j4 -l4
+[3.997s] Invoked command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --build /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim -- -j4 -l4
+[3.998s] Invoking command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --install /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim
+[4.066s] -- Install configuration: ""
+[4.066s] -- Execute custom install script
+[4.068s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/configs/turtlebot3_waffle_bridge.yaml
+[4.081s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/configs/turtlebot3_waffle_gps_bridge.yaml
+[4.084s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/launch/spawn_tb3.launch.py
+[4.092s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/launch/spawn_tb3_gps.launch.py
+[4.095s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/worlds/tb3_empty_world.sdf.xacro
+[4.099s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/worlds/tb3_sandbox.sdf.xacro
+[4.102s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/urdf/gz_waffle.sdf.xacro
+[4.115s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/urdf/gz_waffle_gps.sdf.xacro
+[4.115s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/urdf/turtlebot3_waffle.urdf
+[4.119s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/urdf/turtlebot3_waffle_gps.urdf
+[4.128s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/lds.dae
+[4.136s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/r200.dae
+[4.138s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/tire.dae
+[4.139s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/waffle_base.dae
+[4.139s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_model/model.config
+[4.142s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/meshes/hexagon.dae
+[4.143s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/meshes/wall.dae
+[4.150s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/model-1_4.sdf
+[4.175s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/model.config
+[4.176s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/models/turtlebot3_world/model.sdf
+[4.182s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/ament_index/resource_index/package_run_dependencies/nav2_minimal_tb3_sim
+[4.182s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/ament_index/resource_index/parent_prefix_path/nav2_minimal_tb3_sim
+[4.182s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/environment/ament_prefix_path.sh
+[4.182s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/environment/ament_prefix_path.dsv
+[4.183s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/environment/path.sh
+[4.188s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/environment/path.dsv
+[4.189s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/local_setup.bash
+[4.189s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/local_setup.sh
+[4.194s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/local_setup.zsh
+[4.194s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/local_setup.dsv
+[4.194s] -- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/package.dsv
+[4.291s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/ament_index/resource_index/packages/nav2_minimal_tb3_sim
+[4.292s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/cmake/nav2_minimal_tb3_simConfig.cmake
+[4.293s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/cmake/nav2_minimal_tb3_simConfig-version.cmake
+[4.296s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/package.xml
+[4.313s] Invoked command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --install /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim

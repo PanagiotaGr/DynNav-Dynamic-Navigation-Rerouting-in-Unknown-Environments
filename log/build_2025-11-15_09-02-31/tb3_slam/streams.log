@@ -1,0 +1,32 @@
+[3.088s] Invoking command in '/home/panagiotagrosd/ros2_ws/src/tb3_slam': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_slam build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_slam/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_slam/install.log --single-version-externally-managed install_data
+[4.163s] running egg_info
+[4.164s] creating ../../build/tb3_slam/tb3_slam.egg-info
+[4.255s] writing ../../build/tb3_slam/tb3_slam.egg-info/PKG-INFO
+[4.256s] writing dependency_links to ../../build/tb3_slam/tb3_slam.egg-info/dependency_links.txt
+[4.261s] writing requirements to ../../build/tb3_slam/tb3_slam.egg-info/requires.txt
+[4.272s] writing top-level names to ../../build/tb3_slam/tb3_slam.egg-info/top_level.txt
+[4.272s] writing manifest file '../../build/tb3_slam/tb3_slam.egg-info/SOURCES.txt'
+[4.464s] reading manifest file '../../build/tb3_slam/tb3_slam.egg-info/SOURCES.txt'
+[4.466s] writing manifest file '../../build/tb3_slam/tb3_slam.egg-info/SOURCES.txt'
+[4.473s] running build
+[4.473s] running build_py
+[4.475s] creating /home/panagiotagrosd/ros2_ws/build/tb3_slam/build
+[4.478s] creating /home/panagiotagrosd/ros2_ws/build/tb3_slam/build/lib
+[4.479s] creating /home/panagiotagrosd/ros2_ws/build/tb3_slam/build/lib/tb3_slam
+[4.493s] copying tb3_slam/__init__.py -> /home/panagiotagrosd/ros2_ws/build/tb3_slam/build/lib/tb3_slam
+[4.493s] running install
+[4.514s] running install_lib
+[4.593s] creating /home/panagiotagrosd/ros2_ws/install/tb3_slam/lib/python3.12/site-packages/tb3_slam
+[4.595s] copying /home/panagiotagrosd/ros2_ws/build/tb3_slam/build/lib/tb3_slam/__init__.py -> /home/panagiotagrosd/ros2_ws/install/tb3_slam/lib/python3.12/site-packages/tb3_slam
+[4.597s] byte-compiling /home/panagiotagrosd/ros2_ws/install/tb3_slam/lib/python3.12/site-packages/tb3_slam/__init__.py to __init__.cpython-312.pyc
+[4.599s] running install_data
+[4.599s] creating /home/panagiotagrosd/ros2_ws/install/tb3_slam/share/ament_index
+[4.601s] creating /home/panagiotagrosd/ros2_ws/install/tb3_slam/share/ament_index/resource_index
+[4.602s] creating /home/panagiotagrosd/ros2_ws/install/tb3_slam/share/ament_index/resource_index/packages
+[4.603s] copying resource/tb3_slam -> /home/panagiotagrosd/ros2_ws/install/tb3_slam/share/ament_index/resource_index/packages
+[4.604s] copying package.xml -> /home/panagiotagrosd/ros2_ws/install/tb3_slam/share/tb3_slam
+[4.604s] running install_egg_info
+[4.661s] Copying ../../build/tb3_slam/tb3_slam.egg-info to /home/panagiotagrosd/ros2_ws/install/tb3_slam/lib/python3.12/site-packages/tb3_slam-0.0.0-py3.12.egg-info
+[4.664s] running install_scripts
+[4.944s] writing list of installed files to '/home/panagiotagrosd/ros2_ws/build/tb3_slam/install.log'
+[5.023s] Invoked command in '/home/panagiotagrosd/ros2_ws/src/tb3_slam' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_slam build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_slam/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_slam/install.log --single-version-externally-managed install_data

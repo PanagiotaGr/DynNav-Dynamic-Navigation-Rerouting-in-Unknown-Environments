@@ -1,0 +1,32 @@
+[5.262s] Invoking command in '/home/panagiotagrosd/ros2_ws/src/tb3_benchmark': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_benchmark/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_benchmark build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_benchmark/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_benchmark/install.log --single-version-externally-managed install_data
+[6.283s] running egg_info
+[6.283s] creating ../../build/tb3_benchmark/tb3_benchmark.egg-info
+[6.349s] writing ../../build/tb3_benchmark/tb3_benchmark.egg-info/PKG-INFO
+[6.350s] writing dependency_links to ../../build/tb3_benchmark/tb3_benchmark.egg-info/dependency_links.txt
+[6.350s] writing requirements to ../../build/tb3_benchmark/tb3_benchmark.egg-info/requires.txt
+[6.351s] writing top-level names to ../../build/tb3_benchmark/tb3_benchmark.egg-info/top_level.txt
+[6.351s] writing manifest file '../../build/tb3_benchmark/tb3_benchmark.egg-info/SOURCES.txt'
+[6.497s] reading manifest file '../../build/tb3_benchmark/tb3_benchmark.egg-info/SOURCES.txt'
+[6.498s] writing manifest file '../../build/tb3_benchmark/tb3_benchmark.egg-info/SOURCES.txt'
+[6.499s] running build
+[6.499s] running build_py
+[6.499s] creating /home/panagiotagrosd/ros2_ws/build/tb3_benchmark/build
+[6.501s] creating /home/panagiotagrosd/ros2_ws/build/tb3_benchmark/build/lib
+[6.512s] creating /home/panagiotagrosd/ros2_ws/build/tb3_benchmark/build/lib/tb3_benchmark
+[6.513s] copying tb3_benchmark/__init__.py -> /home/panagiotagrosd/ros2_ws/build/tb3_benchmark/build/lib/tb3_benchmark
+[6.514s] running install
+[6.530s] running install_lib
+[6.608s] creating /home/panagiotagrosd/ros2_ws/install/tb3_benchmark/lib/python3.12/site-packages/tb3_benchmark
+[6.610s] copying /home/panagiotagrosd/ros2_ws/build/tb3_benchmark/build/lib/tb3_benchmark/__init__.py -> /home/panagiotagrosd/ros2_ws/install/tb3_benchmark/lib/python3.12/site-packages/tb3_benchmark
+[6.611s] byte-compiling /home/panagiotagrosd/ros2_ws/install/tb3_benchmark/lib/python3.12/site-packages/tb3_benchmark/__init__.py to __init__.cpython-312.pyc
+[6.614s] running install_data
+[6.614s] creating /home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/ament_index
+[6.616s] creating /home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/ament_index/resource_index
+[6.618s] creating /home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/ament_index/resource_index/packages
+[6.619s] copying resource/tb3_benchmark -> /home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/ament_index/resource_index/packages
+[6.619s] copying package.xml -> /home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/tb3_benchmark
+[6.620s] running install_egg_info
+[6.692s] Copying ../../build/tb3_benchmark/tb3_benchmark.egg-info to /home/panagiotagrosd/ros2_ws/install/tb3_benchmark/lib/python3.12/site-packages/tb3_benchmark-0.0.0-py3.12.egg-info
+[6.697s] running install_scripts
+[7.418s] writing list of installed files to '/home/panagiotagrosd/ros2_ws/build/tb3_benchmark/install.log'
+[7.988s] Invoked command in '/home/panagiotagrosd/ros2_ws/src/tb3_benchmark' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_benchmark/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_benchmark build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_benchmark/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_benchmark/install.log --single-version-externally-managed install_data

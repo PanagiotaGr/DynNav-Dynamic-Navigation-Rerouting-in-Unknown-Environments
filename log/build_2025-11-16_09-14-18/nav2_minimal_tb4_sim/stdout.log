@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/configs/tb4_bridge.yaml
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/launch/simulation.launch.py
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/launch/spawn_tb4.launch.py
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/worlds/depot.sdf
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/worlds/warehouse.sdf
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/ament_index/resource_index/package_run_dependencies/nav2_minimal_tb4_sim
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/ament_index/resource_index/parent_prefix_path/nav2_minimal_tb4_sim
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/environment/path.sh
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/environment/path.dsv
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/local_setup.bash
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/local_setup.sh
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/local_setup.zsh
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/local_setup.dsv
+-- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/package.dsv
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/ament_index/resource_index/packages/nav2_minimal_tb4_sim
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/cmake/nav2_minimal_tb4_simConfig.cmake
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/cmake/nav2_minimal_tb4_simConfig-version.cmake
+-- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/package.xml

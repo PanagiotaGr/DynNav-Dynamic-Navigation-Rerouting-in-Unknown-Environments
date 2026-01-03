@@ -1,0 +1,49 @@
+[0.401s] Invoking command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --build /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description -- -j4 -l4
+[8.496s] Invoked command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --build /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description -- -j4 -l4
+[8.621s] Invoking command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --install /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description
+[8.701s] -- Install configuration: ""
+[8.733s] -- Execute custom install script
+[8.734s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/tb4_description.dsv
+[8.734s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/launch/robot_description.launch.py
+[8.748s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/body_visual.dae
+[8.750s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/bumper_collision.dae
+[8.751s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/bumper_visual.dae
+[8.764s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/camera_bracket.dae
+[8.783s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/oakd_pro.dae
+[8.785s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/rplidar.dae
+[8.786s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/shell.dae
+[8.795s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/shell_collision.dae
+[8.796s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/tower.dae
+[8.796s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/tower_sensor_plate.dae
+[8.796s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/tower_standoff.dae
+[8.797s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/meshes/weight_block.dae
+[8.797s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/bumper.urdf.xacro
+[8.797s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/caster.urdf.xacro
+[8.797s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/common_properties.urdf.xacro
+[8.798s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/create3.urdf.xacro
+[8.798s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/sensors/imu.urdf.xacro
+[8.801s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/icreate/wheel.urdf.xacro
+[8.802s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/sensors/camera_bracket.urdf.xacro
+[8.802s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/sensors/oakd.urdf.xacro
+[8.802s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/sensors/rplidar.urdf.xacro
+[8.806s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/tower_sensor_plate.urdf.xacro
+[8.810s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/tower_standoff.urdf.xacro
+[8.811s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/turtlebot4.urdf.xacro
+[8.814s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/urdf/standard/weight_block.urdf.xacro
+[8.815s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/rviz/config.rviz
+[8.816s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/ament_index/resource_index/package_run_dependencies/nav2_minimal_tb4_description
+[8.818s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/ament_index/resource_index/parent_prefix_path/nav2_minimal_tb4_description
+[8.823s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/ament_prefix_path.sh
+[8.824s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/ament_prefix_path.dsv
+[8.825s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/path.sh
+[8.828s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/environment/path.dsv
+[8.830s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.bash
+[8.839s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.sh
+[8.839s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.zsh
+[8.839s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/local_setup.dsv
+[8.840s] -- Symlinking: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.dsv
+[9.013s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/ament_index/resource_index/packages/nav2_minimal_tb4_description
+[9.013s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/cmake/nav2_minimal_tb4_descriptionConfig.cmake
+[9.014s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/cmake/nav2_minimal_tb4_descriptionConfig-version.cmake
+[9.015s] -- Up-to-date symlink: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.xml
+[9.072s] Invoked command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --install /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description

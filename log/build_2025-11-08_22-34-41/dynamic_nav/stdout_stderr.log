@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating dynamic_nav.egg-info
+writing dynamic_nav.egg-info/PKG-INFO
+writing dependency_links to dynamic_nav.egg-info/dependency_links.txt
+writing requirements to dynamic_nav.egg-info/requires.txt
+writing top-level names to dynamic_nav.egg-info/top_level.txt
+writing manifest file 'dynamic_nav.egg-info/SOURCES.txt'
+reading manifest file 'dynamic_nav.egg-info/SOURCES.txt'
+writing manifest file 'dynamic_nav.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages/dynamic-nav.egg-link (link to .)
+
+Installed /home/panagiotagrosd/ros2_ws/build/dynamic_nav
+running symlink_data
+creating /home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/ament_index
+creating /home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/ament_index/resource_index
+creating /home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/ament_index/resource_index/packages
+symbolically linking /home/panagiotagrosd/ros2_ws/build/dynamic_nav/resource/dynamic_nav -> /home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/ament_index/resource_index/packages
+symbolically linking /home/panagiotagrosd/ros2_ws/build/dynamic_nav/package.xml -> /home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/dynamic_nav

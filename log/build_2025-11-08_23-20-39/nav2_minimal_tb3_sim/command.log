@@ -1,0 +1,1 @@
+Invoking command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panagiotagrosd/ros2_ws/install/nav_research:/home/panagiotagrosd/ros2_ws/install/dynamic_nav:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --build /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim -- -j4 -l4

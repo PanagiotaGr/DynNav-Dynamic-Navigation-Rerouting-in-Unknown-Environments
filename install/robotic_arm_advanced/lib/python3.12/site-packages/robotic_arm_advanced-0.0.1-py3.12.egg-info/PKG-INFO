@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: robotic-arm-advanced
+Version: 0.0.1
+Summary: Advanced kinematics (FK + IK) for a 6-DOF manipulator in ROS 2
+Maintainer: Your Name
+Maintainer-email: you@example.com
+License: TODO

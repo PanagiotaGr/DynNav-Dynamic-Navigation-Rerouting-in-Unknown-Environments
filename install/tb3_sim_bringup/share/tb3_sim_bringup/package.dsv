@@ -1,0 +1,3 @@
+source;share/tb3_sim_bringup/hook/pythonpath.ps1
+source;share/tb3_sim_bringup/hook/pythonpath.dsv
+source;share/tb3_sim_bringup/hook/pythonpath.sh

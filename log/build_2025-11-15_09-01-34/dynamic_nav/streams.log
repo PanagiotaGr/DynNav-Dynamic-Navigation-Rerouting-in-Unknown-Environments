@@ -1,0 +1,21 @@
+[5.638s] Invoking command in '/home/panagiotagrosd/ros2_ws/src/dynamic_nav': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/dynamic_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamic_nav build --build-base /home/panagiotagrosd/ros2_ws/build/dynamic_nav/build install --record /home/panagiotagrosd/ros2_ws/build/dynamic_nav/install.log --single-version-externally-managed install_data
+[6.976s] running egg_info
+[7.068s] writing ../../build/dynamic_nav/dynamic_nav.egg-info/PKG-INFO
+[7.071s] writing dependency_links to ../../build/dynamic_nav/dynamic_nav.egg-info/dependency_links.txt
+[7.072s] writing entry points to ../../build/dynamic_nav/dynamic_nav.egg-info/entry_points.txt
+[7.072s] writing requirements to ../../build/dynamic_nav/dynamic_nav.egg-info/requires.txt
+[7.072s] writing top-level names to ../../build/dynamic_nav/dynamic_nav.egg-info/top_level.txt
+[7.241s] reading manifest file '../../build/dynamic_nav/dynamic_nav.egg-info/SOURCES.txt'
+[7.244s] writing manifest file '../../build/dynamic_nav/dynamic_nav.egg-info/SOURCES.txt'
+[7.246s] running build
+[7.246s] running build_py
+[7.248s] running install
+[7.269s] running install_lib
+[7.341s] running install_data
+[7.348s] running install_egg_info
+[7.455s] removing '/home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages/dynamic_nav-0.0.0-py3.12.egg-info' (and everything under it)
+[7.456s] Copying ../../build/dynamic_nav/dynamic_nav.egg-info to /home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages/dynamic_nav-0.0.0-py3.12.egg-info
+[7.465s] running install_scripts
+[8.026s] Installing dynamic_nav_node script to /home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/dynamic_nav
+[8.027s] writing list of installed files to '/home/panagiotagrosd/ros2_ws/build/dynamic_nav/install.log'
+[8.196s] Invoked command in '/home/panagiotagrosd/ros2_ws/src/dynamic_nav' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/dynamic_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamic_nav build --build-base /home/panagiotagrosd/ros2_ws/build/dynamic_nav/build install --record /home/panagiotagrosd/ros2_ws/build/dynamic_nav/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+source;share/nav2_minimal_tb3_sim/local_setup.bash
+source;share/nav2_minimal_tb3_sim/local_setup.dsv
+source;share/nav2_minimal_tb3_sim/local_setup.sh
+source;share/nav2_minimal_tb3_sim/local_setup.zsh

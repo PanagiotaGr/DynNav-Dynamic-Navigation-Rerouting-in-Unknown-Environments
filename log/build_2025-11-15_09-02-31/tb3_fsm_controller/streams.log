@@ -1,0 +1,32 @@
+[4.069s] Invoking command in '/home/panagiotagrosd/ros2_ws/src/tb3_fsm_controller': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_fsm_controller build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/install.log --single-version-externally-managed install_data
+[5.093s] running egg_info
+[5.093s] creating ../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info
+[5.187s] writing ../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/PKG-INFO
+[5.188s] writing dependency_links to ../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/dependency_links.txt
+[5.188s] writing requirements to ../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/requires.txt
+[5.189s] writing top-level names to ../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/top_level.txt
+[5.189s] writing manifest file '../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/SOURCES.txt'
+[5.345s] reading manifest file '../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/SOURCES.txt'
+[5.346s] writing manifest file '../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info/SOURCES.txt'
+[5.351s] running build
+[5.351s] running build_py
+[5.351s] creating /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/build
+[5.351s] creating /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/build/lib
+[5.352s] creating /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/build/lib/tb3_fsm_controller
+[5.356s] copying tb3_fsm_controller/__init__.py -> /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/build/lib/tb3_fsm_controller
+[5.356s] running install
+[5.377s] running install_lib
+[5.450s] creating /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/python3.12/site-packages/tb3_fsm_controller
+[5.455s] copying /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/build/lib/tb3_fsm_controller/__init__.py -> /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/python3.12/site-packages/tb3_fsm_controller
+[5.455s] byte-compiling /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/python3.12/site-packages/tb3_fsm_controller/__init__.py to __init__.cpython-312.pyc
+[5.455s] running install_data
+[5.456s] creating /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/ament_index
+[5.459s] creating /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/ament_index/resource_index
+[5.460s] creating /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/ament_index/resource_index/packages
+[5.461s] copying resource/tb3_fsm_controller -> /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/ament_index/resource_index/packages
+[5.462s] copying package.xml -> /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/tb3_fsm_controller
+[5.464s] running install_egg_info
+[5.540s] Copying ../../build/tb3_fsm_controller/tb3_fsm_controller.egg-info to /home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/python3.12/site-packages/tb3_fsm_controller-0.0.0-py3.12.egg-info
+[5.545s] running install_scripts
+[6.056s] writing list of installed files to '/home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/install.log'
+[6.162s] Invoked command in '/home/panagiotagrosd/ros2_ws/src/tb3_fsm_controller' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_fsm_controller build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,19 @@
+[6.046s] Invoking command in '/home/panagiotagrosd/ros2_ws/src/tb3_sim_bringup': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_sim_bringup build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/install.log --single-version-externally-managed install_data
+[7.179s] running egg_info
+[7.250s] writing ../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/PKG-INFO
+[7.251s] writing dependency_links to ../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/dependency_links.txt
+[7.251s] writing requirements to ../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/requires.txt
+[7.252s] writing top-level names to ../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/top_level.txt
+[7.386s] reading manifest file '../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/SOURCES.txt'
+[7.388s] writing manifest file '../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/SOURCES.txt'
+[7.388s] running build
+[7.389s] running build_py
+[7.389s] running install
+[7.405s] running install_lib
+[7.469s] running install_data
+[7.470s] running install_egg_info
+[7.572s] removing '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib/python3.12/site-packages/tb3_sim_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[7.573s] Copying ../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info to /home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib/python3.12/site-packages/tb3_sim_bringup-0.0.0-py3.12.egg-info
+[7.577s] running install_scripts
+[8.014s] writing list of installed files to '/home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/install.log'
+[8.112s] Invoked command in '/home/panagiotagrosd/ros2_ws/src/tb3_sim_bringup' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_sim_bringup build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/install.log --single-version-externally-managed install_data

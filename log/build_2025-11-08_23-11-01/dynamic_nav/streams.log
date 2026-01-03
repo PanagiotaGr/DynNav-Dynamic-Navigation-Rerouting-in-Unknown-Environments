@@ -1,0 +1,17 @@
+[10.635s] Invoking command in '/home/panagiotagrosd/ros2_ws/build/dynamic_nav': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/dynamic_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/panagiotagrosd/ros2_ws/build/dynamic_nav/build --no-deps symlink_data
+[13.679s] running develop
+[15.755s] running egg_info
+[15.963s] writing dynamic_nav.egg-info/PKG-INFO
+[15.966s] writing dependency_links to dynamic_nav.egg-info/dependency_links.txt
+[15.971s] writing entry points to dynamic_nav.egg-info/entry_points.txt
+[15.972s] writing requirements to dynamic_nav.egg-info/requires.txt
+[15.972s] writing top-level names to dynamic_nav.egg-info/top_level.txt
+[16.317s] reading manifest file 'dynamic_nav.egg-info/SOURCES.txt'
+[16.321s] writing manifest file 'dynamic_nav.egg-info/SOURCES.txt'
+[16.417s] running build_ext
+[16.419s] Creating /home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages/dynamic-nav.egg-link (link to .)
+[16.422s] Installing dynamic_nav_node script to /home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/dynamic_nav
+[16.425s] 
+[16.425s] Installed /home/panagiotagrosd/ros2_ws/build/dynamic_nav
+[16.427s] running symlink_data
+[16.611s] Invoked command in '/home/panagiotagrosd/ros2_ws/build/dynamic_nav' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/dynamic_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/panagiotagrosd/ros2_ws/build/dynamic_nav/build --no-deps symlink_data

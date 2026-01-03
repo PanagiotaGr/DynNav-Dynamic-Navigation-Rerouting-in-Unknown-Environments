@@ -1,0 +1,32 @@
+[3.403s] Invoking command in '/home/panagiotagrosd/ros2_ws/src/tb3_sim_bringup': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_sim_bringup build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/install.log --single-version-externally-managed install_data
+[4.439s] running egg_info
+[4.440s] creating ../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info
+[4.529s] writing ../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/PKG-INFO
+[4.529s] writing dependency_links to ../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/dependency_links.txt
+[4.530s] writing requirements to ../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/requires.txt
+[4.530s] writing top-level names to ../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/top_level.txt
+[4.530s] writing manifest file '../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/SOURCES.txt'
+[4.722s] reading manifest file '../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/SOURCES.txt'
+[4.722s] writing manifest file '../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info/SOURCES.txt'
+[4.722s] running build
+[4.723s] running build_py
+[4.723s] creating /home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/build
+[4.725s] creating /home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/build/lib
+[4.726s] creating /home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/build/lib/tb3_sim_bringup
+[4.727s] copying tb3_sim_bringup/__init__.py -> /home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/build/lib/tb3_sim_bringup
+[4.729s] running install
+[4.751s] running install_lib
+[4.817s] creating /home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib/python3.12/site-packages/tb3_sim_bringup
+[4.819s] copying /home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/build/lib/tb3_sim_bringup/__init__.py -> /home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib/python3.12/site-packages/tb3_sim_bringup
+[4.820s] byte-compiling /home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib/python3.12/site-packages/tb3_sim_bringup/__init__.py to __init__.cpython-312.pyc
+[4.822s] running install_data
+[4.822s] creating /home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/ament_index
+[4.824s] creating /home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/ament_index/resource_index
+[4.826s] creating /home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/ament_index/resource_index/packages
+[4.827s] copying resource/tb3_sim_bringup -> /home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/ament_index/resource_index/packages
+[4.828s] copying package.xml -> /home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/tb3_sim_bringup
+[4.828s] running install_egg_info
+[4.893s] Copying ../../build/tb3_sim_bringup/tb3_sim_bringup.egg-info to /home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib/python3.12/site-packages/tb3_sim_bringup-0.0.0-py3.12.egg-info
+[4.897s] running install_scripts
+[5.480s] writing list of installed files to '/home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/install.log'
+[5.622s] Invoked command in '/home/panagiotagrosd/ros2_ws/src/tb3_sim_bringup' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_sim_bringup build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/install.log --single-version-externally-managed install_data

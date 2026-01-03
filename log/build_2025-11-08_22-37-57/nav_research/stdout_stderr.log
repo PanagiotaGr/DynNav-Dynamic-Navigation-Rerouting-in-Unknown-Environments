@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing nav_research.egg-info/PKG-INFO
+writing dependency_links to nav_research.egg-info/dependency_links.txt
+writing requirements to nav_research.egg-info/requires.txt
+writing top-level names to nav_research.egg-info/top_level.txt
+reading manifest file 'nav_research.egg-info/SOURCES.txt'
+writing manifest file 'nav_research.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/panagiotagrosd/ros2_ws/install/nav_research/lib/python3.12/site-packages/nav-research.egg-link (link to .)
+
+Installed /home/panagiotagrosd/ros2_ws/build/nav_research
+running symlink_data

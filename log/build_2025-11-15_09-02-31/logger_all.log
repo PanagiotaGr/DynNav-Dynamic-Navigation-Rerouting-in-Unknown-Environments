@@ -1,0 +1,705 @@
+[0.431s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.431s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3c6a07c8c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3c6a07c710>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3c6a07c710>>)
+[0.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.574s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/panagiotagrosd/ros2_ws'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ignore', 'ignore_ament_install']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore_ament_install'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_pkg']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_pkg'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_meta']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_meta'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ros']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ros'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['cmake', 'python']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'cmake'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['python_setup_py']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python_setup_py'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_nav) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_nav) by extension 'ignore_ament_install'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_nav) by extensions ['colcon_pkg']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_nav) by extension 'colcon_pkg'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_nav) by extensions ['colcon_meta']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_nav) by extension 'colcon_meta'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_nav) by extensions ['ros']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_nav) by extension 'ros'
+[0.678s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamic_nav' with type 'ros.ament_python' and name 'dynamic_nav'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_arm_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_arm_sim) by extension 'ignore'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_arm_sim) by extension 'ignore_ament_install'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_arm_sim) by extensions ['colcon_pkg']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_arm_sim) by extension 'colcon_pkg'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_arm_sim) by extensions ['colcon_meta']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_arm_sim) by extension 'colcon_meta'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_arm_sim) by extensions ['ros']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_arm_sim) by extension 'ros'
+[0.680s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_arm_sim' with type 'ros.ament_python' and name 'my_arm_sim'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation) by extension 'ignore'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation) by extension 'ignore_ament_install'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation) by extensions ['colcon_pkg']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation) by extension 'colcon_pkg'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation) by extensions ['colcon_meta']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation) by extension 'colcon_meta'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation) by extensions ['ros']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation) by extension 'ros'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation) by extensions ['cmake', 'python']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation) by extension 'cmake'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation) by extension 'python'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation) by extensions ['python_setup_py']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation) by extension 'python_setup_py'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb3_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb3_sim) by extension 'ignore'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb3_sim) by extension 'ignore_ament_install'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb3_sim) by extensions ['colcon_pkg']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb3_sim) by extension 'colcon_pkg'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb3_sim) by extensions ['colcon_meta']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb3_sim) by extension 'colcon_meta'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb3_sim) by extensions ['ros']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb3_sim) by extension 'ros'
+[0.688s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb3_sim' with type 'ros.ament_cmake' and name 'nav2_minimal_tb3_sim'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_description) by extensions ['ignore', 'ignore_ament_install']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_description) by extension 'ignore'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_description) by extension 'ignore_ament_install'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_description) by extensions ['colcon_pkg']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_description) by extension 'colcon_pkg'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_description) by extensions ['colcon_meta']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_description) by extension 'colcon_meta'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_description) by extensions ['ros']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_description) by extension 'ros'
+[0.691s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_description' with type 'ros.ament_cmake' and name 'nav2_minimal_tb4_description'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_sim) by extension 'ignore'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_sim) by extension 'ignore_ament_install'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_sim) by extensions ['colcon_pkg']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_sim) by extension 'colcon_pkg'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_sim) by extensions ['colcon_meta']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_sim) by extension 'colcon_meta'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_sim) by extensions ['ros']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_sim) by extension 'ros'
+[0.693s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_sim' with type 'ros.ament_cmake' and name 'nav2_minimal_tb4_sim'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_research) by extensions ['ignore', 'ignore_ament_install']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_research) by extension 'ignore'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_research) by extension 'ignore_ament_install'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_research) by extensions ['colcon_pkg']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_research) by extension 'colcon_pkg'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_research) by extensions ['colcon_meta']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_research) by extension 'colcon_meta'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_research) by extensions ['ros']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_research) by extension 'ros'
+[0.695s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav_research' with type 'ros.ament_python' and name 'nav_research'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_benchmark) by extensions ['ignore', 'ignore_ament_install']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_benchmark) by extension 'ignore'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_benchmark) by extension 'ignore_ament_install'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_benchmark) by extensions ['colcon_pkg']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_benchmark) by extension 'colcon_pkg'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_benchmark) by extensions ['colcon_meta']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_benchmark) by extension 'colcon_meta'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_benchmark) by extensions ['ros']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_benchmark) by extension 'ros'
+[0.696s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb3_benchmark' with type 'ros.ament_python' and name 'tb3_benchmark'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_fsm_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_fsm_controller) by extension 'ignore'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_fsm_controller) by extension 'ignore_ament_install'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_fsm_controller) by extensions ['colcon_pkg']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_fsm_controller) by extension 'colcon_pkg'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_fsm_controller) by extensions ['colcon_meta']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_fsm_controller) by extension 'colcon_meta'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_fsm_controller) by extensions ['ros']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_fsm_controller) by extension 'ros'
+[0.698s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb3_fsm_controller' with type 'ros.ament_python' and name 'tb3_fsm_controller'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_nav) by extension 'ignore'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_nav) by extension 'ignore_ament_install'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_nav) by extensions ['colcon_pkg']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_nav) by extension 'colcon_pkg'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_nav) by extensions ['colcon_meta']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_nav) by extension 'colcon_meta'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_nav) by extensions ['ros']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_nav) by extension 'ros'
+[0.700s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb3_nav' with type 'ros.ament_python' and name 'tb3_nav'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_sim_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_sim_bringup) by extension 'ignore'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_sim_bringup) by extension 'ignore_ament_install'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_sim_bringup) by extensions ['colcon_pkg']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_sim_bringup) by extension 'colcon_pkg'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_sim_bringup) by extensions ['colcon_meta']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_sim_bringup) by extension 'colcon_meta'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_sim_bringup) by extensions ['ros']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_sim_bringup) by extension 'ros'
+[0.704s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb3_sim_bringup' with type 'ros.ament_python' and name 'tb3_sim_bringup'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_slam) by extension 'ignore'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_slam) by extension 'ignore_ament_install'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_slam) by extensions ['colcon_pkg']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_slam) by extension 'colcon_pkg'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_slam) by extensions ['colcon_meta']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_slam) by extension 'colcon_meta'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_slam) by extensions ['ros']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_slam) by extension 'ros'
+[0.707s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb3_slam' with type 'ros.ament_python' and name 'tb3_slam'
+[0.707s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.774s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/panagiotagrosd/ros2_ws/install
+[0.774s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/panagiotagrosd/dyn_nav_ws/install
+[0.775s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/panagiotagrosd/projects/navigation_ws/install
+[0.787s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 489 installed packages in /opt/ros/jazzy
+[0.795s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.967s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'nav2_minimal_tb3_sim' is in: /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim, /opt/ros/jazzy
+	'nav2_minimal_tb4_sim' is in: /opt/ros/jazzy, /home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding nav2_minimal_tb3_sim nav2_minimal_tb4_sim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'dynamic_nav' build argument 'cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'dynamic_nav' build argument 'cmake_target' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'dynamic_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'dynamic_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'dynamic_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'dynamic_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'dynamic_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'dynamic_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'dynamic_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.970s] DEBUG:colcon.colcon_core.verb:Building package 'dynamic_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/panagiotagrosd/ros2_ws/build/dynamic_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/panagiotagrosd/ros2_ws/install/dynamic_nav', 'merge_install': False, 'path': '/home/panagiotagrosd/ros2_ws/src/dynamic_nav', 'symlink_install': False, 'test_result_base': None}
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'my_arm_sim' build argument 'cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'my_arm_sim' build argument 'cmake_target' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'my_arm_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'my_arm_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'my_arm_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'my_arm_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'my_arm_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'my_arm_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'my_arm_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.971s] DEBUG:colcon.colcon_core.verb:Building package 'my_arm_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/panagiotagrosd/ros2_ws/build/my_arm_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/panagiotagrosd/ros2_ws/install/my_arm_sim', 'merge_install': False, 'path': '/home/panagiotagrosd/ros2_ws/src/my_arm_sim', 'symlink_install': False, 'test_result_base': None}
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb3_sim' build argument 'cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb3_sim' build argument 'cmake_target' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb3_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb3_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb3_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb3_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb3_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb3_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb3_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.972s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_minimal_tb3_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim', 'merge_install': False, 'path': '/home/panagiotagrosd/ros2_ws/src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb3_sim', 'symlink_install': False, 'test_result_base': None}
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb4_description' build argument 'cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb4_description' build argument 'cmake_target' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb4_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb4_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb4_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb4_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb4_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb4_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb4_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.973s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_minimal_tb4_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description', 'merge_install': False, 'path': '/home/panagiotagrosd/ros2_ws/src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_description', 'symlink_install': False, 'test_result_base': None}
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'nav_research' build argument 'cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'nav_research' build argument 'cmake_target' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'nav_research' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'nav_research' build argument 'cmake_clean_cache' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'nav_research' build argument 'cmake_clean_first' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'nav_research' build argument 'cmake_force_configure' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'nav_research' build argument 'ament_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'nav_research' build argument 'catkin_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'nav_research' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.974s] DEBUG:colcon.colcon_core.verb:Building package 'nav_research' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/panagiotagrosd/ros2_ws/build/nav_research', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/panagiotagrosd/ros2_ws/install/nav_research', 'merge_install': False, 'path': '/home/panagiotagrosd/ros2_ws/src/nav_research', 'symlink_install': False, 'test_result_base': None}
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'tb3_benchmark' build argument 'cmake_args' from command line to 'None'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'tb3_benchmark' build argument 'cmake_target' from command line to 'None'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'tb3_benchmark' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'tb3_benchmark' build argument 'cmake_clean_cache' from command line to 'False'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'tb3_benchmark' build argument 'cmake_clean_first' from command line to 'False'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'tb3_benchmark' build argument 'cmake_force_configure' from command line to 'False'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'tb3_benchmark' build argument 'ament_cmake_args' from command line to 'None'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'tb3_benchmark' build argument 'catkin_cmake_args' from command line to 'None'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'tb3_benchmark' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.974s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_benchmark' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/panagiotagrosd/ros2_ws/build/tb3_benchmark', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark', 'merge_install': False, 'path': '/home/panagiotagrosd/ros2_ws/src/tb3_benchmark', 'symlink_install': False, 'test_result_base': None}
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'tb3_fsm_controller' build argument 'cmake_args' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'tb3_fsm_controller' build argument 'cmake_target' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'tb3_fsm_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'tb3_fsm_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'tb3_fsm_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'tb3_fsm_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'tb3_fsm_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'tb3_fsm_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'tb3_fsm_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.975s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_fsm_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller', 'merge_install': False, 'path': '/home/panagiotagrosd/ros2_ws/src/tb3_fsm_controller', 'symlink_install': False, 'test_result_base': None}
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'tb3_nav' build argument 'cmake_args' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'tb3_nav' build argument 'cmake_target' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'tb3_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'tb3_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'tb3_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'tb3_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'tb3_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'tb3_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'tb3_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.976s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/panagiotagrosd/ros2_ws/build/tb3_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/panagiotagrosd/ros2_ws/install/tb3_nav', 'merge_install': False, 'path': '/home/panagiotagrosd/ros2_ws/src/tb3_nav', 'symlink_install': False, 'test_result_base': None}
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'tb3_sim_bringup' build argument 'cmake_args' from command line to 'None'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'tb3_sim_bringup' build argument 'cmake_target' from command line to 'None'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'tb3_sim_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'tb3_sim_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'tb3_sim_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'tb3_sim_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'tb3_sim_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'tb3_sim_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'tb3_sim_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.977s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_sim_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup', 'merge_install': False, 'path': '/home/panagiotagrosd/ros2_ws/src/tb3_sim_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'tb3_slam' build argument 'cmake_args' from command line to 'None'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'tb3_slam' build argument 'cmake_target' from command line to 'None'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'tb3_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'tb3_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'tb3_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'tb3_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'tb3_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'tb3_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'tb3_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.979s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/panagiotagrosd/ros2_ws/build/tb3_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/panagiotagrosd/ros2_ws/install/tb3_slam', 'merge_install': False, 'path': '/home/panagiotagrosd/ros2_ws/src/tb3_slam', 'symlink_install': False, 'test_result_base': None}
+[0.979s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb4_sim' build argument 'cmake_args' from command line to 'None'
+[0.979s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb4_sim' build argument 'cmake_target' from command line to 'None'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb4_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb4_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb4_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb4_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb4_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb4_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.980s] Level 5:colcon.colcon_core.verb:set package 'nav2_minimal_tb4_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.980s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_minimal_tb4_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim', 'merge_install': False, 'path': '/home/panagiotagrosd/ros2_ws/src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_sim', 'symlink_install': False, 'test_result_base': None}
+[0.980s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.982s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.983s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/panagiotagrosd/ros2_ws/src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_description' with build type 'ament_cmake'
+[0.983s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/panagiotagrosd/ros2_ws/src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_description'
+[0.988s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.988s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.988s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.999s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/panagiotagrosd/ros2_ws/src/dynamic_nav' with build type 'ament_python'
+[1.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamic_nav', 'ament_prefix_path')
+[1.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/dynamic_nav/hook/ament_prefix_path.ps1'
+[1.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/dynamic_nav/hook/ament_prefix_path.dsv'
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/dynamic_nav/hook/ament_prefix_path.sh'
+[1.004s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.005s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.021s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/panagiotagrosd/ros2_ws/src/my_arm_sim' with build type 'ament_python'
+[1.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_arm_sim', 'ament_prefix_path')
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/my_arm_sim/share/my_arm_sim/hook/ament_prefix_path.ps1'
+[1.024s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/my_arm_sim/share/my_arm_sim/hook/ament_prefix_path.dsv'
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/my_arm_sim/share/my_arm_sim/hook/ament_prefix_path.sh'
+[1.029s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.029s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.038s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/panagiotagrosd/ros2_ws/src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb3_sim' with build type 'ament_cmake'
+[1.039s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/panagiotagrosd/ros2_ws/src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb3_sim'
+[1.039s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.040s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panagiotagrosd/ros2_ws/install/nav_research:/home/panagiotagrosd/ros2_ws/install/my_arm_sim:/home/panagiotagrosd/ros2_ws/install/dynamic_nav:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --build /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description -- -j4 -l4
+[2.230s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/panagiotagrosd/ros2_ws/src/dynamic_nav'
+[2.231s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.231s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.872s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/panagiotagrosd/ros2_ws/src/my_arm_sim'
+[2.872s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.872s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panagiotagrosd/ros2_ws/install/nav_research:/home/panagiotagrosd/ros2_ws/install/my_arm_sim:/home/panagiotagrosd/ros2_ws/install/dynamic_nav:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --build /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description -- -j4 -l4
+[2.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panagiotagrosd/ros2_ws/install/nav_research:/home/panagiotagrosd/ros2_ws/install/my_arm_sim:/home/panagiotagrosd/ros2_ws/install/dynamic_nav:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --install /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description
+[2.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panagiotagrosd/ros2_ws/install/nav_research:/home/panagiotagrosd/ros2_ws/install/my_arm_sim:/home/panagiotagrosd/ros2_ws/install/dynamic_nav:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --build /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim -- -j4 -l4
+[3.105s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_minimal_tb4_description)
+[3.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panagiotagrosd/ros2_ws/install/nav_research:/home/panagiotagrosd/ros2_ws/install/my_arm_sim:/home/panagiotagrosd/ros2_ws/install/dynamic_nav:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --install /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_description
+[3.119s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description' for CMake module files
+[3.131s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description' for CMake config files
+[3.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_minimal_tb4_description', 'cmake_prefix_path')
+[3.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/hook/cmake_prefix_path.ps1'
+[3.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/hook/cmake_prefix_path.dsv'
+[3.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/hook/cmake_prefix_path.sh'
+[3.138s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/bin'
+[3.138s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/lib/pkgconfig/nav2_minimal_tb4_description.pc'
+[3.139s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/lib/python3.12/site-packages'
+[3.143s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/bin'
+[3.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.ps1'
+[3.146s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.dsv'
+[3.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.sh'
+[3.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.bash'
+[3.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.zsh'
+[3.214s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/colcon-core/packages/nav2_minimal_tb4_description)
+[3.216s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_minimal_tb4_description)
+[3.217s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description' for CMake module files
+[3.223s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description' for CMake config files
+[3.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_minimal_tb4_description', 'cmake_prefix_path')
+[3.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/hook/cmake_prefix_path.ps1'
+[3.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/hook/cmake_prefix_path.dsv'
+[3.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/hook/cmake_prefix_path.sh'
+[3.245s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/bin'
+[3.245s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/lib/pkgconfig/nav2_minimal_tb4_description.pc'
+[3.246s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/lib/python3.12/site-packages'
+[3.247s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/bin'
+[3.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.ps1'
+[3.249s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.dsv'
+[3.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.sh'
+[3.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.bash'
+[3.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/nav2_minimal_tb4_description/package.zsh'
+[3.265s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description/share/colcon-core/packages/nav2_minimal_tb4_description)
+[3.266s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/panagiotagrosd/ros2_ws/src/nav_research' with build type 'ament_python'
+[3.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_research', 'ament_prefix_path')
+[3.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/hook/ament_prefix_path.ps1'
+[3.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/hook/ament_prefix_path.dsv'
+[3.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/hook/ament_prefix_path.sh'
+[3.282s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panagiotagrosd/ros2_ws/install/nav_research:/home/panagiotagrosd/ros2_ws/install/my_arm_sim:/home/panagiotagrosd/ros2_ws/install/dynamic_nav:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --build /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim -- -j4 -l4
+[3.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panagiotagrosd/ros2_ws/install/nav_research:/home/panagiotagrosd/ros2_ws/install/my_arm_sim:/home/panagiotagrosd/ros2_ws/install/dynamic_nav:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --install /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim
+[4.534s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/panagiotagrosd/ros2_ws/src/nav_research'
+[4.534s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.534s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.571s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_minimal_tb3_sim)
+[4.572s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim' for CMake module files
+[4.573s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim' for CMake config files
+[4.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/panagiotagrosd/ros2_ws/install/nav_research:/home/panagiotagrosd/ros2_ws/install/my_arm_sim:/home/panagiotagrosd/ros2_ws/install/dynamic_nav:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --install /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb3_sim
+[4.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_minimal_tb3_sim', 'cmake_prefix_path')
+[4.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/hook/cmake_prefix_path.ps1'
+[4.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/hook/cmake_prefix_path.dsv'
+[4.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/hook/cmake_prefix_path.sh'
+[4.585s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/bin'
+[4.585s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/lib/pkgconfig/nav2_minimal_tb3_sim.pc'
+[4.586s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/lib/python3.12/site-packages'
+[4.587s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/bin'
+[4.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/package.ps1'
+[4.589s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/package.dsv'
+[4.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/package.sh'
+[4.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/package.bash'
+[4.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/package.zsh'
+[4.594s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/colcon-core/packages/nav2_minimal_tb3_sim)
+[4.595s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_minimal_tb3_sim)
+[4.596s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim' for CMake module files
+[4.597s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim' for CMake config files
+[4.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_minimal_tb3_sim', 'cmake_prefix_path')
+[4.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/hook/cmake_prefix_path.ps1'
+[4.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/hook/cmake_prefix_path.dsv'
+[4.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/hook/cmake_prefix_path.sh'
+[4.609s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/bin'
+[4.610s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/lib/pkgconfig/nav2_minimal_tb3_sim.pc'
+[4.610s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/lib/python3.12/site-packages'
+[4.611s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/bin'
+[4.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/package.ps1'
+[4.614s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/package.dsv'
+[4.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/package.sh'
+[4.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/package.bash'
+[4.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/nav2_minimal_tb3_sim/package.zsh'
+[4.629s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim/share/colcon-core/packages/nav2_minimal_tb3_sim)
+[4.635s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/panagiotagrosd/ros2_ws/src/tb3_benchmark' with build type 'ament_python'
+[4.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_benchmark', 'ament_prefix_path')
+[4.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/tb3_benchmark/hook/ament_prefix_path.ps1'
+[4.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/tb3_benchmark/hook/ament_prefix_path.dsv'
+[4.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/tb3_benchmark/hook/ament_prefix_path.sh'
+[4.653s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.654s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.220s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/panagiotagrosd/ros2_ws/src/tb3_benchmark'
+[6.221s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panagiotagrosd/ros2_ws/src/my_arm_sim': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/my_arm_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/my_arm_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_arm_sim build --build-base /home/panagiotagrosd/ros2_ws/build/my_arm_sim/build install --record /home/panagiotagrosd/ros2_ws/build/my_arm_sim/install.log --single-version-externally-managed install_data
+[6.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panagiotagrosd/ros2_ws/src/dynamic_nav': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/dynamic_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamic_nav build --build-base /home/panagiotagrosd/ros2_ws/build/dynamic_nav/build install --record /home/panagiotagrosd/ros2_ws/build/dynamic_nav/install.log --single-version-externally-managed install_data
+[8.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panagiotagrosd/ros2_ws/src/nav_research': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/nav_research/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/nav_research/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav_research build --build-base /home/panagiotagrosd/ros2_ws/build/nav_research/build install --record /home/panagiotagrosd/ros2_ws/build/nav_research/install.log --single-version-externally-managed install_data
+[9.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panagiotagrosd/ros2_ws/src/tb3_benchmark': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_benchmark/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_benchmark build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_benchmark/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_benchmark/install.log --single-version-externally-managed install_data
+[9.945s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/dynamic_nav' for CMake module files
+[9.946s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/dynamic_nav' for CMake config files
+[9.948s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib'
+[9.948s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/dynamic_nav/bin'
+[9.949s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/pkgconfig/dynamic_nav.pc'
+[9.949s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages'
+[9.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamic_nav', 'pythonpath')
+[9.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panagiotagrosd/ros2_ws/src/dynamic_nav' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/dynamic_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/dynamic_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamic_nav build --build-base /home/panagiotagrosd/ros2_ws/build/dynamic_nav/build install --record /home/panagiotagrosd/ros2_ws/build/dynamic_nav/install.log --single-version-externally-managed install_data
+[9.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/dynamic_nav/hook/pythonpath.ps1'
+[9.952s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/dynamic_nav/hook/pythonpath.dsv'
+[9.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/dynamic_nav/hook/pythonpath.sh'
+[9.955s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/dynamic_nav/bin'
+[9.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamic_nav)
+[9.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/dynamic_nav/package.ps1'
+[9.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/dynamic_nav/package.dsv'
+[9.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/dynamic_nav/package.sh'
+[9.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/dynamic_nav/package.bash'
+[9.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/dynamic_nav/package.zsh'
+[9.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panagiotagrosd/ros2_ws/install/dynamic_nav/share/colcon-core/packages/dynamic_nav)
+[9.967s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/panagiotagrosd/ros2_ws/src/tb3_fsm_controller' with build type 'ament_python'
+[9.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_fsm_controller', 'ament_prefix_path')
+[9.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/tb3_fsm_controller/hook/ament_prefix_path.ps1'
+[9.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/tb3_fsm_controller/hook/ament_prefix_path.dsv'
+[9.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/tb3_fsm_controller/hook/ament_prefix_path.sh'
+[9.978s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.978s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.996s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/my_arm_sim' for CMake module files
+[9.997s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/my_arm_sim' for CMake config files
+[9.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panagiotagrosd/ros2_ws/src/my_arm_sim' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/my_arm_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/my_arm_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_arm_sim build --build-base /home/panagiotagrosd/ros2_ws/build/my_arm_sim/build install --record /home/panagiotagrosd/ros2_ws/build/my_arm_sim/install.log --single-version-externally-managed install_data
+[9.999s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/my_arm_sim/lib'
+[9.999s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/my_arm_sim/bin'
+[9.999s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/my_arm_sim/lib/pkgconfig/my_arm_sim.pc'
+[9.999s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/my_arm_sim/lib/python3.12/site-packages'
+[10.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_arm_sim', 'pythonpath')
+[10.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/my_arm_sim/share/my_arm_sim/hook/pythonpath.ps1'
+[10.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/my_arm_sim/share/my_arm_sim/hook/pythonpath.dsv'
+[10.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/my_arm_sim/share/my_arm_sim/hook/pythonpath.sh'
+[10.004s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/my_arm_sim/bin'
+[10.005s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_arm_sim)
+[10.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/my_arm_sim/share/my_arm_sim/package.ps1'
+[10.007s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panagiotagrosd/ros2_ws/install/my_arm_sim/share/my_arm_sim/package.dsv'
+[10.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/my_arm_sim/share/my_arm_sim/package.sh'
+[10.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/my_arm_sim/share/my_arm_sim/package.bash'
+[10.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/my_arm_sim/share/my_arm_sim/package.zsh'
+[10.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panagiotagrosd/ros2_ws/install/my_arm_sim/share/colcon-core/packages/my_arm_sim)
+[10.014s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/panagiotagrosd/ros2_ws/src/tb3_nav' with build type 'ament_python'
+[10.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_nav', 'ament_prefix_path')
+[10.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_nav/share/tb3_nav/hook/ament_prefix_path.ps1'
+[10.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/tb3_nav/share/tb3_nav/hook/ament_prefix_path.dsv'
+[10.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_nav/share/tb3_nav/hook/ament_prefix_path.sh'
+[10.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.024s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.828s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/panagiotagrosd/ros2_ws/src/tb3_fsm_controller'
+[10.829s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.829s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.523s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/panagiotagrosd/ros2_ws/src/tb3_nav'
+[11.523s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.523s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.546s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav_research' for CMake module files
+[11.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panagiotagrosd/ros2_ws/src/nav_research' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/nav_research/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/nav_research/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav_research build --build-base /home/panagiotagrosd/ros2_ws/build/nav_research/build install --record /home/panagiotagrosd/ros2_ws/build/nav_research/install.log --single-version-externally-managed install_data
+[11.548s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav_research' for CMake config files
+[11.550s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav_research/lib'
+[11.551s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav_research/bin'
+[11.551s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav_research/lib/pkgconfig/nav_research.pc'
+[11.552s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav_research/lib/python3.12/site-packages'
+[11.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_research', 'pythonpath')
+[11.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/hook/pythonpath.ps1'
+[11.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/hook/pythonpath.dsv'
+[11.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/hook/pythonpath.sh'
+[11.556s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav_research/bin'
+[11.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_research)
+[11.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/package.ps1'
+[11.558s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/package.dsv'
+[11.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/package.sh'
+[11.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/package.bash'
+[11.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav_research/share/nav_research/package.zsh'
+[11.563s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panagiotagrosd/ros2_ws/install/nav_research/share/colcon-core/packages/nav_research)
+[11.564s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/panagiotagrosd/ros2_ws/src/tb3_sim_bringup' with build type 'ament_python'
+[11.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_sim_bringup', 'ament_prefix_path')
+[11.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/tb3_sim_bringup/hook/ament_prefix_path.ps1'
+[11.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/tb3_sim_bringup/hook/ament_prefix_path.dsv'
+[11.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/tb3_sim_bringup/hook/ament_prefix_path.sh'
+[11.576s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.439s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/panagiotagrosd/ros2_ws/src/tb3_sim_bringup'
+[14.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.459s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark' for CMake module files
+[14.461s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark' for CMake config files
+[14.462s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/lib'
+[14.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panagiotagrosd/ros2_ws/src/tb3_benchmark' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_benchmark/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_benchmark build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_benchmark/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_benchmark/install.log --single-version-externally-managed install_data
+[14.463s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/bin'
+[14.463s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/lib/pkgconfig/tb3_benchmark.pc'
+[14.464s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/lib/python3.12/site-packages'
+[14.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_benchmark', 'pythonpath')
+[14.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/tb3_benchmark/hook/pythonpath.ps1'
+[14.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/tb3_benchmark/hook/pythonpath.dsv'
+[14.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/tb3_benchmark/hook/pythonpath.sh'
+[14.477s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/bin'
+[14.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_benchmark)
+[14.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/tb3_benchmark/package.ps1'
+[14.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/tb3_benchmark/package.dsv'
+[14.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/tb3_benchmark/package.sh'
+[14.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/tb3_benchmark/package.bash'
+[14.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/tb3_benchmark/package.zsh'
+[14.483s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/colcon-core/packages/tb3_benchmark)
+[14.488s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/panagiotagrosd/ros2_ws/src/tb3_slam' with build type 'ament_python'
+[14.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_slam', 'ament_prefix_path')
+[14.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_slam/share/tb3_slam/hook/ament_prefix_path.ps1'
+[14.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/tb3_slam/share/tb3_slam/hook/ament_prefix_path.dsv'
+[14.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_slam/share/tb3_slam/hook/ament_prefix_path.sh'
+[14.502s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.505s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.376s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/panagiotagrosd/ros2_ws/src/tb3_slam'
+[15.376s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.376s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panagiotagrosd/ros2_ws/src/tb3_fsm_controller': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_fsm_controller build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/install.log --single-version-externally-managed install_data
+[15.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panagiotagrosd/ros2_ws/src/tb3_nav': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_nav build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_nav/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_nav/install.log --single-version-externally-managed install_data
+[16.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panagiotagrosd/ros2_ws/src/tb3_sim_bringup': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_sim_bringup build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/install.log --single-version-externally-managed install_data
+[17.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panagiotagrosd/ros2_ws/src/tb3_slam': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_slam build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_slam/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_slam/install.log --single-version-externally-managed install_data
+[17.953s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller' for CMake module files
+[17.956s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller' for CMake config files
+[17.957s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib'
+[17.957s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/bin'
+[17.957s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/pkgconfig/tb3_fsm_controller.pc'
+[17.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panagiotagrosd/ros2_ws/src/tb3_fsm_controller' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_fsm_controller build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_fsm_controller/install.log --single-version-externally-managed install_data
+[17.960s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/lib/python3.12/site-packages'
+[17.960s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_fsm_controller', 'pythonpath')
+[17.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/tb3_fsm_controller/hook/pythonpath.ps1'
+[17.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/tb3_fsm_controller/hook/pythonpath.dsv'
+[17.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/tb3_fsm_controller/hook/pythonpath.sh'
+[17.968s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/bin'
+[17.968s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_fsm_controller)
+[17.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/tb3_fsm_controller/package.ps1'
+[17.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/tb3_fsm_controller/package.dsv'
+[17.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/tb3_fsm_controller/package.sh'
+[17.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/tb3_fsm_controller/package.bash'
+[17.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/tb3_fsm_controller/package.zsh'
+[17.974s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panagiotagrosd/ros2_ws/install/tb3_fsm_controller/share/colcon-core/packages/tb3_fsm_controller)
+[17.983s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/panagiotagrosd/ros2_ws/src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_sim' with build type 'ament_cmake'
+[17.984s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/panagiotagrosd/ros2_ws/src/nav2_minimal_turtlebot_simulation/nav2_minimal_tb4_sim'
+[17.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_sim': CMAKE_PREFIX_PATH=/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description:/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim:/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/panagiotagrosd/ros2_ws/install/nav_research:/home/panagiotagrosd/ros2_ws/install/my_arm_sim:/home/panagiotagrosd/ros2_ws/install/dynamic_nav:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --build /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_sim -- -j4 -l4
+[18.117s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_nav' for CMake module files
+[18.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panagiotagrosd/ros2_ws/src/tb3_nav' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_nav build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_nav/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_nav/install.log --single-version-externally-managed install_data
+[18.120s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_nav' for CMake config files
+[18.121s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_nav/lib'
+[18.123s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_nav/bin'
+[18.123s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_nav/lib/pkgconfig/tb3_nav.pc'
+[18.125s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_nav/lib/python3.12/site-packages'
+[18.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_nav', 'pythonpath')
+[18.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_nav/share/tb3_nav/hook/pythonpath.ps1'
+[18.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/tb3_nav/share/tb3_nav/hook/pythonpath.dsv'
+[18.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_nav/share/tb3_nav/hook/pythonpath.sh'
+[18.129s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_nav/bin'
+[18.129s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_nav)
+[18.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_nav/share/tb3_nav/package.ps1'
+[18.131s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panagiotagrosd/ros2_ws/install/tb3_nav/share/tb3_nav/package.dsv'
+[18.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_nav/share/tb3_nav/package.sh'
+[18.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_nav/share/tb3_nav/package.bash'
+[18.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_nav/share/tb3_nav/package.zsh'
+[18.136s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panagiotagrosd/ros2_ws/install/tb3_nav/share/colcon-core/packages/tb3_nav)
+[18.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_sim' returned '0': CMAKE_PREFIX_PATH=/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description:/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim:/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/panagiotagrosd/ros2_ws/install/nav_research:/home/panagiotagrosd/ros2_ws/install/my_arm_sim:/home/panagiotagrosd/ros2_ws/install/dynamic_nav:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --build /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_sim -- -j4 -l4
+[18.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_sim': CMAKE_PREFIX_PATH=/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description:/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim:/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/panagiotagrosd/ros2_ws/install/nav_research:/home/panagiotagrosd/ros2_ws/install/my_arm_sim:/home/panagiotagrosd/ros2_ws/install/dynamic_nav:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --install /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_sim
+[18.363s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_minimal_tb4_sim)
+[18.364s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim' for CMake module files
+[18.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_sim' returned '0': CMAKE_PREFIX_PATH=/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_description:/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim:/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb3_sim:/home/panagiotagrosd/projects/navigation_ws/install/nav_research:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/panagiotagrosd/ros2_ws/install/nav_research:/home/panagiotagrosd/ros2_ws/install/my_arm_sim:/home/panagiotagrosd/ros2_ws/install/dynamic_nav:/home/panagiotagrosd/dyn_nav_ws/install/dynamic_nav:/opt/ros/jazzy /usr/bin/cmake --install /home/panagiotagrosd/ros2_ws/build/nav2_minimal_tb4_sim
+[18.369s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim' for CMake config files
+[18.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_minimal_tb4_sim', 'cmake_prefix_path')
+[18.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/hook/cmake_prefix_path.ps1'
+[18.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/hook/cmake_prefix_path.dsv'
+[18.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/hook/cmake_prefix_path.sh'
+[18.374s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/bin'
+[18.375s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/lib/pkgconfig/nav2_minimal_tb4_sim.pc'
+[18.375s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/lib/python3.12/site-packages'
+[18.376s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/bin'
+[18.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/package.ps1'
+[18.378s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/package.dsv'
+[18.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/package.sh'
+[18.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/package.bash'
+[18.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/package.zsh'
+[18.383s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/colcon-core/packages/nav2_minimal_tb4_sim)
+[18.385s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_minimal_tb4_sim)
+[18.386s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim' for CMake module files
+[18.387s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim' for CMake config files
+[18.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_minimal_tb4_sim', 'cmake_prefix_path')
+[18.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/hook/cmake_prefix_path.ps1'
+[18.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/hook/cmake_prefix_path.dsv'
+[18.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/hook/cmake_prefix_path.sh'
+[18.393s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/bin'
+[18.393s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/lib/pkgconfig/nav2_minimal_tb4_sim.pc'
+[18.397s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/lib/python3.12/site-packages'
+[18.405s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/bin'
+[18.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/package.ps1'
+[18.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/package.dsv'
+[18.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/package.sh'
+[18.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/package.bash'
+[18.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/nav2_minimal_tb4_sim/package.zsh'
+[18.417s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panagiotagrosd/ros2_ws/install/nav2_minimal_tb4_sim/share/colcon-core/packages/nav2_minimal_tb4_sim)
+[19.013s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup' for CMake module files
+[19.017s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup' for CMake config files
+[19.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panagiotagrosd/ros2_ws/src/tb3_sim_bringup' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_sim_bringup build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_sim_bringup/install.log --single-version-externally-managed install_data
+[19.019s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib'
+[19.019s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/bin'
+[19.019s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib/pkgconfig/tb3_sim_bringup.pc'
+[19.020s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/lib/python3.12/site-packages'
+[19.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_sim_bringup', 'pythonpath')
+[19.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/tb3_sim_bringup/hook/pythonpath.ps1'
+[19.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/tb3_sim_bringup/hook/pythonpath.dsv'
+[19.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/tb3_sim_bringup/hook/pythonpath.sh'
+[19.025s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/bin'
+[19.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_sim_bringup)
+[19.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/tb3_sim_bringup/package.ps1'
+[19.028s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/tb3_sim_bringup/package.dsv'
+[19.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/tb3_sim_bringup/package.sh'
+[19.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/tb3_sim_bringup/package.bash'
+[19.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/tb3_sim_bringup/package.zsh'
+[19.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panagiotagrosd/ros2_ws/install/tb3_sim_bringup/share/colcon-core/packages/tb3_sim_bringup)
+[19.512s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_slam' for CMake module files
+[19.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/panagiotagrosd/ros2_ws/src/tb3_slam' returned '0': PYTHONPATH=/home/panagiotagrosd/ros2_ws/build/tb3_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/panagiotagrosd/ros2_ws/install/tb3_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tb3_slam build --build-base /home/panagiotagrosd/ros2_ws/build/tb3_slam/build install --record /home/panagiotagrosd/ros2_ws/build/tb3_slam/install.log --single-version-externally-managed install_data
+[19.514s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_slam' for CMake config files
+[19.515s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_slam/lib'
+[19.516s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_slam/bin'
+[19.516s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_slam/lib/pkgconfig/tb3_slam.pc'
+[19.516s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_slam/lib/python3.12/site-packages'
+[19.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_slam', 'pythonpath')
+[19.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_slam/share/tb3_slam/hook/pythonpath.ps1'
+[19.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/panagiotagrosd/ros2_ws/install/tb3_slam/share/tb3_slam/hook/pythonpath.dsv'
+[19.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/panagiotagrosd/ros2_ws/install/tb3_slam/share/tb3_slam/hook/pythonpath.sh'
+[19.521s] Level 1:colcon.colcon_core.environment:checking '/home/panagiotagrosd/ros2_ws/install/tb3_slam/bin'
+[19.521s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_slam)
+[19.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_slam/share/tb3_slam/package.ps1'
+[19.522s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/panagiotagrosd/ros2_ws/install/tb3_slam/share/tb3_slam/package.dsv'
+[19.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_slam/share/tb3_slam/package.sh'
+[19.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_slam/share/tb3_slam/package.bash'
+[19.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/panagiotagrosd/ros2_ws/install/tb3_slam/share/tb3_slam/package.zsh'
+[19.525s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/panagiotagrosd/ros2_ws/install/tb3_slam/share/colcon-core/packages/tb3_slam)
+[19.530s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.532s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.532s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.532s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.594s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[19.594s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.594s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.594s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.597s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[19.597s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.598s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/panagiotagrosd/ros2_ws/install/local_setup.ps1'
+[19.600s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/panagiotagrosd/ros2_ws/install/_local_setup_util_ps1.py'
+[19.603s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/panagiotagrosd/ros2_ws/install/setup.ps1'
+[19.605s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/panagiotagrosd/ros2_ws/install/local_setup.sh'
+[19.606s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/panagiotagrosd/ros2_ws/install/_local_setup_util_sh.py'
+[19.608s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/panagiotagrosd/ros2_ws/install/setup.sh'
+[19.610s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/panagiotagrosd/ros2_ws/install/local_setup.bash'
+[19.612s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/panagiotagrosd/ros2_ws/install/setup.bash'
+[19.616s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/panagiotagrosd/ros2_ws/install/local_setup.zsh'
+[19.616s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/panagiotagrosd/ros2_ws/install/setup.zsh'

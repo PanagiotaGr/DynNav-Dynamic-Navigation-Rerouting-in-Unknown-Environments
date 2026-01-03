@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/tb3_benchmark/tb3_benchmark.egg-info
+writing ../../build/tb3_benchmark/tb3_benchmark.egg-info/PKG-INFO
+writing dependency_links to ../../build/tb3_benchmark/tb3_benchmark.egg-info/dependency_links.txt
+writing requirements to ../../build/tb3_benchmark/tb3_benchmark.egg-info/requires.txt
+writing top-level names to ../../build/tb3_benchmark/tb3_benchmark.egg-info/top_level.txt
+writing manifest file '../../build/tb3_benchmark/tb3_benchmark.egg-info/SOURCES.txt'
+reading manifest file '../../build/tb3_benchmark/tb3_benchmark.egg-info/SOURCES.txt'
+writing manifest file '../../build/tb3_benchmark/tb3_benchmark.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/panagiotagrosd/ros2_ws/build/tb3_benchmark/build
+creating /home/panagiotagrosd/ros2_ws/build/tb3_benchmark/build/lib
+creating /home/panagiotagrosd/ros2_ws/build/tb3_benchmark/build/lib/tb3_benchmark
+copying tb3_benchmark/__init__.py -> /home/panagiotagrosd/ros2_ws/build/tb3_benchmark/build/lib/tb3_benchmark
+running install
+running install_lib
+creating /home/panagiotagrosd/ros2_ws/install/tb3_benchmark/lib/python3.12/site-packages/tb3_benchmark
+copying /home/panagiotagrosd/ros2_ws/build/tb3_benchmark/build/lib/tb3_benchmark/__init__.py -> /home/panagiotagrosd/ros2_ws/install/tb3_benchmark/lib/python3.12/site-packages/tb3_benchmark
+byte-compiling /home/panagiotagrosd/ros2_ws/install/tb3_benchmark/lib/python3.12/site-packages/tb3_benchmark/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/ament_index
+creating /home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/ament_index/resource_index
+creating /home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/ament_index/resource_index/packages
+copying resource/tb3_benchmark -> /home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/ament_index/resource_index/packages
+copying package.xml -> /home/panagiotagrosd/ros2_ws/install/tb3_benchmark/share/tb3_benchmark
+running install_egg_info
+Copying ../../build/tb3_benchmark/tb3_benchmark.egg-info to /home/panagiotagrosd/ros2_ws/install/tb3_benchmark/lib/python3.12/site-packages/tb3_benchmark-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/panagiotagrosd/ros2_ws/build/tb3_benchmark/install.log'
