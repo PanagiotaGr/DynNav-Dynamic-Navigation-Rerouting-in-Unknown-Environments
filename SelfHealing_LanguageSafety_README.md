@@ -238,21 +238,5 @@ This is a plausible and desirable behavior in hazardous conditions, both technic
 
 ---
 
-## Are These Results “Real” or “Simulated”?
-
-These results are produced by **real algorithms**, but currently run in a **software-only simulation**:
-
-- no real robot hardware,
-- no real sensors,
-- no ROS topics.
-
-Despite that, the logic is scientifically grounded:
-
-- risk and uncertainty are modulated by language semantics,
-- self-healing reacts to degradation in reliability metrics,
-- planner parameters are adapted in a way that can be mapped directly to a real navigation stack.
-
-This module represents the **algorithmic and integration layer**.  
-The next step is to connect these policies to a real navigation system (e.g., ROS / Nav2 / `move_base`), so that the same decisions control an actual robot.
 
 ---
