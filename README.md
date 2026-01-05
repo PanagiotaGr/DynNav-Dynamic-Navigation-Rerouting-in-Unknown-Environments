@@ -54,14 +54,14 @@ The framework is accompanied by **extensive quantitative evaluation**, ablations
 - TF integrity monitoring with CUSUM / EWMA variants  
 - Attack-aware adaptive trust weighting  
 
-### 7. Human, Language & Ethics-Aware Extensions (Prototypes)
+### 7. Human, Language & Ethics-Aware Extensions
 - Human preference–aware risk navigation  
 - Language-driven safety logic and self-healing behavior  
 - Ethical constraint layers for decision-making  
 
 ---
 
-## System Architecture (High-Level)
+## System Architecture
 
 1. Visual Odometry / SLAM-style state estimation  
 2. Probabilistic uncertainty modeling (EKF / UKF)  
@@ -111,9 +111,7 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-### ROS 2 (Optional)
-Full deployment requires a compatible ROS 2 distribution and simulation packages  
-(e.g., TurtleBot3, Gazebo worlds).
+### ROS 2.
 
 ---
 
@@ -189,5 +187,5 @@ This repository is intended **for research and educational use only**.
 The provided models and policies must not be deployed in safety-critical systems without additional validation.
 
 ---
-
-© 2026 Panagiota Grosdouli
+##  Author
+ Panagiota Grosdouli
