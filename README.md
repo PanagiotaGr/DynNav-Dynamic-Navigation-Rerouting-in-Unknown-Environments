@@ -27,7 +27,7 @@ The framework is accompanied by **extensive quantitative evaluation**, ablations
 
 ---
 
-## Quickstart (No ROS)
+## Quickstart 
 
 ```bash
 python -m venv venv
@@ -141,4 +141,3 @@ The provided models and policies must not be deployed in safety-critical systems
 **Panagiota Grosdouli**  
 Electrical & Computer Engineering, D.U.Th.
 
-© 2026 Panagiota Grosdouli
