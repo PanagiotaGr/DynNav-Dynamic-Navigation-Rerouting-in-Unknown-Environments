@@ -25,9 +25,8 @@ run_multi_robot_risk_experiment.py
 import csv
 import random
 from typing import List, Dict, Tuple
-
+from multi_robot_disagreement import disagreement_maxmin, disagreement_variance
 import numpy as np
-
 from multi_robot_risk_allocation import (
     RobotState,
     CellTarget,
@@ -89,6 +88,43 @@ def generate_random_targets(num_targets: int,
 
     return targets
 
+def per_robot_risk_burden(
+    robots: List[RobotState],
+    targets: List[CellTarget],
+    assignments,
+) -> Dict[int, float]:
+    """
+    Returns dict robot_id -> sum(target.risk) for targets assigned to that robot.
+    Handles common assignment formats:
+      - list of (robot_id, target_id)
+      - dict robot_id -> list of target_id
+    """
+    risk_by_target = {t.id: float(t.risk) for t in targets}
+    burden = {r.id: 0.0 for r in robots}
+
+    # case 1: dict robot_id -> [target_id,...]
+    if isinstance(assignments, dict):
+        for rid, tlist in assignments.items():
+            for tid in tlist:
+                if tid in risk_by_target:
+                    burden[int(rid)] += risk_by_target[tid]
+        return burden
+
+    # case 2: list/iterable of pairs
+    try:
+        for pair in assignments:
+            if pair is None:
+                continue
+            rid, tid = pair
+            rid = int(rid)
+            tid = int(tid)
+            if tid in risk_by_target and rid in burden:
+                burden[rid] += risk_by_target[tid]
+    except Exception:
+        # If format is unexpected, leave burdens at 0.0
+        pass
+
+    return burden
 
 # --------------------------------------------------------------------------- #
 # Metrics

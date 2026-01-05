@@ -1,0 +1,6 @@
+Algorithm,n,warning_small_n,Path_length_mean,Path_length_std,Time_to_goal_mean,Time_to_goal_std,Number_of_expansions_mean,Number_of_expansions_std,Replans_mean,Replans_std,Coverage_percent_mean,Coverage_percent_std,Collision_rate_mean,Collision_rate_std,Entropy_reduction_mean,Entropy_reduction_std
+A*,1,1,12.4,0.0,1.2,0.0,520.0,0.0,1.0,0.0,92.0,0.0,0.01,0.0,0.62,0.0
+DWA,1,1,16.2,0.0,0.9,0.0,180.0,0.0,4.0,0.0,85.0,0.0,0.08,0.0,0.5,0.0
+Dijkstra,1,1,14.1,0.0,1.8,0.0,860.0,0.0,0.0,0.0,95.0,0.0,0.0,0.0,0.65,0.0
+Informed RRT*,1,1,13.6,0.0,2.1,0.0,260.0,0.0,2.0,0.0,90.0,0.0,0.04,0.0,0.58,0.0
+RRT*,1,1,15.8,0.0,2.6,0.0,310.0,0.0,3.0,0.0,88.0,0.0,0.06,0.0,0.54,0.0
