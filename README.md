@@ -25,6 +25,174 @@ Autonomous navigation in unknown environments is fundamentally constrained by:
 This project introduces a **unified navigation pipeline** that explicitly models uncertainty and risk, integrates **learned heuristics** into classical planners, and supports **adaptive behavior under distributional shift (OOD)**.  
 The framework is accompanied by **extensive quantitative evaluation**, ablations, and reproducible experiments.
 
+
+## How to Run This Repository (Step-by-step)
+
+This repo includes both **offline experiments** (pure Python, no ROS) and **ROS 2 / Gazebo** integration.
+If you are new here, start with the offline runs first.
+
+---
+
+### 0) Recommended setup (clean Python environment)
+
+```bash
+python -m venv venv
+source venv/bin/activate        # Linux / macOS
+# or
+venv\Scripts\activate           # Windows
+
+pip install -r requirements.txt
+If something fails, check:
+
+Python version (3.9+ recommended)
+
+pip install -r requirements.txt completed successfully
+
+Part A — Offline experiments (no ROS required)
+These scripts run on a laptop and reproduce core research claims.
+
+A1) Learned A* vs Classical A* (primary entry point)
+bash
+Αντιγραφή κώδικα
+python eval_astar_learned.py
+Expected outcome
+
+Console output comparing:
+
+node expansions (learned vs classical)
+
+path cost (should remain optimal / unchanged)
+
+Optional plots saved under figures/ or results/ (depending on script config)
+
+If you want to retrain:
+
+bash
+Αντιγραφή κώδικα
+python train_heuristic.py
+Related files:
+
+train_heuristic.py, train_heuristic_curriculum.py
+
+eval_astar_learned.py, astar_learned_heuristic.py
+
+datasets: planner_dataset*.npz
+
+A2) Irreversibility-aware navigation (hard feasibility vs soft risk weighting)
+Run a feasibility sweep in a bottleneck environment:
+
+bash
+Αντιγραφή κώδικα
+python run_irreversibility_bottleneck_sweep.py
+Expected outcome
+
+A feasibility phase transition vs threshold τ
+
+CSV logs and plots saved under results/ or figures/
+
+To compare hard vs soft planning overlays (if enabled in repo scripts):
+
+bash
+Αντιγραφή κώδικα
+python plot_path_overlay_hard_vs_soft.py
+Related docs:
+
+Irreversibility_Aware_Navigation_New_Contribution.md
+
+Proposition_Irreversibility_vs_Risk_Weighting.md
+
+A3) Risk-weighted planning (λ-sweep)
+bash
+Αντιγραφή κώδικα
+python run_risk_weighted_lambda_sweep.py
+python plot_belief_risk_lambda_sweep.py
+Expected outcome
+
+Trade-off curves: path length vs risk exposure across λ
+
+Outputs saved under results/, figures/, and CSV logs
+
+A4) IDS (Innovation-based intrusion detection inside UKF)
+Replay-attack experiment:
+
+bash
+Αντιγραφή κώδικα
+python eval_ids_replay.py
+python plot_ids_from_csv.py --csv ids_replay_log.csv
+Expected outcome
+
+Mahalanobis distance vs χ² threshold
+
+Adaptive trust scaling over time
+
+Detection delay / false alarm metrics (printed or saved)
+
+Related docs:
+
+README_Innovation-Based_IDS_for_UKF_Sensor_Fusion.md
+
+A5) TF integrity IDS (CUSUM) — stealth drift detection
+bash
+Αντιγραφή κώδικα
+python plot_ids_to_planner_hook.py
+# or (depending on your entry scripts)
+python eval_ids_sweep.py
+Expected outcome
+
+A score signal that stays sub-threshold
+
+A CUSUM statistic that accumulates and triggers an alarm under stealth drift
+
+Related docs:
+
+README_TF_Attack_Aware_IDS.md
+
+Part B — ROS 2 + Gazebo integration (TurtleBot3)
+This part requires a working ROS 2 installation and TurtleBot3 packages.
+If you only want the research experiments, Part A is sufficient.
+
+B1) ROS 2 prerequisites (high level)
+You will need:
+
+ROS 2 distribution installed
+
+Gazebo simulator
+
+TurtleBot3 packages / simulation worlds
+
+Related notes:
+
+README_LiDAR_SLAM_TurtleBot3_ROS2.md
+
+B2) Typical usage
+Once ROS 2 is configured, you can:
+
+run the navigation stack
+
+stream VO / SLAM / LiDAR
+
+enable replanning and uncertainty-aware planners
+
+(Exact commands depend on your local ROS 2 setup; see the ROS-specific README above.)
+
+Troubleshooting
+Common issues
+Missing packages → re-run pip install -r requirements.txt
+
+Script cannot find data → check data/, results/, research_results/
+
+Plotting fails → ensure matplotlib installed and try running scripts from repo root
+
+If you are stuck, open an Issue with:
+
+script name
+
+error traceback
+
+OS + Python version
+
+---
+
 ---
 
 ## Quickstart 
