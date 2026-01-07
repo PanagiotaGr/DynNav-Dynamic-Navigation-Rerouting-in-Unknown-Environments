@@ -1,7 +1,7 @@
 
 # Dynamic Navigation and Uncertainty-Aware Replanning in Unknown Environments
 
-## TL;DR
+## Summary
 A research-oriented navigation framework for autonomous robots operating in unknown and evolving environments under uncertainty.  
 The framework integrates **risk-aware replanning**, **uncertainty-aware exploration**, and **learning-augmented planning**, supported by extensive quantitative evaluation and ablation studies.
 
