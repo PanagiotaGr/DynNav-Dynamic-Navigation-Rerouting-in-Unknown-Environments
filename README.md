@@ -172,7 +172,7 @@ See CITATION.cff
 ---
 
 ## License
-Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International.
+   Apache License
 
 ---
 
