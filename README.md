@@ -307,7 +307,7 @@ Not validated for safety-critical deployment.
 ---
 
 ## Author
-**Panagiota Grosdouli**  
+Panagiota Grosdouli  
 Electrical & Computer Engineering  
 Democritus University of Thrace (D.U.Th.)
 -----
