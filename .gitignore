@@ -23,3 +23,8 @@ venv/
 .DS_Store
 neural_uncertainty/*.pt
 neural_uncertainty/*.save
+
+*_sweep.csv
+joint_*.png
+connectivity_*.png
+heatmap_*.png
