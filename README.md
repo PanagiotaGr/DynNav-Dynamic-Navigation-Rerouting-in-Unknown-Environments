@@ -56,10 +56,10 @@ The repository is organized **by research contributions**:
 │   ├── 09_multi_robot/
 │   ├── 10_human_language_ethics/
 │   └── _unsorted/         # leftover artifacts (optional cleanup)
-├── docs/                  # research notes / extended READMEs (moved from root)
-├── results/               # legacy results folder (if present)
-├── figures/               # legacy figures folder (if present)
-├── research_results/      # aggregated artifacts (if present)
+├── docs/                  
+├── results/               #
+├── figures/               
+├── research_results/    
 ├── requirements.txt
 └── CITATION.cff
 ```
