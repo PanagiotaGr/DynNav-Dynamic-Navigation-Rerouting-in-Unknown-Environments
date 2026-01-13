@@ -55,9 +55,9 @@ The repository is organized **by research contributions**:
 │   ├── 08_security_ids/
 │   ├── 09_multi_robot/
 │   ├── 10_human_language_ethics/
-│   └── _unsorted/         # leftover artifacts (optional cleanup)
+│      
 ├── docs/                  
-├── results/               #
+├── results/              
 ├── figures/               
 ├── research_results/    
 ├── requirements.txt
