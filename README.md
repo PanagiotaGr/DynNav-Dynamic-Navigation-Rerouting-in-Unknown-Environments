@@ -45,6 +45,21 @@ The framework is validated through extensive quantitative evaluation, parameter 
 
 ---
 
+---
+##  Quickstart
+
+Minimal end-to-end example (offline, no ROS required):
+
+git clone https://github.com/PanagiotaGr/nav_research.git
+cd nav_research
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python contributions/01_learned_astar/experiments/eval_astar_learned.py
+
+This runs a learned A* heuristic evaluation and produces quantitative results comparing learned vs classical planning.
+
+---
 ## Repository Structure
 
 The repository is organized **by research contributions**, rather than by monolithic modules:
