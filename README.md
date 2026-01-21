@@ -50,6 +50,7 @@ The framework is validated through extensive quantitative evaluation, parameter 
 
 Minimal end-to-end example (offline, no ROS required):
 
+```bash
 git clone https://github.com/PanagiotaGr/nav_research.git
 cd nav_research
 python -m venv venv
