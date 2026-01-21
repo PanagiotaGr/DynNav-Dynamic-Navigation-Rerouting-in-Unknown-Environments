@@ -352,17 +352,14 @@ Modules may evolve as part of ongoing experimentation and publications.
 ---
 
 ## Quickstart
+
 Minimal end-to-end example (**offline, no ROS required**):
 
 ```bash
-git clone https://github.com/PanagiotaGr/nav_research.git
-cd nav_research
-
+git clone https://github.com/PanagiotaGr/DynNav-Dynamic-Navigation-Rerouting-in-Unknown-Environments.git
+cd DynNav-Dynamic-Navigation-Rerouting-in-Unknown-Environments
 python -m venv venv
-source venv/bin/activate        # Linux/macOS
-# venv\Scripts\activate         # Windows
-
+source venv/bin/activate
 pip install -r requirements.txt
-
 python contributions/01_learned_astar/experiments/eval_astar_learned.py
 
