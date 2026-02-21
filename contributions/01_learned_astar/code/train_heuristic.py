@@ -2,7 +2,7 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset, DataLoader
 
-# Χρησιμοποιούμε το HeuristicNet από το learned_heuristic.py
+
 from learned_heuristic import HeuristicNet
 
 
@@ -12,12 +12,12 @@ class PlannerDataset(Dataset):
         self.X = data["X"]
         self.y = data["y"]
 
-        # προαιρετική κανονικοποίηση των inputs
+     
         self.X_mean = self.X.mean(axis=0)
         self.X_std = self.X.std(axis=0) + 1e-6
         self.X = (self.X - self.X_mean) / self.X_std
 
-        # σώζουμε τα στατιστικά για inference
+        
         np.savez(
             "planner_dataset_norm_stats.npz",
             mean=self.X_mean,
@@ -44,9 +44,7 @@ def train(
     ds = PlannerDataset(npz_path)
     dl = DataLoader(ds, batch_size=batch_size, shuffle=True)
 
-    # Δίκτυο: από learned_heuristic.py
-    # Αν στο learned_heuristic.HeuristicNet χρειάζονται args, π.χ. in_dim=4, hidden=64,
-    # βάλ' τα εδώ (π.χ. HeuristicNet(in_dim=4, hidden=64)).
+
     net = HeuristicNet(in_dim=4)
     net.train()
 
