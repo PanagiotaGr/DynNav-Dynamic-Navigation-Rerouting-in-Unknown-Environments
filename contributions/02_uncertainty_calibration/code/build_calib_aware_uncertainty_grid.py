@@ -14,7 +14,7 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Πόσο επιθετικά διορθώνουμε με βάση το calibration error
 ALPHA = 1.0
-N_CLUSTERS = 4  # μπορείς να το αλλάξεις π.χ. σε 3,5,...
+N_CLUSTERS = 4  # μπορείς να γίνει  αλλαγή π.χ. σε 3,5,...
 
 
 def load_model_and_stats():
