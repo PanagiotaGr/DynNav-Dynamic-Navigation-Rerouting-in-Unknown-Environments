@@ -1,324 +1,316 @@
-# Dynamic Navigation and Uncertainty-Aware Replanning in Unknown Environments
-
-> A research-oriented framework for **autonomous robotic navigation under uncertainty**, integrating **risk-aware replanning**, **uncertainty-aware exploration**, and **learning-augmented planning**, with strong emphasis on **quantitative evaluation**, **ablation studies**, and **reproducibility**.
-
----
-
-## Summary
-
-This repository presents a unified research framework for autonomous robots operating in **unknown, partially observable, and dynamically evolving environments**.
-The system explicitly reasons about **uncertainty, risk, and irreversibility**, and supports **dynamic replanning** augmented by learned heuristics while preserving formal planning guarantees.
-
-The project is developed as an **individual research codebase** at the
-**School of Electrical and Computer Engineering**,
-**Democritus University of Thrace (D.U.Th.)**.
-
----
-
-## Overview
-
-Autonomous navigation in real-world environments is constrained by multiple sources of uncertainty:
-
-* Incrementally built or incomplete maps
-* Visual odometry drift and feature sparsity
-* Dynamic obstacles requiring frequent replanning
-* Trade-offs between optimality, safety, coverage, energy, connectivity, and computation
-
-This framework addresses these challenges by combining:
-
-* **Classical planning algorithms**
-* **Probabilistic state estimation**
-* **Risk- and belief-aware planning**
-* **Learning-based heuristics**
-* **Explicit modeling of uncertainty, risk, and irreversibility**
-
-The result is a **modular, extensible, and research-grade navigation pipeline** suitable for systematic experimentation and comparative studies.
+# Dynamic Navigation under Uncertainty
+## Risk-Aware, Learning-Augmented Planning in Unknown Environments
 
 ---
 
 ## Abstract
 
 Autonomous navigation in unknown environments is fundamentally limited by uncertainty arising from sensing, state estimation, and environment dynamics.
-This work introduces a navigation pipeline that explicitly models uncertainty and risk, supports dynamic replanning, and integrates learned heuristics into classical planners while maintaining formal guarantees.
 
-The framework is validated through extensive quantitative evaluation, parameter sweeps, and ablation studies, with strong emphasis on experimental reproducibility.
+This work presents a modular navigation framework that explicitly models uncertainty, risk, and irreversibility, enabling dynamic replanning under partial observability.
+
+The framework integrates classical planning algorithms with learned heuristics while preserving formal guarantees, and extends decision-making through risk-aware planning, safety constraints, and resource-aware strategies.
+
+The system is evaluated through controlled experiments, parameter sweeps, and ablation studies, with emphasis on reproducibility and quantitative analysis.
 
 ---
 
-## Repository Structure
+## 1. Introduction
 
-The repository is organized **by research contributions**, rather than by monolithic modules:
+Autonomous robots operating in real-world environments must make decisions under uncertainty.
 
-```text
-.
-├── contributions/
-│   ├── 01_learned_astar/
-│   │   ├── code/          # training + learned heuristic utilities
-│   │   ├── experiments/   # evaluation and benchmarks
-│   │   ├── models/        # trained models (.pt / .npz)
-│   │   └── results/       # CSV logs and plots
-│   ├── 02_uncertainty_calibration/
-│   ├── 03_belief_risk_planning/
-│   ├── 04_irreversibility_returnability/
-│   ├── 05_safe_mode_navigation/
-│   ├── 06_energy_connectivity/
-│   ├── 07_nbv_exploration/
-│   ├── 08_security_ids/
-│   ├── 09_multi_robot/
-│   └── 10_human_language_ethics/
-│
-├── docs/                  # extended documentation
-├── results/               # aggregated outputs
-├── figures/               # publication-ready figures
-├── research_results/      # curated experiment summaries
-├── requirements.txt
-└── CITATION.cff
+Key challenges include:
+
+- incomplete or evolving maps  
+- noisy sensing and state estimation  
+- dynamic obstacles  
+- safety-critical constraints  
+
+Traditional planning methods assume deterministic and fully known environments, which limits their applicability.
+
+This work investigates how navigation systems can explicitly incorporate uncertainty, risk, and safety into planning and decision-making.
+
+---
+
+## 2. Research Questions
+
+This work is structured around the following research questions:
+
+### RQ1: Can learned heuristics improve planning efficiency without sacrificing optimality guarantees?
+
+We investigate whether neural approximations of heuristic functions can reduce computational cost while preserving the guarantees of classical planners such as A*.
+
+---
+
+### RQ2: How can uncertainty be explicitly incorporated into navigation decisions?
+
+We explore belief-space representations and risk-aware cost formulations for planning under partial observability.
+
+---
+
+### RQ3: How should robots reason about risk and safety in dynamic environments?
+
+We study risk-weighted planning and risk budget constraints, analyzing trade-offs between optimality and safety.
+
+---
+
+### RQ4: How can navigation systems avoid irreversible decisions?
+
+We introduce returnability constraints and analyze feasibility thresholds to prevent entry into unsafe or unrecoverable states.
+
+---
+
+### RQ5: How can autonomous systems remain robust under failures or adversarial conditions?
+
+We integrate anomaly detection mechanisms, including innovation-based intrusion detection and integrity monitoring.
+
+---
+
+### RQ6: How should navigation adapt under resource constraints?
+
+We investigate energy-aware and connectivity-aware planning, along with adaptive safe-mode mechanisms.
+
+---
+
+### RQ7: How can multiple robots coordinate under uncertainty?
+
+We explore decentralized coordination strategies and risk allocation across agents.
+
+---
+
+### RQ8: Can navigation incorporate human preferences and trust?
+
+We examine extensions involving language-based interaction and trust-aware decision-making.
+
+---
+
+## 3. Problem Formulation
+
+We consider a robot operating in an unknown environment with:
+
+- partial observability  
+- uncertain state estimation  
+- dynamic environmental changes  
+
+The objective is to compute navigation strategies that optimize:
+
+- path efficiency  
+- safety  
+- robustness  
+- resource usage  
+
+while explicitly accounting for uncertainty and risk.
+
+---
+
+## 4. Methodology
+
+The framework combines:
+
+- Classical planning algorithms (A*, graph search)
+- Probabilistic reasoning (belief representation, uncertainty)
+- Risk-aware cost modeling
+- Learning-based heuristic estimation
+- Constraint-aware decision-making
+
+The system is structured into modular components, each corresponding to a research question.
+
+---
+
+## 5. Research Modules
+
+### 5.1 Learned Heuristics for A*
+
+- Code:
 ```
+
+contributions/01_learned_astar/
+
+````
+
+- Run:
+```bash
+python contributions/01_learned_astar/experiments/eval_astar_learned.py
+````
+
+* Addresses: RQ1
+
+---
+
+### 5.2 Risk-Aware and Belief-Space Planning
+
+* Code:
+
+  ```
+  contributions/03_belief_risk_planning/
+  ```
+
+* Addresses: RQ2, RQ3
+
+---
+
+### 5.3 Irreversibility-Aware Navigation
+
+* Code:
+
+  ```
+  contributions/04_irreversibility_returnability/
+  ```
+
+* Addresses: RQ4
+
+---
+
+### 5.4 Safe-Mode and Adaptive Navigation
+
+* Code:
+
+  ```
+  contributions/05_safe_mode_navigation/
+  ```
+
+* Addresses: RQ3, RQ6
+
+---
+
+### 5.5 Energy and Connectivity-Aware Planning
+
+* Code:
+
+  ```
+  contributions/06_energy_connectivity/
+  ```
+
+* Addresses: RQ6
+
+---
+
+### 5.6 Security-Aware Estimation
+
+* Code:
+
+  ```
+  contributions/08_security_ids/
+  ```
+
+* Addresses: RQ5
+
+---
+
+### 5.7 Multi-Robot Coordination
+
+* Code:
+
+  ```
+  contributions/09_multi_robot/
+  ```
+
+* Addresses: RQ7
+
+---
+
+### 5.8 Human-Aware and Trust-Based Navigation
+
+* Code:
+
+  ```
+  contributions/10_human_language_ethics/
+  ```
+
+* Addresses: RQ8
+
+---
+
+## 6. Experimental Methodology
+
+The framework follows a structured experimental approach:
+
+* parameter sweeps
+* multi-seed evaluation
+* ablation studies
+* comparative analysis
+
+All experiments generate:
+
+* CSV logs
+* quantitative metrics
+* visualizations
+
+Outputs are stored under:
+
+```
+contributions/*/results/
+```
+
+---
+
+## 7. Results
+
+The system demonstrates:
+
+* reduced node expansions using learned heuristics
+* improved safety through risk-aware planning
+* robustness under uncertainty
+* detection of anomalous behavior
+
+Detailed results are available per module.
+
+---
+
+## 8. Discussion
+
+The results indicate that:
+
+* uncertainty must be explicitly modeled
+* risk-aware planning improves safety
+* learned components enhance efficiency
+* modular design enables systematic evaluation
+
+---
+
+## 9. Conclusion
+
+This work presents a unified framework for navigation under uncertainty, integrating planning, learning, and safety-aware decision-making.
+
+It provides a foundation for future research in:
+
+* safe autonomy
+* uncertainty-aware control
+* multi-agent systems
+
+---
+
+## 10. Reproducibility
+
+* structured experiments
+* modular implementation
+* reproducible pipelines
 
 ---
 
 ## Installation
 
-Recommended setup using a clean Python environment:
-
 ```bash
 python -m venv venv
-source venv/bin/activate        # Linux / macOS
-# or
-venv\Scripts\activate           # Windows
-
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-**Requirements**
-
-* Python ≥ 3.9
-
 ---
 
-## Part A — Offline Experiments (No ROS Required)
-
-### A1) Learned A* vs Classical A*
-
-Run evaluation:
+## Quick Start
 
 ```bash
 python contributions/01_learned_astar/experiments/eval_astar_learned.py
 ```
 
-Retrain heuristic:
-
-```bash
-python contributions/01_learned_astar/code/train_heuristic.py
-```
-
-**Outputs**
-
-* Node expansions (learned vs classical)
-* Path cost and optimality preservation
-* Results under:
-
-  * `contributions/01_learned_astar/results/`
-  * `contributions/01_learned_astar/models/`
-
 ---
 
-### A2) Irreversibility-Aware Navigation
-
-Run experiments:
-
-```bash
-python contributions/04_irreversibility_returnability/experiments/run_irreversibility_bottleneck_sweep.py
-python contributions/04_irreversibility_returnability/experiments/run_irreversibility_tau_sweep.py
-python contributions/04_irreversibility_returnability/experiments/run_irreversibility_demo.py
-```
-
-**Outputs**
-
-* Feasibility phase transitions vs threshold τ
-* CSV logs and plots under:
-
-  * `contributions/04_irreversibility_returnability/results/`
-
----
-
-### A3) Risk-Weighted & Risk-Budget Planning
-
-Run demo:
-
-```bash
-python contributions/03_belief_risk_planning/experiments/run_risk_budget_demo.py
-```
-
-Utilities:
-
-```bash
-python contributions/03_belief_risk_planning/experiments/select_lambda_for_risk_budget.py
-python contributions/03_belief_risk_planning/experiments/select_path_under_risk_budget.py
-```
-
-**Outputs**
-
-* CSV logs and plots under:
-
-  * `contributions/03_belief_risk_planning/results/`
-
----
-
-### A4) Innovation-Based IDS for UKF
-
-Replay-based evaluation:
-
-```bash
-python contributions/08_security_ids/experiments/eval_ids_replay.py
-```
-
----
-
-### A5) TF Integrity IDS (CUSUM)
-
-Sweep evaluation:
-
-```bash
-python contributions/08_security_ids/experiments/eval_ids_sweep.py
-```
-
-Calibration:
-
-```bash
-python contributions/08_security_ids/experiments/calibrate_tf_cusum.py
-```
-
-**Outputs**
-
-* IDS logs and plots under:
-
-  * `contributions/08_security_ids/results/`
-
----
-
-### A6) Safe Mode Navigation
-
-Demo:
-
-```bash
-python contributions/05_safe_mode_navigation/experiments/run_adaptive_tau_safe_mode_demo.py
-```
-
-Analysis:
-
-```bash
-python contributions/05_safe_mode_navigation/experiments/analyze_safe_mode_results.py
-```
-
----
-
-### A7) Energy & Connectivity-Aware Planning
-
-```bash
-python contributions/06_energy_connectivity/experiments/run_connectivity_sweep.py
-python contributions/06_energy_connectivity/experiments/run_energy_connectivity_joint_sweep.py
-python contributions/06_energy_connectivity/experiments/run_energy_risk_time_demo.py
-```
-
----
-
-### A8) NBV / Frontier Exploration
-
-```bash
-python contributions/07_nbv_exploration/experiments/run_nbv_frontier_demo.py
-python contributions/07_nbv_exploration/experiments/run_nbv_irreversibility_demo.py
-python contributions/07_nbv_exploration/experiments/run_nbv_random_vs_frontier_benchmark.py
-```
-
----
-
-### A9) Multi-Robot Experiments
-
-```bash
-python contributions/09_multi_robot/experiments/run_multi_robot_experiment.py
-python contributions/09_multi_robot/experiments/run_multi_robot_risk_experiment.py
-python contributions/09_multi_robot/experiments/analyze_multi_robot_risk_results.py
-```
-
----
-
-### A10) Human / Trust / Language / Ethics
-
-Demos under:
-
-```text
-contributions/10_human_language_ethics/demos/
-```
-
-Example:
-
-```bash
-python contributions/10_human_language_ethics/demos/run_trust_and_preferences_demo.py
-```
-
----
-
-## Part B — ROS 2 & Gazebo Integration (Optional)
-
-Requires:
-
-* ROS 2
-* Gazebo
-* TurtleBot3 packages
-
-See:
-
-```text
-docs/README_LiDAR_SLAM_TurtleBot3_ROS2.md
-```
-
----
-
-## Documentation
-
-Extended research documentation under `docs/`, including:
-
-* large-scale overviews
-* formal contribution descriptions
-* safe-mode and trust navigation analyses
-* IDS and security-focused reports
-
----
-
-## Key Research Contributions
-
-1. Uncertainty-aware dynamic navigation with online replanning
-2. Learned admissible A* heuristics with preserved optimality
-3. Belief–risk planning with adaptive self-trust and risk budgets
-4. Irreversibility- and returnability-aware navigation
-5. Security-aware estimation and planning (UKF IDS, TF integrity)
-6. Human-, language-, and ethics-aware extensions
-7. Energy/connectivity-aware planning and adaptive safe modes
-8. Multi-robot disagreement resolution and risk allocation
-
----
-
-## Reproducibility
-
-* Multi-seed experiments and parameter sweeps
-* Ablation studies
-* CSV logs and publication-ready plots
-
-Primary artifacts are stored under:
-
-* `contributions/*/results/`
-* `contributions/*/models/`
-
----
-
-## Citation
-
-If you use this work, please cite:
-
-```text
-See CITATION.cff
-```
+## Author
+
+Panagiota Grosdouli
+Electrical and Computer Engineering
+Democritus University of Thrace
 
 ---
 
@@ -326,40 +318,8 @@ See CITATION.cff
 
 Apache License 2.0
 
----
+```
+με **PDF paper submission**
 
-## Disclaimer
-
-For research and educational use only.
-Not validated for safety-critical deployment.
-
----
-
-## Author
-
-**Panagiota Grosdouli**
-Electrical & Computer Engineering
-Democritus University of Thrace (D.U.Th.)
-
----
-
-## Project Status
-
-Actively developed research codebase.
-Modules may evolve as part of ongoing experimentation and publications.
-
-
----
-
-## Quickstart
-
-Minimal end-to-end example (**offline, no ROS required**):
-
-```bash
-git clone https://github.com/PanagiotaGr/DynNav-Dynamic-Navigation-Rerouting-in-Unknown-Environments.git
-cd DynNav-Dynamic-Navigation-Rerouting-in-Unknown-Environments
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python contributions/01_learned_astar/experiments/eval_astar_learned.py
-
+πες μου και το κλειδώνουμε 🔥
+```
