@@ -319,7 +319,3 @@ Democritus University of Thrace
 Apache License 2.0
 
 ```
-με **PDF paper submission**
-
-πες μου και το κλειδώνουμε 🔥
-```
