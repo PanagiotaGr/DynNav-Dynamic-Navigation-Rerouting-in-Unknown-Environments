@@ -1,5 +1,5 @@
 # Dynamic Navigation under Uncertainty
-## Risk-Aware, Learning-Augmented Planning in Unknown Environments
+## Risk-Aware, Learning-Augmented Planning in Unknown Environments.
 
 ---
 
