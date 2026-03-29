@@ -24,7 +24,7 @@ import numpy as np
 
 try:
     import torch
-    from uncertainty_heuristic_net import UncertaintyHeuristicNet
+    from. uncertainty_heuristic_net import UncertaintyHeuristicNet
     _TORCH_AVAILABLE = True
 except ImportError:
     torch = None  # type: ignore

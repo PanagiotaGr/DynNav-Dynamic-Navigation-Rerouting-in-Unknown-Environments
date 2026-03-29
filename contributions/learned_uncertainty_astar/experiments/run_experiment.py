@@ -20,12 +20,15 @@ import csv
 import sys
 from pathlib import Path
 
+from contributions.learned_uncertainty_astar.code.train import build_dataset, train_model, save_model
+from contributions.learned_uncertainty_astar.code.evaluate import evaluate, print_evaluation_table
+
 # make the code/ directory importable
 CODE_DIR = Path(__file__).resolve().parent.parent / "code"
 sys.path.insert(0, str(CODE_DIR))
 
-from train import build_dataset, train_model, save_model
-from evaluate import evaluate, print_evaluation_table
+from contributions.learned_uncertainty_astar.code.train import build_dataset, train_model, save_model
+from contributions.learned_uncertainty_astar.code.evaluate import evaluate, print_evaluation_table
 
 RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"
 RESULTS_DIR.mkdir(exist_ok=True)

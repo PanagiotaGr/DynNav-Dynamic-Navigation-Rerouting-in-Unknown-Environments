@@ -1,0 +1,35 @@
+
+[1/3] Building dataset from 200 grids (seed=4)...
+      Dataset: 6,050 samples | 11 features
+      Target range: [0.0, 70.0]
+
+[2/3] Training (epochs=80, hidden=64)...
+Epoch    1/80 | train NLL=2034.3045 | val NLL=1.9385
+Epoch   10/80 | train NLL=0.9512 | val NLL=0.9008
+Epoch   20/80 | train NLL=0.7909 | val NLL=0.7240
+Epoch   30/80 | train NLL=0.6530 | val NLL=1.4719
+Early stopping at epoch 33.
+Training complete. Best val NLL=0.6881
+Model saved to /home/pg2a1/DynNav-Dynamic-Navigation-Rerouting-in-Unknown-Environments/contributions/learned_uncertainty_astar/results/uncertainty_heuristic.pt
+
+[3/3] Evaluating on 100 grids (betas=[-1.0, -0.5, 0.0, 0.5, 1.0])...
+
+==========================================================================================
+EVALUATION RESULTS
+==========================================================================================
+[classic_astar                 ] found=100.00%  expansions=  228.5  path_len= 28.76  subopt=1.0000  mean_h_std=0.0000
+[uncertainty_astar(beta=-1.0)  ] found=100.00%  expansions=  156.2  path_len= 28.76  subopt=1.0000  mean_h_std=2.4403
+[uncertainty_astar(beta=-0.5)  ] found=100.00%  expansions=  102.3  path_len= 28.76  subopt=1.0000  mean_h_std=2.2107
+[uncertainty_astar(beta=+0.0)  ] found=100.00%  expansions=   79.0  path_len= 28.82  subopt=1.0017  mean_h_std=2.0784
+[uncertainty_astar(beta=+0.5)  ] found=100.00%  expansions=   74.6  path_len= 28.82  subopt=1.0017  mean_h_std=2.0361
+[uncertainty_astar(beta=+1.0)  ] found=100.00%  expansions=   74.1  path_len= 28.96  subopt=1.0054  mean_h_std=2.0181
+==========================================================================================
+
+Node expansion reduction vs. classic A*:
+  uncertainty_astar(beta=-1.0)            : +31.65%
+  uncertainty_astar(beta=-0.5)            : +55.21%
+  uncertainty_astar(beta=+0.0)            : +65.41%
+  uncertainty_astar(beta=+0.5)            : +67.35%
+  uncertainty_astar(beta=+1.0)            : +67.57%
+
+Results saved to /home/pg2a1/DynNav-Dynamic-Navigation-Rerouting-in-Unknown-Environments/contributions/learned_uncertainty_astar/results/eval_results.csv

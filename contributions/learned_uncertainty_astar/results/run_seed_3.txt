@@ -1,0 +1,34 @@
+
+[1/3] Building dataset from 200 grids (seed=3)...
+      Dataset: 6,245 samples | 11 features
+      Target range: [0.0, 76.0]
+
+[2/3] Training (epochs=80, hidden=64)...
+Epoch    1/80 | train NLL=1475240.6456 | val NLL=1.6005
+Epoch   10/80 | train NLL=2.1276 | val NLL=1.0895
+Epoch   20/80 | train NLL=0.9729 | val NLL=1.2711
+Early stopping at epoch 21.
+Training complete. Best val NLL=0.9673
+Model saved to /home/pg2a1/DynNav-Dynamic-Navigation-Rerouting-in-Unknown-Environments/contributions/learned_uncertainty_astar/results/uncertainty_heuristic.pt
+
+[3/3] Evaluating on 100 grids (betas=[-1.0, -0.5, 0.0, 0.5, 1.0])...
+
+==========================================================================================
+EVALUATION RESULTS
+==========================================================================================
+[classic_astar                 ] found=100.00%  expansions=  226.2  path_len= 28.34  subopt=1.0000  mean_h_std=0.0000
+[uncertainty_astar(beta=-1.0)  ] found=100.00%  expansions=  165.1  path_len= 28.34  subopt=1.0000  mean_h_std=2.8727
+[uncertainty_astar(beta=-0.5)  ] found=100.00%  expansions=  113.5  path_len= 28.36  subopt=1.0004  mean_h_std=2.6394
+[uncertainty_astar(beta=+0.0)  ] found=100.00%  expansions=   79.9  path_len= 28.36  subopt=1.0004  mean_h_std=2.4855
+[uncertainty_astar(beta=+0.5)  ] found=100.00%  expansions=   73.1  path_len= 28.44  subopt=1.0029  mean_h_std=2.4403
+[uncertainty_astar(beta=+1.0)  ] found=100.00%  expansions=   70.8  path_len= 28.54  subopt=1.0056  mean_h_std=2.3933
+==========================================================================================
+
+Node expansion reduction vs. classic A*:
+  uncertainty_astar(beta=-1.0)            : +27.03%
+  uncertainty_astar(beta=-0.5)            : +49.83%
+  uncertainty_astar(beta=+0.0)            : +64.69%
+  uncertainty_astar(beta=+0.5)            : +67.70%
+  uncertainty_astar(beta=+1.0)            : +68.73%
+
+Results saved to /home/pg2a1/DynNav-Dynamic-Navigation-Rerouting-in-Unknown-Environments/contributions/learned_uncertainty_astar/results/eval_results.csv
