@@ -1,4 +1,4 @@
-echo 'class VLACostFusion:
+class VLACostFusion:
     DEFAULT_WEIGHTS = {
         "uncertainty": 0.2,
         "coverage": 0.2,
@@ -20,4 +20,4 @@ echo 'class VLACostFusion:
         if intent in VLACostFusion.INTENT_WEIGHTS:
             for k, v in VLACostFusion.INTENT_WEIGHTS[intent].items():
                 weights[k] = v
-        return weights' > nav_research/vla/vla_cost_fusion.py
+        return weights

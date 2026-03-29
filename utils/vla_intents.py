@@ -1,4 +1,4 @@
-echo 'class VLAIntents:
+class VLAIntents:
     @staticmethod
     def classify(text):
         text = text.lower()
@@ -10,4 +10,4 @@ echo 'class VLAIntents:
             return "OBSTACLE_AWARE"
         if "drift" in text:
             return "DRIFT_STABILIZATION"
-        return "DEFAULT"' > nav_research/vla/vla_intents.py
+        return "DEFAULT"
