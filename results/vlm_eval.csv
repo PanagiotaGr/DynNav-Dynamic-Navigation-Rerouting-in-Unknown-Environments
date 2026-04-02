@@ -1,0 +1,23 @@
+frame,gt_label,predicted_label,confidence,match,latency_s
+0,corridor,none,0.0,0,0.0353
+1,doorway,none,0.0,0,0.0033
+2,open_space,none,0.0,0,0.0031
+3,obstacle_zone,none,0.0,0,0.003
+4,room,none,0.0,0,0.0029
+5,corridor,none,0.0,0,0.003
+6,doorway,none,0.0,0,0.003
+7,open_space,none,0.0,0,0.003
+8,obstacle_zone,none,0.0,0,0.0031
+9,room,none,0.0,0,0.0028
+10,corridor,none,0.0,0,0.003
+11,doorway,none,0.0,0,0.003
+12,open_space,none,0.0,0,0.0029
+13,obstacle_zone,none,0.0,0,0.003
+14,room,none,0.0,0,0.003
+15,corridor,none,0.0,0,0.003
+16,doorway,none,0.0,0,0.003
+17,open_space,none,0.0,0,0.0029
+18,obstacle_zone,none,0.0,0,0.003
+19,room,none,0.0,0,0.0029
+
+# accuracy=0.0000, total_goals=0
