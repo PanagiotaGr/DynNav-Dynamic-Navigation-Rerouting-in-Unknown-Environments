@@ -35,23 +35,7 @@
 
 ### 🤖 Live Navigation Demo
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                  │
-│     🤖 ──→ ──→ ──→ ⚠️ OBSTACLE DETECTED                        │
-│                          ↓                                       │
-│               REPLANNING IN REAL TIME...                        │
-│                          ↓                                       │
-│     🤖 ──↗ ──→ ──→ ──→ ──→ ──→ 🏁 GOAL REACHED                │
-│                                                                  │
-│     Risk: ████░░░░ 45%    Safety: ✅ ACTIVE                     │
-│     Mode:  NORMAL → SAFE → NORMAL                               │
-│                                                                  │
-└─────────────────────────────────────────────────────────────────┘
-```
 
-> 📹 **[▶ Watch Full Demo Video](https://github.com/PanagiotaGr/DynNav-Dynamic-Navigation-Rerouting-in-Unknown-Environments)**  
-> *(Upload your TurtleBot3 Gazebo recording to the repo and link it here)*
 
 </div>
 
