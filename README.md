@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 DynNav
+#  DynNav
 
 ### Dynamic Navigation & Rerouting in Unknown Environments
 
@@ -27,12 +27,12 @@
 
 DynNav is a **modular research framework** for autonomous robot navigation in unknown, dynamic environments. It goes far beyond classical planners by explicitly modelling:
 
-- 🎲 **Uncertainty** — belief-space representations, EKF/UKF, diffusion-based occupancy prediction
-- ⚠️ **Risk** — CVaR optimisation, risk-weighted A*, safe-mode switching
-- 🔒 **Formal Safety** — Signal Temporal Logic monitoring, Control Barrier Functions
-- 🧠 **Intelligence** — VLM scene understanding, LLM mission parsing, PPO reinforcement learning
-- 🤝 **Coordination** — Byzantine fault-tolerant swarm consensus, federated learning
-- 🛡️ **Robustness** — adversarial attack simulation, intrusion detection, causal root-cause analysis
+-  **Uncertainty** — belief-space representations, EKF/UKF, diffusion-based occupancy prediction
+-  **Risk** — CVaR optimisation, risk-weighted A*, safe-mode switching
+- **Formal Safety** — Signal Temporal Logic monitoring, Control Barrier Functions
+- **Intelligence** — VLM scene understanding, LLM mission parsing, PPO reinforcement learning
+- **Coordination** — Byzantine fault-tolerant swarm consensus, federated learning
+- **Robustness** — adversarial attack simulation, intrusion detection, causal root-cause analysis
 
 Built on **ROS 2 Humble**, tested on **TurtleBot3**, and validated through 26 research contributions with reproducible experiments.
 
@@ -137,7 +137,7 @@ print(f'Cost: {result.agreed_cost:.2f} | Byzantine detected: {result.n_byzantine
 
 ## Research Modules
 
-### 📐 Core Planning & Uncertainty (01–03)
+###  Core Planning & Uncertainty (01–03)
 
 | # | Module | Key Contribution | Run |
 |---|--------|-----------------|-----|
@@ -145,7 +145,7 @@ print(f'Cost: {result.agreed_cost:.2f} | Byzantine detected: {result.n_byzantine
 | 02 | [Uncertainty Estimation](contributions/02_uncertainty_estimation/) | EKF/UKF belief-state for noisy sensors | `eval_uncertainty.py` |
 | 03 | [Belief-Space & Risk Planning](contributions/03_belief_risk_planning/) | CVaR-optimised risk-weighted A* | `eval_belief_risk.py` |
 
-### 🔒 Safety & Robustness (04–05, 08, 18)
+###  Safety & Robustness (04–05, 08, 18)
 
 | # | Module | Key Contribution | Run |
 |---|--------|-----------------|-----|
@@ -154,21 +154,21 @@ print(f'Cost: {result.agreed_cost:.2f} | Byzantine detected: {result.n_byzantine
 | 08 | [Security & IDS](contributions/08_security_ids/) | χ²/CUSUM anomaly detection for sensor spoofing | `eval_ids.py` |
 | 18 | [Formal Safety Shields](contributions/18_formal_safety_shields/) | STL monitor + CBF command filter | `eval_safety_shields.py` |
 
-### ⚡ Resource & Exploration (06–07)
+###  Resource & Exploration (06–07)
 
 | # | Module | Key Contribution | Run |
 |---|--------|-----------------|-----|
 | 06 | [Energy & Connectivity](contributions/06_energy_connectivity/) | Battery + WiFi constrained planning | `eval_energy_connectivity.py` |
 | 07 | [Next-Best-View](contributions/07_next_best_view/) | Information-gain maximisation for mapping | `eval_nbv.py` |
 
-### 🤖 Multi-Robot & Human (09–10)
+### Multi-Robot & Human (09–10)
 
 | # | Module | Key Contribution | Run |
 |---|--------|-----------------|-----|
 | 09 | [Multi-Robot Coordination](contributions/09_multi_robot/) | Decentralised conflict-free path allocation | `eval_multi_robot.py` |
 | 10 | [Human-Aware & Ethics](contributions/10_human_language_ethics/) | Trust-aware planning with ethical zones | `eval_human_ethics.py` |
 
-### 🧠 Foundation Models (11, 19–20)
+###  Foundation Models (11, 19–20)
 
 | # | Module | Key Contribution | Run |
 |---|--------|-----------------|-----|
@@ -176,21 +176,21 @@ print(f'Cost: {result.agreed_cost:.2f} | Byzantine detected: {result.n_byzantine
 | 19 | [LLM Mission Planner](contributions/19_llm_mission_planner/) | Natural language → waypoint sequences | inline |
 | 20 | [Multimodal Failure Explainer](contributions/20_multimodal_failure_explainer/) | VLM + SCM → human-readable failure reports | inline |
 
-### 🎲 Probabilistic & Generative (12–13)
+###  Probabilistic & Generative (12–13)
 
 | # | Module | Key Contribution | Run |
 |---|--------|-----------------|-----|
 | 12 | [Diffusion Occupancy Maps](contributions/12_diffusion_occupancy/) | DDPM → CVaR-95 risk maps | `eval_diffusion_occupancy.py` |
 | 13 | [Latent World Model](contributions/13_latent_world_model/) | Dreamer-v3 RSSM mental rollouts | inline |
 
-### 🔍 Causal & Adversarial (14, 25)
+###  Causal & Adversarial (14, 25)
 
 | # | Module | Key Contribution | Run |
 |---|--------|-----------------|-----|
 | 14 | [Causal Risk Attribution](contributions/14_causal_risk_attribution/) | SCM + counterfactual root-cause ranking | inline |
 | 25 | [Adversarial Attack Simulator](contributions/25_adversarial_attack_simulator/) | FGSM/PGD + LiDAR spoofing robustness eval | inline |
 
-### 👁️ Neuromorphic & 3D Perception (15, 23–24)
+###  Neuromorphic & 3D Perception (15, 23–24)
 
 | # | Module | Key Contribution | Run |
 |---|--------|-----------------|-----|
@@ -198,21 +198,21 @@ print(f'Cost: {result.agreed_cost:.2f} | Byzantine detected: {result.n_byzantine
 | 23 | [Gaussian Splatting Mapper](contributions/23_gaussian_splatting_mapper/) | Incremental 3D-GS map + frontier detection | inline |
 | 24 | [NeRF Uncertainty Maps](contributions/24_nerf_uncertainty/) | MC-Dropout NeRF → exploration weights | inline |
 
-### 🤝 Distributed Learning & Consensus (16, 26)
+###  Distributed Learning & Consensus (16, 26)
 
 | # | Module | Key Contribution | Run |
 |---|--------|-----------------|-----|
 | 16 | [Federated Nav Learning](contributions/16_federated_nav_learning/) | FedAvg + differential privacy across robots | inline |
 | 26 | [Swarm Consensus](contributions/26_swarm_consensus/) | Byzantine fault-tolerant plan consensus | inline |
 
-### 🎓 Reinforcement Learning (21–22)
+###  Reinforcement Learning (21–22)
 
 | # | Module | Key Contribution | Run |
 |---|--------|-----------------|-----|
 | 21 | [PPO Navigation Agent](contributions/21_ppo_navigation_agent/) | Risk-shaped PPO with actor-critic | inline |
 | 22 | [Curriculum RL](contributions/22_curriculum_rl/) | Adaptive 5-stage difficulty curriculum | inline |
 
-### 🗺️ Semantic Mapping (17)
+### Semantic Mapping (17)
 
 | # | Module | Key Contribution | Run |
 |---|--------|-----------------|-----|
@@ -260,7 +260,7 @@ print(f'Cost: {result.agreed_cost:.2f} | Byzantine detected: {result.n_byzantine
 ```
 DynNav/
 │
-├── contributions/               # 📦 All 26 research modules
+├── contributions/               #  All 26 research modules
 │   ├── 01_learned_astar/       #    Each has: module.py + experiments/ + results/ + README.md
 │   ├── 02_uncertainty_estimation/
 │   ├── ...
@@ -269,22 +269,22 @@ DynNav/
 │       ├── test_new_contributions.py     # Tests for modules 11-18
 │       └── test_contributions_v2.py      # Tests for modules 19-26
 │
-├── core/                        # 🔧 Core planning algorithms
-├── dynamic_nav/                 # 🤖 Main navigation stack
-├── lidar_ros2/                  # 📡 LiDAR + SLAM (ROS2)
-├── cybersecurity_ros2/          # 🛡️ IDS ROS2 nodes
-├── ig_explorer/                 # 🗺️ Information-gain explorer
-├── neural_uncertainty/          # 🧠 Neural uncertainty estimation
-├── photogrammetry_module/       # 📸 Photogrammetry integration
-├── ros2_ws/                     # 🤖 ROS2 workspace
+├── core/                        #  Core planning algorithms
+├── dynamic_nav/                 #  Main navigation stack
+├── lidar_ros2/                  #  LiDAR + SLAM (ROS2)
+├── cybersecurity_ros2/          #  IDS ROS2 nodes
+├── ig_explorer/                 #  Information-gain explorer
+├── neural_uncertainty/          #  Neural uncertainty estimation
+├── photogrammetry_module/       #  Photogrammetry integration
+├── ros2_ws/                     #  ROS2 workspace
 │
-├── data/plots/                  # 📊 Experiment plots
-├── configs/                     # ⚙️ Configuration files
-├── docs/                        # 📖 Documentation
+├── data/plots/                  # Experiment plots
+├── configs/                     # Configuration files
+├── docs/                        # Documentation
 │
-├── run_all_contributions.py     # ▶️  Run all 16 new modules
+├── run_all_contributions.py     #   Run all 16 new modules
 ├── requirements.txt
-├── ethical_zones.json           # 🔒 Ethical no-go zone definitions
+├── ethical_zones.json           #  Ethical no-go zone definitions
 ├── CITATION.cff
 └── README.md
 ```
@@ -342,11 +342,11 @@ Nav2, slam_toolbox, TurtleBot3 packages
 
 | Platform | Status |
 |----------|--------|
-| TurtleBot3 Burger (real robot) | ✅ Tested |
-| TurtleBot3 Waffle (simulation) | ✅ Tested |
-| Gazebo (ROS2 Humble) | ✅ Tested |
-| Ubuntu 22.04 (bare metal) | ✅ Supported |
-| WSL2 (Windows) | ✅ Supported |
+| TurtleBot3 Burger (real robot) |  Tested |
+| TurtleBot3 Waffle (simulation) |  Tested |
+| Gazebo (ROS2 Humble) |  Tested |
+| Ubuntu 22.04 (bare metal) |  Supported |
+| WSL2 (Windows) | Supported |
 
 ---
 
@@ -389,11 +389,3 @@ Copyright 2025 Panagiota Grosdouli
 Licensed under the **Apache License, Version 2.0** — see [LICENSE](LICENSE) for details.
 
 ---
-
-<div align="center">
-
-*Built with curiosity, tested with rigor, shared with the community.*
-
-⭐ **Star this repo** if you find it useful!
-
-</div>
