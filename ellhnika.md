@@ -263,13 +263,8 @@ f(s) = g(s) + λ · CVaR_α(p_collision(s)) + h(s)
 
 ---
 
-### 6. Publication Potential
 
-**Τίτλος:** "CVaR-Augmented A\* for Risk-Sensitive Navigation in Partially Observable Environments"  
-**Venue:** IROS, RA-L  
-**Level:** Incremental conference — χρειάζεται ισχυρά experiments
 
----
 
 ## CONTRIBUTION 04 — Irreversibility & Returnability
 
@@ -323,9 +318,6 @@ PLANNING WITH RETURNABILITY:
 **Δυνατό:** Σαφής μαθηματική ορισμός. Σχετίζεται με safe exploration (Moldovan & Abbeel 2012) — ένα αξιόλογο research direction.
 
 **Αδύναμο:** BFS approximation δεν είναι full backward reachability. Υπό uncertainty (ατελής χάρτης), η εγγύηση αποδυναμώνεται.
-
-**Reviewer:** «Πώς επεκτείνεται σε partially observable environments;» «Τι γίνεται όταν ο χάρτης είναι ατελής;»
-
 ---
 
 ### 6. Publication Potential
@@ -380,10 +372,7 @@ PER-MODE BEHAVIOUR:
 
 ---
 
-### 6. Publication Potential
-
-Από μόνο του: όχι. Ως κομμάτι ολοκληρωμένου συστήματος: σημαντικό. Δείχνει πρακτική κατανόηση του deployment.
-## CONTRIBUTION 06 — Energy & Connectivity-Aware Planning
+CONTRIBUTION 06 — Energy & Connectivity-Aware Planning
 
 ### 1. Τίτλος και Σύντομη Περίληψη
 
@@ -557,13 +546,6 @@ alarm if g_k > h
 
 ---
 
-### 6. Publication Potential
-
-**Τίτλος:** "Integrity Monitoring for Autonomous Navigation: From Sensor Spoofing Detection to Safe Mode Recovery"  
-**Venue:** ICRA Workshop on Safe Robotics, IEEE S&P (Security)  
-**Level:** Workshop + systems paper — ισχυρό αν combined με Contribution 25 (attack simulator)
-
----
 
 ## CONTRIBUTION 09 — Multi-Robot Coordination
 
@@ -662,13 +644,6 @@ TRUST SCALING: actions scaled by τ(t) ∈ [0,1]
 **Αδύναμο:** «Ethics» εδώ = zone avoidance + Gaussian repulsion. Δεν είναι ethical reasoning. Το trust model είναι scalar — δεν μαθαίνει.  
 **ΠΡΟΣΟΧΗ:** Να μην παρουσιάζεται ως «ethical AI system» — είναι preference-constrained navigation.
 
----
-
-### 5. Publication Potential
-
-**Τίτλος:** "Preference-Aware Navigation: Ethical Zones, Social Distancing, and Trust-Parameterised Autonomy"  
- 
-
 
 ---
 
@@ -733,9 +708,6 @@ CONFIDENCE GATING:
 ---
 
 
-
----
-
 ## CONTRIBUTION 12 — Diffusion Occupancy Maps
 
 ### 1. Τίτλος και Σύντομη Περίληψη
@@ -797,8 +769,6 @@ RISK-AUGMENTED COST:
 
 ---
 
-
----
 
 ## CONTRIBUTION 13 — Latent World Model
 
@@ -863,7 +833,7 @@ BELIEF UPDATE (real step):
 
 ---
 
-
+CONTRIBUTION 14 — Causal Risk Attribution
 
 ### 1. Τίτλος και Σύντομη Περίληψη
 
@@ -934,13 +904,6 @@ ROOT CAUSE RANKING (Shapley-inspired):
 
 ---
 
-### 6. Publication Potential
-
-**Τίτλος:** "Causal Attribution for Robot Navigation Failures via Structural Causal Models and Counterfactual Reasoning"  
-**Venue:** ICRA, IEEE RA-L, Causal ML Workshop (NeurIPS/ICML)  
-**Level:** Strong workshop / incremental conference — με learned structural equations γίνεται ισχυρό
-
----
 
 ## CONTRIBUTION 15 — Neuromorphic Sensing
 
@@ -1017,13 +980,6 @@ SNN DETECTOR:
 
 ---
 
-### 6. Publication Potential
-
-**Τίτλος:** "Event-Driven Obstacle Detection: DVS Camera Simulation and SNN-Based Spatial Probability Estimation"  
-**Venue:** CVPR Neuromorphic Workshop, IEEE Sensors  
-**Level:** Workshop paper μετά SNN training
-
----
 
 ## CONTRIBUTION 16 — Federated Navigation Learning
 
@@ -1099,13 +1055,6 @@ CLIENT k:
 
 ---
 
-### 6. Publication Potential
-
-**Τίτλος:** "Privacy-Preserving Fleet Navigation Learning via Differentially Private FedAvg"  
-**Venue:** ICRA, AAMAS  
-**Level:** Conference paper μετά integration με πραγματικό navigation policy (Contribution 21)
-
----
 
 ## CONTRIBUTION 17 — Topological Semantic Maps
 
@@ -1164,8 +1113,6 @@ SERIALISATION: JSON → persistent across sessions
 
 **Δυνατό:** Complete implementation με planning, grounding, edge invalidation, JSON serialization. Levenshtein fallback είναι practical engineering.  
 **Αδύναμο:** Stub embeddings. Δεν έχει δοκιμαστεί με πραγματικό CLIP.  
-
-
 
 ---
 
@@ -1253,19 +1200,7 @@ SafetyShield.step(u_des, pos, obstacles):
 **Αδύναμο:** Gradient projection είναι approximation του exact min-norm QP. Δεν δοκιμάστηκε σε πολύ dynamic environments.  
 **Reviewer:** «Πώς αποδεικνύεις forward invariance υπό uncertainty; Τι γίνεται αν ο gradient projection δεν συγκλίνει;»
 
----
-
-
-**Paper Outline:**
-1. Introduction: why formal safety in navigation
-2. Background: STL, CBF theory
-3. SafetyShield architecture
-4. Experiments: violation reduction, overhead analysis
-5. Integration with DynNav
-6. Conclusion + limitations
-
-
----
+----
 
 ## CONTRIBUTION 19 — LLM Mission Planner
 
@@ -1722,7 +1657,6 @@ ODOM DRIFT:
 
 **Δυνατό:** Physics-plausible LiDAR + odometry attacks είναι πιο realistic και valuable από pure gradient attacks. Σωστά ε-bounds.  
 **Αδύναμο:** Finite differences = O(d) queries — inefficient για high-dim inputs. Gradient attacks χωρίς autograd δεν scale σε πραγματικά networks.  
-**Reviewer:** «Γιατί finite differences και όχι PyTorch autograd;»
 
 ---
 
