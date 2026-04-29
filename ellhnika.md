@@ -126,7 +126,7 @@ INFERENCE (Clipped Neural A*):
 
 **Δυνατό:** Μαθηματικά σωστό (clipping διατηρεί admissibility). Καλή βασική ιδέα.  
 **Αδύναμο:** Η ιδέα είναι ήδη γνωστή στη literature. Χρειάζεται ισχυρότερα baselines.  
-**Ερώτηση reviewer:** «Πώς συγκρίνεται με το Neural A\* (Yonetani 2021) ή το Differentiable A\*;»
+
 
 ---
 
@@ -202,13 +202,9 @@ Update:
 
 **Δυνατό:** Σωστή μαθηματική υλοποίηση. Απαραίτητο infrastructure για τα υπόλοιπα modules.  
 **Αδύναμο:** EKF/UKF είναι textbook material. Δεν υπάρχει novelty εδώ από μόνο του.  
-**Framing:** Να παρουσιάζεται ως *infrastructure layer*, όχι ως αυτόνομη ερευνητική συνεισφορά.
+
 
 ---
-
-### 5. Publication / PhD Potential
-
-Από μόνο του: όχι publishable. Ως κομμάτι ενός συστήματος: απαραίτητο. PhD context: «uncertainty propagation layer» που τροφοδοτεί risk planning, safety shields, και causal attribution.
 
 ---
 
@@ -335,8 +331,7 @@ PLANNING WITH RETURNABILITY:
 ### 6. Publication Potential
 
 **Τίτλος:** "Safe Exploration via Returnability Constraints in Unknown Environments"  
-**Venue:** ICRA, Safety in Robotics Workshop  
-**Level:** Workshop / short paper — χρειάζεται formal analysis
+
 
 ---
 
@@ -432,7 +427,7 @@ CONSTRAINED A*:
 
 **Δυνατό:** Πρακτικά σημαντικό για real deployment. Καλά ορισμένο optimization problem.  
 **Αδύναμο:** Λείπει πειραματική επαλήθευση με πραγματικά δεδομένα μπαταρίας από TurtleBot3.  
-**Reviewer:** «Πού βασίζεται το ενεργειακό μοντέλο; Επαληθεύτηκε σε πραγματικό robot;»
+
 
 ---
 
@@ -489,8 +484,7 @@ MAP UPDATE (Binary Bayes Filter):
 ### 4. Κριτική Αξιολόγηση
 
 **Δυνατό:** Information-theoretic exploration είναι καλά τεκμηριωμένο. Ray-casting IG estimation είναι standard approach.  
-**Αδύναμο:** Greedy (myopic) — δεν σχεδιάζει multi-step exploration. Δεν συγκρίνεται με state-of-the-art methods (GBPlanner, FUEL).  
-**Reviewer:** «Γιατί greedy αντί multi-step planning; Τι overhead έχει το IG computation;»
+
 
 ---
 
@@ -498,7 +492,7 @@ MAP UPDATE (Binary Bayes Filter):
 
 **Τίτλος:** "Uncertainty-Driven Active Exploration with Information-Geometric Viewpoint Selection"  
 **Venue:** IROS, ICRA Workshop on Exploration  
-**Level:** Workshop paper — ισχυρότερο αν συνδυαστεί με NeRF uncertainty (Contribution 24)
+
 
 ---
 
@@ -612,7 +606,7 @@ RISK BUDGET ALLOCATION:
 
 **Δυνατό:** Gossip-based map sharing είναι scalable. Risk budget allocation είναι ενδιαφέρον extension.  
 **Αδύναμο:** Priority-based approaches είναι γνωστές και δεν εγγυώνται βέλτιστο. Δεν συγκρίνεται με CBS ή M\*.  
-**Reviewer:** «Πώς επιλέγεται η προτεραιότητα; Τι γίνεται με deadlocks;»
+
 
 ---
 
@@ -673,8 +667,8 @@ TRUST SCALING: actions scaled by τ(t) ∈ [0,1]
 ### 5. Publication Potential
 
 **Τίτλος:** "Preference-Aware Navigation: Ethical Zones, Social Distancing, and Trust-Parameterised Autonomy"  
-**Venue:** HRI (Human-Robot Interaction), ICRA Social Robotics Workshop  
-**Level:** Workshop paper
+ 
+
 
 ---
 
@@ -734,15 +728,11 @@ CONFIDENCE GATING:
 
 **Δυνατό:** Η interface design (structured JSON output + confidence gating + back-projection) είναι καλά μηχανικά δουλεμένη. Graceful degradation χωρίς VLM είναι σημαντικό για deployment.  
 **Αδύναμο:** Offline evaluation με random frames (stub mode). Δεν έχει δοκιμαστεί με πραγματικό VLM σε navigation episode. Δεν συγκρίνεται με LM-Nav, ViNT.  
-**Reviewer:** «Τι γίνεται με latency; VLM API calls είναι αργές — πώς ενσωματώνεται σε real-time navigation;»
+
 
 ---
 
-### 6. Publication Potential
 
-**Τίτλος:** "Structured VLM Interfaces for Semantic Navigation Goal Generation"  
-**Venue:** CoRL, ICRA Workshop on Foundation Models for Robotics  
-**Level:** Workshop paper — χρειάζεται live VLM evaluation
 
 ---
 
@@ -807,11 +797,6 @@ RISK-AUGMENTED COST:
 
 ---
 
-### 6. Publication Potential
-
-**Τίτλος:** "Diffusion-Based Probabilistic Occupancy Prediction for CVaR-Optimal Navigation"  
-**Venue:** CoRL, ICRA  
-**Level:** Conference paper — μετά training του U-Net σε πραγματικά δεδομένα (ScanNet, nuScenes)
 
 ---
 
@@ -878,12 +863,7 @@ BELIEF UPDATE (real step):
 
 ---
 
-### 6. Publication Potential
 
-**Τίτλος:** "Safety-Aware Mental Rollouts: Integrating Returnability Constraints into World Model Planning"  
-**Venue:** CoRL, NeurIPS Offline RL Workshop  
-**Level:** Workshop (μετά PyTorch implementation + training)
-## CONTRIBUTION 14 — Causal Risk Attribution
 
 ### 1. Τίτλος και Σύντομη Περίληψη
 
@@ -1184,15 +1164,8 @@ SERIALISATION: JSON → persistent across sessions
 
 **Δυνατό:** Complete implementation με planning, grounding, edge invalidation, JSON serialization. Levenshtein fallback είναι practical engineering.  
 **Αδύναμο:** Stub embeddings. Δεν έχει δοκιμαστεί με πραγματικό CLIP.  
-**Reviewer:** «Πώς update το topological map σε real-time από observations;»
 
----
 
-### 5. Publication Potential
-
-**Τίτλος:** "Open-Vocabulary Semantic Zone Navigation via CLIP-Grounded Topological Maps"  
-**Venue:** ICRA, RA-L  
-**Level:** Conference paper μετά CLIP integration
 
 ---
 
@@ -1204,7 +1177,7 @@ SERIALISATION: JSON → persistent across sessions
 
 **Τι είναι:** Ένα «ασπίδα ασφαλείας» που εγγυάται μαθηματικά ότι οποιαδήποτε εντολή ταχύτητας που εκτελείται το ρομπότ δεν θα παραβιάσει ορισμένες safety constraints — ανεξάρτητα από τον upstream planner.
 
-**⭐ ΑΥΤΟ ΕΙΝΑΙ ΤΟ ΔΥΝΑΤΟΤΕΡΟ CONTRIBUTION ΤΟΥ REPO.**
+**⭐  ΕΙΝΑΙ ΤΟ ΔΥΝΑΤΟΤΕΡΟ CONTRIBUTION ΤΟΥ REPO.**
 
 ---
 
@@ -1282,11 +1255,6 @@ SafetyShield.step(u_des, pos, obstacles):
 
 ---
 
-### 6. Publication Potential
-
-**Τίτλος:** "Composable STL-CBF Safety Shields for Autonomous Robot Navigation"  
-**Venue:** ICRA, RA-L, CDC (Control and Decision Conference)  
-**Level:** ⭐ Conference paper — ισχυρό όπως είναι, ακόμα ισχυρότερο με formal proofs
 
 **Paper Outline:**
 1. Introduction: why formal safety in navigation
@@ -1296,15 +1264,6 @@ SafetyShield.step(u_des, pos, obstacles):
 5. Integration with DynNav
 6. Conclusion + limitations
 
----
-
-### 7. PhD Potential
-
-Αυτό είναι το **πιο mature contribution** του repo. Άμεσα extensions:
-- CBF under uncertainty (stochastic CBF)
-- Multi-robot CBF coordination
-- Learned CBF parameters from data
-- Combination with diffusion risk maps (Contribution 12)
 
 ---
 
@@ -1366,12 +1325,6 @@ FALLBACK:
 
 ---
 
-### 5. Publication Potential
-
-Από μόνο του: δεν είναι publishable. Ως μέρος end-to-end system demo: contributes. Η αξία είναι στην integration, όχι στον αλγόριθμο.
-
----
-
 ## CONTRIBUTION 20 — Multimodal Failure Explainer
 
 ### 1. Τίτλος και Σύντομη Περίληψη
@@ -1424,11 +1377,6 @@ REPORT FORMAT: Markdown / JSON
 
 ---
 
-### 5. Publication Potential
-
-**Τίτλος:** "XAI for Autonomous Navigation: Multimodal Failure Diagnosis via Causal-STL-Vision Fusion"  
-**Venue:** XAI Workshop (NeurIPS/ICML), ICRA  
-**Level:** Workshop paper — ενδιαφέρον framing για explainability in robotics
 ## CONTRIBUTION 21 — PPO Navigation Agent
 
 ### 1. Τίτλος και Σύντομη Περίληψη
@@ -1508,14 +1456,6 @@ PPO UPDATE (K epochs):
 
 ---
 
-### 6. Publication Potential
-
-**Τίτλος:** "Risk-Shaped PPO for Safe Navigation: Obstacle-Penalized Reward Shaping in Unknown Environments"  
-**Venue:** ICRA, CoRL, RA-L  
-**Level:** Conference paper μετά PyTorch implementation + training
-
----
-
 ## CONTRIBUTION 22 — Curriculum RL Training
 
 ### 1. Τίτλος και Σύντομη Περίληψη
@@ -1581,13 +1521,6 @@ CURRICULUM SCHEDULER:
 
 ---
 
-### 5. Publication Potential
-
-**Τίτλος:** "Multi-Dimensional Curriculum Learning for Safe Navigation in Dynamic Environments"  
-**Venue:** ICRA, RA-L  
-**Level:** Conference paper μετά functional PPO
-
----
 
 ## CONTRIBUTION 23 — Gaussian Splatting Mapper
 
@@ -1711,13 +1644,6 @@ MC-DROPOUT UNCERTAINTY:
 
 ---
 
-### 5. Publication Potential
-
-**Τίτλος:** "NeRF-Driven Uncertainty Estimation for Active Robot Exploration"  
-**Venue:** ICRA, 3DV  
-**Level:** Workshop → Conference μετά trained NeRF + evaluation
-
----
 
 ## CONTRIBUTION 25 — Adversarial Attack Simulator
 
@@ -1800,13 +1726,7 @@ ODOM DRIFT:
 
 ---
 
-### 5. Publication Potential
 
-**Τίτλος:** "Robustness Evaluation Framework for Autonomous Navigation: From Gradient Attacks to Physics-Plausible Sensor Manipulation"  
-**Venue:** ICRA Security Workshop, CPS-IoTSec  
-**Level:** Conference paper — ισχυρό αν combined με Contribution 08 (IDS evaluation)
-
----
 
 ## CONTRIBUTION 26 — Swarm Consensus Navigation
 
@@ -1878,17 +1798,10 @@ FAULT MODES:
 
 **Δυνατό:** Σωστός BFT bound. MAD outlier detection είναι robust. Multiple fault modes. Tested.  
 **Αδύναμο:** Δεν υπάρχει cryptographic message authentication — ένας sophisticated Byzantine agent μπορεί να «φαίνεται» honest. Δεν είναι full PBFT.  
-**Reviewer:** «Πώς αποτρέπεις Byzantine agent που γνωρίζει το MAD scheme;»
+
 
 ---
 
-### 6. Publication Potential
-
-**Τίτλος:** "Byzantine Fault-Tolerant Multi-Robot Navigation Consensus via Robust Statistical Aggregation"  
-**Venue:** ICRA, AAMAS, ICDCS (Distributed Computing)  
-**Level:** Conference paper — clean contribution με tested implementation
-
----
 
 # ΤΕΛΙΚΗ ΣΥΝΘΕΣΗ
 
@@ -1969,15 +1882,15 @@ LAYER 8: Learning           (21, 22)
 
 ## C. Τα 3 Πιο Δυνατά Contributions
 
-### 🥇 1. Contribution 18 — Formal Safety Shields (STL + CBF)
+###  1. Contribution 18 — Formal Safety Shields (STL + CBF)
 **Γιατί:** Μόνο αυτό έχει formal mathematical guarantees + πλήρη πειραματικά αποτελέσματα (93% violation reduction, < 8% overhead). Είναι το μόνο contribution που θα μπορούσε να σταθεί αυτόνομα ως conference paper σήμερα, χωρίς μεγάλες αλλαγές.  
 **PhD potential:** Υψηλό — stochastic CBF, multi-robot CBF, learned CBF parameters.
 
-### 🥈 2. Contribution 14 — Causal Risk Attribution
+###  2. Contribution 14 — Causal Risk Attribution
 **Γιατί:** Η εφαρμογή SCM + do-calculus σε navigation failure diagnosis είναι σχετικά novel. Σωστή υλοποίηση counterfactual queries. Η σύνδεση με Contribution 20 (Failure Explainer) δημιουργεί pipeline που δεν υπάρχει αλλού στη robotics literature.  
 **PhD potential:** Υψηλό — learned causal graphs από navigation data, causal RL.
 
-### 🥉 3. Contribution 26 — BFT Swarm Consensus
+###  3. Contribution 26 — BFT Swarm Consensus
 **Γιατί:** Clean algorithmic contribution, σωστή BFT theory, multiple fault modes tested. Η εφαρμογή BFT consensus ειδικά για navigation plan selection είναι novel framing.  
 **PhD potential:** Μέτριο-Υψηλό — Byzantine-robust federated learning, cryptographic extensions.
 
@@ -1999,47 +1912,6 @@ LAYER 8: Learning           (21, 22)
 
 ---
 
-## E. Τι Θα Σκεφτόταν Ένας Καθηγητής / PI
-
-### Τι θα τον εντυπωσίαζε
-
-**Breadth και systems thinking.** 26 modules που καλύπτουν uncertainty, safety, learning, security, multi-agent, foundation models — σε ένα coherent framework. Δείχνει ότι ο student κατανοεί τη bigger picture της autonomous navigation.
-
-**Contribution 18 ειδικά.** Ένας PI που γνωρίζει formal methods θα εκτιμήσει ότι το STL+CBF είναι σωστά υλοποιημένο με πραγματικά πειραματικά αποτελέσματα.
-
-**Contribution 14.** Η εφαρμογή causal inference σε navigation failure diagnosis είναι fresh angle — λίγοι φοιτητές τολμούν να χρησιμοποιήσουν Pearl's do-calculus σε robotics.
-
-**Modular architecture.** Το γεγονός ότι κάθε module έχει clear interface και μπορεί να συνδεθεί με άλλα δείχνει software engineering maturity.
-
-### Τι θα τον προβλημάτιζε
-
-**Βάθος vs πλάτος.** «Γιατί 26 modules σε prototype level αντί 3-4 σε publication level;» Ένας senior PI θα έλεγε: «Pick 3 and go deep.»
-
-**Stub networks.** Contributions 21, 15, 24 έχουν placeholder code που δεν κάνει αυτό που ισχυρίζεται. Αν ο student παρουσιάσει ως «trained RL agent» ή «neuromorphic obstacle detector», θα χαθεί credibility αμέσως.
-
-**Synthetic data.** Contribution 16 εκπαιδεύει σε random synthetic data — το validation δεν σημαίνει τίποτα για navigation.
-
-**Απουσία baselines.** Σχεδόν κανένα contribution δεν συγκρίνεται με state-of-the-art method. «Ποιο είναι το baseline; Πόσο καλύτερο είσαι;»
-
-### Αν δείχνει potential για PhD/RA
-
-**Ναι — με σαφή conditions:**
-1. Επιλογή 2-3 contributions για βαθύτερη δουλειά
-2. PyTorch υλοποίηση για Contributions 21, 22
-3. Πραγματικά baselines και ablations
-4. Hardware validation σε TurtleBot3
-
-**Ο πιο πιθανός PhD path:** Formal safety + uncertainty → ξεκίνα από Contribution 18 και Contribution 03, φτιάξε «uncertainty-aware CBF navigation», submit σε ICRA/RA-L.
-
-### Τι πρέπει να κάνεις για να φαίνεσαι πιο σοβαρός
-
-1. **Να είσαι ακριβής** στο τι κάνει κάθε module. «PPO framework» ≠ «trained PPO agent».
-2. **Baselines παντού.** Contribution 18: σύγκριση με pure CBF (χωρίς STL), με pure reactive, με no-shield.
-3. **Hardware** σε έστω 2-3 contributions. TurtleBot3 στο Gazebo με ROS2.
-4. **Ένα complete story** αντί για 26 partial stories. π.χ.: «Uncertainty-aware formally safe navigation: contributions 02+03+12+18+14».
-5. **arXiv preprint** έστω για το Contribution 18 standalone.
-
----
 
 ## F. Executive Summary για Μη Ειδικούς
 
@@ -2081,4 +1953,3 @@ LAYER 8: Learning           (21, 22)
 
 ---
 
-*Αυτή η ανάλυση βασίζεται στη δομή του repository, τον πηγαίο κώδικα, τα experiment scripts, τα tests, και τα README αρχεία. Η αξιολόγηση είναι αυστηρή και στοχεύει στην ακαδημαϊκή ακρίβεια.*
